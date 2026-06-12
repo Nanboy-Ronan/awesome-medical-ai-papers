@@ -1,6 +1,6 @@
 # Awesome Medical AI Papers [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of medical AI, healthcare AI, and medical imaging papers published at top CS/AI conferences: **CVPR, NeurIPS, ICLR, ICCV, ECCV, ACL, EMNLP, AAAI, KDD**, and more.
+> A curated list of medical AI, healthcare AI, and medical imaging papers published at top CS/AI conferences: **CVPR, NeurIPS, ICLR, ICML, ICCV, ECCV, ACL, EMNLP, AAAI, KDD**, and more.
 
 Covers **2023–2025**. Organized by conference. Contributions welcome — see [Contributing](#contributing).
 
@@ -22,6 +22,7 @@ Covers **2023–2025**. Organized by conference. Contributions welcome — see [
 
 - [CVPR](#cvpr)
 - [NeurIPS](#neurips)
+- [ICML](#icml)
 - [ICLR](#iclr)
 - [ICCV / ECCV](#iccv--eccv)
 - [ACL / EMNLP](#acl--emnlp)
@@ -126,9 +127,32 @@ Covers **2023–2025**. Organized by conference. Contributions welcome — see [
 
 ### NeurIPS 2024
 
-#### 🤖 Medical Vision-Language
+#### 🔬 Medical Imaging & Segmentation
 
+- **[SegVol: Universal and Interactive Volumetric Medical Image Segmentation](https://proceedings.neurips.cc/paper_files/paper/2024/hash/c7c7cf10082e454b9662a686ce6f1b6f-Abstract-Conference.html)** — 3D foundation segmentation model trained on 90K unlabeled + 6K labeled CT volumes supporting 200+ anatomical categories via semantic and spatial prompts, outperforming prior methods by up to 37%.
+- **[A Textbook Remedy for Domain Shifts: Knowledge Priors for Medical Image Analysis](https://neurips.cc/virtual/2024/poster/95098)** ⭐ *Spotlight* — Knowledge-enhanced Bottlenecks (KnoBo) integrate prior medical knowledge from natural language textbooks to improve robustness against domain shifts without additional labeled data.
+- **[Deep Learning in Medical Image Registration: Magic or Mirage?](https://proceedings.neurips.cc/paper_files/paper/2024/file/c3fe2a07ec47b89c50e89706d2e23358-Paper-Conference.pdf)** — Large-scale empirical study showing classical optimization often outperforms deep learning registration under standard evaluation, reorienting the field's benchmarking practices.
+
+#### 🧫 Computational Pathology
+
+- **[Free Lunch in Pathology Foundation Model: Task-specific Model Adaptation with Concept-Guided Feature Enhancement](https://proceedings.neurips.cc/paper_files/paper/2024/hash/9251fa7fcc356bbfc16c040f4c030d83-Abstract-Conference.html)** — Training-free adaptation strategy injecting task-specific conceptual guidance into pathology foundation models, boosting downstream performance at zero additional cost.
+- **[Rethinking Transformer for Long Contextual Histopathology Whole Slide Image Analysis](https://neurips.cc/virtual/2024/poster/94232)** — Redesigns token management and attention to handle gigapixel WSIs with very long context windows, enabling slide-level weakly supervised prediction.
+- **[xMIL: Insightful Explanations for Multiple Instance Learning in Histopathology](https://proceedings.neurips.cc/paper_files/paper/2024/file/0f9e0309d8a947ca44463a9b7e8b6a3f-Paper-Conference.pdf)** — Extends MIL with concept-based explanations, producing clinically interpretable predictions for biomarker detection and outcome prediction from WSIs.
+- **[Leveraging Tumor Heterogeneity: Heterogeneous Graph Representation Learning for Cancer Survival Prediction in Whole Slide Images](https://proceedings.neurips.cc/paper_files/paper/2024/hash/760341adc5632de3f1cf2e8d22215a93-Abstract-Conference.html)** — ProtoSurv: heterogeneous graph model capturing spatial interactions among diverse cell populations in WSIs to improve cancer survival prediction.
+
+#### 🤖 Foundation Models & Vision-Language
+
+- **[Uni-Med: A Unified Medical Generalist Foundation Model For Multi-Task Learning Via Connector-MoE](https://proceedings.neurips.cc/paper_files/paper/2024/hash/941938d6c3c57b4ef4a518965e238a6d-Abstract-Conference.html)** — Connector Mixture-of-Experts (CMoE) bridges a universal visual encoder and an LLM, enabling one model to handle diverse medical imaging tasks without task-specific tuning.
+- **[FairMedFM: Fairness Benchmarking for Medical Imaging Foundation Models](https://proceedings.neurips.cc/paper_files/paper/2024/file/c9826b9ea5e1b49b256329934a578d83-Paper-Datasets_and_Benchmarks_Track.pdf)** — First systematic fairness benchmark evaluating 20 foundation models across 17 medical imaging datasets spanning multiple modalities and sensitive demographic attributes.
+- **[HEALNet: Multimodal Fusion for Heterogeneous Biomedical Data](https://proceedings.neurips.cc/paper_files/paper/2024/file/765871e77d2ca65126d3d64d31aa6908-Paper-Conference.pdf)** — Hybrid Early-fusion Attention Learning Network that preserves modality-specific structure while capturing cross-modal interactions and handling missing modalities gracefully.
+- **[MDAgents: An Adaptive Collaboration of LLMs for Medical Decision-Making](https://proceedings.neurips.cc/paper_files/paper/2024/file/90d1fc07f46e31387978b88e7e057a31-Paper-Conference.pdf)** — Multi-agent framework that automatically assigns solo or group LLM collaboration structures based on medical task complexity, improving accuracy across diverse clinical benchmarks.
+- **[Enhancing Vision-Language Models for Medical Imaging: Bridging the 3D Gap with Innovative Slice Selection](https://proceedings.neurips.cc/paper_files/paper/2024/file/b53513b83232116ae25f57a174a7c993-Paper-Datasets_and_Benchmarks_Track.pdf)** — Vote-MI: unsupervised one-pass 2D slice selection that bridges 2D VLMs and 3D medical volumes (CT/MRI) without retraining the VLM.
 - **[CARES: A Comprehensive Benchmark of Trustworthiness in Medical Vision Language Models](https://arxiv.org/abs/2406.06007)** — Evaluates trustworthiness of medical VLMs across truthfulness, safety, fairness, robustness, and privacy dimensions.
+
+#### 📋 Clinical NLP & EHR
+
+- **[Medformer: A Multi-Granularity Patching Transformer for Medical Time-Series Classification](https://proceedings.neurips.cc/paper_files/paper/2024/hash/3fe2a777282299ecb4f9e7ebb531f0ab-Abstract-Conference.html)** — Transformer tailored for medical time-series (EEG, ECG) using multi-granularity patches to capture local and global temporal patterns, achieving SOTA on multiple clinical benchmarks.
+- **[Med-Real2Sim: Non-Invasive Medical Digital Twins using Physics-Informed Self-Supervised Learning](https://proceedings.neurips.cc/paper_files/paper/2024/file/0b081a44ed0b8c0c4aa6bd886a60bea4-Paper-Conference.pdf)** — Learns virtual patient-specific cardiac simulators from non-invasive echocardiography, predicting pressure-volume loops and enabling personalized digital twins without invasive procedures.
 
 ---
 
@@ -136,8 +160,28 @@ Covers **2023–2025**. Organized by conference. Contributions welcome — see [
 
 #### 🔬 Medical Imaging
 
+- **[LVM-Med: Learning Large-Scale Self-Supervised Vision Models for Medical Imaging via Second-order Graph Matching](https://proceedings.neurips.cc/paper_files/paper/2023/hash/58cc11cda2a2679e8af5c6317aed0af8-Abstract-Conference.html)** — Self-supervised pretraining on ~1.3M medical images across 55 datasets using second-order graph matching for semantic structure alignment, achieving 6–7% gains over prior VLMs on challenging tasks.
 - **[Aligning Synthetic Medical Images with Clinical Knowledge using Human Feedback](https://papers.nips.cc/paper_files/paper/2023/hash/2b1d1e5affe5fdb70372cd90dd8afd49-Abstract-Conference.html)** — RLHF-based alignment of generative medical image models to match clinical expert knowledge. *Sun et al.*
 - **[Quilt-1M: One Million Image-Text Pairs for Histopathology](https://arxiv.org/abs/2306.11207)** — Large-scale histopathology image-text dataset harvested from YouTube educational videos, enabling VL pre-training.
+
+#### 🤖 Foundation Models & Vision-Language
+
+- **[LLaVA-Med: Training a Large Language-and-Vision Assistant for Biomedicine in One Day](https://proceedings.neurips.cc/paper_files/paper/2023/hash/5abcdf8ecdcacba028c6662789194572-Abstract-Datasets_and_Benchmarks.html)** — Curriculum method using GPT-4-generated self-instruction from PubMed figure-caption pairs to align a general VLM to biomedical VQA in under 15 GPU-hours.
+
+#### 📋 Clinical NLP & EHR
+
+- **[EHRSHOT: An EHR Benchmark for Few-Shot Evaluation of Foundation Models](https://openreview.net/forum?id=CsXC6IcdwI)** — Releases de-identified EHR data for 6,739 Stanford patients with 35 clinical tasks plus a foundation model pretrained on 2.57M patients, enabling few-shot clinical prediction benchmarking.
+
+---
+
+## ICML
+
+### ICML 2024
+
+#### 📋 Clinical NLP & EHR
+
+- **[ED-Copilot: Reduce Emergency Department Wait Time with Language Model Diagnostic Assistance](https://icml.cc/virtual/2024/poster/35181)** — RL-trained LLM that sequentially recommends patient-specific lab tests in the ED to minimize wait time while maximizing diagnostic accuracy, evaluated on a new MIMIC-ED-Assist benchmark.
+- **[Contrastive Learning for Clinical Outcome Prediction with Partial Data Sources](https://icml.cc/virtual/2024/poster/33453)** — CLOPPS learns robust cross-modal clinical representations under missing modalities (labs, notes, imaging) via contrastive alignment, enabling strong single-source inference at test time.
 
 ---
 
@@ -176,6 +220,7 @@ Covers **2023–2025**. Organized by conference. Contributions welcome — see [
 - **[MOTOR: A Time-to-Event Foundation Model For Structured Medical Records](https://arxiv.org/abs/2301.03150)** ⭐ *Spotlight* — Self-supervised TTE foundation model pre-trained on 55M EHR patient records; improves 19 clinical prediction tasks by 4.6% over SOTA with 95% label efficiency.
 - **[Diagnosing Transformers: Illuminating Feature Spaces for Clinical Decision-Making](https://openreview.net/forum?id=k581sTMyPt)** — SUFO framework for interpreting fine-tuned transformer feature spaces in high-stakes clinical settings. *Hsu et al.*
 - **[Multimodal Patient Representation Learning with Missing Modalities and Labels](https://openreview.net/forum?id=Je5SHCKpPa)** — Robust multimodal patient representation learning under realistic conditions of missing modalities and labels.
+- **[GraphCare: Enhancing Healthcare Predictions with Personalized Knowledge Graphs](https://arxiv.org/abs/2305.12788)** — Constructs patient-specific knowledge graphs from open biomedical KGs and applies Bi-Attention Augmented GNN, achieving strong clinical prediction performance with dramatically less labeled data.
 
 #### 🧠 Neuroimaging
 
@@ -189,8 +234,12 @@ Covers **2023–2025**. Organized by conference. Contributions welcome — see [
 
 #### 🔬 Medical Imaging & Segmentation
 
-- **[AnatoMask: Enhancing Medical Image Segmentation with Reconstruction-guided Self-masking](https://eccv.ecva.net/virtual/2024/poster/1161)** — Anatomy-aware masked image modeling for self-supervised 3D medical image segmentation.
+- **[ScribblePrompt: Fast and Flexible Interactive Segmentation for Any Biomedical Image](https://arxiv.org/abs/2312.07381)** — Interactive segmentation network trained on 65,000+ scribble annotations across 54,000+ images, outperforming SAM and specialist models using scribbles, clicks, or bounding boxes on diverse biomedical images.
+- **[AnaToMask: Enhancing Medical Image Segmentation with Reconstruction-guided Self-masking](https://eccv.ecva.net/virtual/2024/poster/1161)** — Anatomy-aware masked image modeling for self-supervised 3D medical image segmentation; dynamically masks anatomically significant regions via reconstruction loss.
+- **[I-MedSAM: Implicit Medical Image Segmentation with Segment Anything](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/01503.pdf)** — Extends SAM to medical images via implicit neural representations that model continuous anatomical boundaries, enabling high-resolution segmentation without resolution-dependent retraining.
 - **[NePhi: Neural Deformation Fields for Approximately Diffeomorphic Medical Image Registration](https://arxiv.org/abs/2309.07322)** — Memory-efficient neural deformation fields for large-scale 3D medical image registration.
+
+---
 
 ### ICCV 2023
 
@@ -201,6 +250,15 @@ Covers **2023–2025**. Organized by conference. Contributions welcome — see [
 ---
 
 ## ACL / EMNLP
+
+### ACL 2024
+
+#### 📋 Clinical NLP
+
+- **[DocLens: Multi-aspect Fine-grained Evaluation for Medical Text Generation](https://aclanthology.org/2024.acl-long.708/)** — Proposes multi-aspect, fine-grained automatic evaluation metrics (accuracy, completeness, conciseness) for clinical text generation tasks like discharge summaries, addressing shortcomings of ROUGE/BLEU for medical NLP.
+- **[RAM-EHR: Retrieval Augmentation Meets Clinical Predictions on Electronic Health Records](https://aclanthology.org/2024.acl-short.68/)** — Augments EHR predictive models with retrieval from similar historical patient visits and summarized external knowledge, improving clinical risk prediction across multiple tasks.
+
+---
 
 ### EMNLP 2024
 
@@ -217,6 +275,21 @@ Covers **2023–2025**. Organized by conference. Contributions welcome — see [
 ---
 
 ## AAAI
+
+### AAAI 2025
+
+#### 🔬 Medical Imaging & Segmentation
+
+- **[Generative Medical Segmentation](https://ojs.aaai.org/index.php/AAAI/article/view/32402)** — Reformulates medical image segmentation as a generative modeling problem, enabling open-vocabulary segmentation of arbitrary anatomical or pathological structures beyond fixed training categories.
+- **[U-KAN Makes Strong Backbone for Medical Image Segmentation and Generation](https://ojs.aaai.org/index.php/AAAI/article/view/32491)** — Integrates KAN (Kolmogorov-Arnold Network) layers into the U-Net pipeline on tokenized intermediate features, yielding a new backbone that achieves higher accuracy with lower compute on medical segmentation benchmarks.
+- **[Every Component Counts: Rethinking the Measure of Success for Medical Semantic Segmentation in Multi-Instance Segmentation Tasks](https://ojs.aaai.org/index.php/AAAI/article/view/32408)** — Proposes CC-Metrics, revealing that standard mean-IoU severely underestimates segmentation failure on small/rare objects in multi-instance medical tasks.
+- **[FAMNet: Frequency-aware Matching Network for Cross-domain Few-shot Medical Image Segmentation](https://ojs.aaai.org/index.php/AAAI/article/view/32184)** — Frequency-domain feature matching for few-shot segmentation across CT and MRI domains, mitigating texture/contrast shifts between scanners without expensive domain-specific retraining.
+
+#### 🤖 Foundation Models & VLM
+
+- **[Advancing Medical Multimodal Learning and Data Generation with Diffusion Model and LLM](https://ojs.aaai.org/index.php/AAAI/article/view/35237)** — Dual framework: MedDiffusion for synthetic multimodal patient data generation and EHRPD for sequential EHR generation, advancing health risk prediction through data augmentation.
+
+---
 
 ### AAAI 2024
 
@@ -245,7 +318,7 @@ Contributions are very welcome!
 - **Fix a broken link**: Open an issue or PR.
 - **Suggest a new category**: Open an issue to discuss.
 
-**Scope**: Papers published at CS/AI conference proceedings (CVPR, NeurIPS, ICLR, ICCV, ECCV, ACL, EMNLP, NAACL, AAAI, KDD, ICML, etc.) in the years 2023–2025 on topics of medical imaging, clinical NLP, surgical AI, or health AI. Pure biology papers (drug discovery, protein folding, genomics) are out of scope.
+**Scope**: Papers published at CS/AI conference proceedings (CVPR, NeurIPS, ICLR, ICML, ICCV, ECCV, ACL, EMNLP, NAACL, AAAI, KDD, etc.) in the years 2023–2025 on topics of medical imaging, clinical NLP, surgical AI, or health AI. Pure biology papers (drug discovery, protein folding, genomics) are out of scope.
 
 ---
 
