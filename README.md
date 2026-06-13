@@ -1,6 +1,6 @@
 # Awesome Medical AI Papers [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of medical AI, healthcare AI, and medical imaging papers published at top CS/AI conferences: **CVPR, NeurIPS, ICLR, ICML, ICCV, ECCV, ACL, EMNLP, AAAI, KDD**, and more.
+> A curated list of medical AI, healthcare AI, and medical imaging papers published at top CS/AI conferences: **CVPR, NeurIPS, ICLR, ICML, ICCV, ECCV, ACL, EMNLP, NAACL, AAAI, KDD**, and more.
 
 Covers **2023–2025**. Organized by conference. Contributions welcome — see [Contributing](#contributing).
 
@@ -26,6 +26,7 @@ Covers **2023–2025**. Organized by conference. Contributions welcome — see [
 - [ICLR](#iclr)
 - [ICCV / ECCV](#iccv--eccv)
 - [ACL / EMNLP](#acl--emnlp)
+- [NAACL](#naacl)
 - [AAAI](#aaai)
 - [KDD](#kdd)
 - [Contributing](#contributing)
@@ -123,6 +124,37 @@ Covers **2023–2025**. Organized by conference. Contributions welcome — see [
 
 ---
 
+### CVPR 2023
+
+#### 🔬 Medical Imaging & Segmentation
+
+- **[Bidirectional Copy-Paste for Semi-Supervised Medical Image Segmentation](https://arxiv.org/abs/2305.00673)** — Bidirectional copy-paste between labeled and unlabeled volumes in a Mean Teacher framework, achieving SOTA on LA and Pancreas-CT semi-supervised benchmarks. *Bai et al.*
+- **[MCF: Mutual Correction Framework for Semi-Supervised Medical Image Segmentation](https://openaccess.thecvf.com/content/CVPR2023/html/Wang_MCF_Mutual_Correction_Framework_for_Semi-Supervised_Medical_Image_Segmentation_CVPR_2023_paper.html)** — Two-subnet mutual correction with contrastive difference review and dynamic competitive pseudo-label generation to reduce cognitive bias in semi-supervised segmentation.
+- **[Ambiguous Medical Image Segmentation using Diffusion Models](https://arxiv.org/abs/2304.04745)** — Single diffusion model that produces multiple plausible segmentation variants by learning a distribution over annotator group insights, validated on CT, ultrasound, and MRI.
+- **[Label-Free Liver Tumor Segmentation](https://arxiv.org/abs/2303.14869)** — Synthesizes realistic pseudo-tumors in healthy CT scans to train a segmentation model without any real tumor annotations, outperforming fully supervised baselines.
+
+#### 🤖 Foundation Models & Vision-Language
+
+- **[Learning to Exploit Temporal Structure for Biomedical Vision-Language Processing](https://arxiv.org/abs/2301.04558)** — BioViL-T: CNN-Transformer hybrid multi-image encoder jointly trained with a text model on longitudinal chest X-ray reports; SOTA on progression classification, phrase grounding, and report generation. *Bannur et al., Microsoft Research*
+- **[Geometric Visual Similarity Learning in 3D Medical Image Self-supervised Pre-training](https://arxiv.org/abs/2303.00874)** — Geometric similarity as a self-supervised signal for pre-training 3D medical image encoders, improving transfer to organ segmentation tasks.
+- **[Hierarchical Discriminative Learning Improves Visual Representations of Biomedical Microscopy](https://arxiv.org/abs/2303.01605)** — Hierarchical contrastive learning framework that aligns microscopy image representations at multiple granularities for richer visual pre-training.
+
+#### 📋 Radiology Report Generation
+
+- **[METransformer: Radiology Report Generation by Transformer with Multiple Learnable Expert Tokens](https://arxiv.org/abs/2304.02211)** — Multiple learnable expert tokens in both encoder and decoder attend to complementary image regions and are regularized by orthogonal loss for diverse, accurate report generation.
+- **[KiUT: Knowledge-Injected U-Transformer for Radiology Report Generation](https://openaccess.thecvf.com/content/CVPR2023/papers/Huang_KiUT_Knowledge-Injected_U-Transformer_for_Radiology_Report_Generation_CVPR_2023_paper.pdf)** — U-connection transformer that distills visual, clinical, and contextual knowledge at multiple scales for accurate radiology report generation.
+- **[Dynamic Graph Enhanced Contrastive Learning for Chest X-Ray Report Generation](https://arxiv.org/abs/2303.10323)** — Dynamic knowledge graph with contrastive learning (DCL) retrieves disease-specific nodes to guide chest X-ray report generation; SOTA on IU-Xray and MIMIC-CXR. *Li et al.*
+
+#### 🧫 Computational Pathology
+
+- **[Visual Language Pretrained Multiple Instance Zero-Shot Transfer for Histopathology Images](https://arxiv.org/abs/2306.07831)** — MI-Zero reformulates zero-shot transfer under MIL for gigapixel WSIs, achieving 70.2% average accuracy on three cancer subtyping tasks without task-specific labels. *Lu et al., Mahmood Lab*
+- **[Interventional Bag Multi-Instance Learning On Whole-Slide Pathological Images](https://arxiv.org/abs/2303.06873)** — Causal intervention via do-calculus removes confounding in bag-level MIL for more robust WSI classification.
+- **[Task-specific Fine-tuning via Variational Information Bottleneck for Weakly-supervised Pathology Whole Slide Image Classification](https://arxiv.org/abs/2303.08446)** — VIB-based fine-tuning compresses WSI representations to task-relevant bottlenecks, improving weakly supervised classification with fewer labeled slides.
+- **[Topology-Guided Multi-Class Cell Context Generation for Digital Pathology](https://arxiv.org/abs/2304.02255)** — Topology-aware generation model creates realistic multi-class cell spatial layouts for data augmentation in computational pathology.
+- **[DoNet: Deep De-overlapping Network for Cytology Instance Segmentation](https://arxiv.org/abs/2303.14373)** — Decompose-and-reconstruct strategy separates overlapping cell instances in cytology images for accurate instance segmentation.
+
+---
+
 ## NeurIPS
 
 ### NeurIPS 2024
@@ -185,6 +217,18 @@ Covers **2023–2025**. Organized by conference. Contributions welcome — see [
 
 ---
 
+### ICML 2023
+
+#### 📋 Clinical NLP & EHR
+
+- **[Improving Medical Predictions by Irregular Multimodal Electronic Health Records Modeling](https://icml.cc/virtual/2023/poster/24359)** — Models irregularly sampled multimodal EHR (numerical time series + clinical notes) with a dedicated alignment mechanism, yielding consistent gains on mortality and readmission prediction.
+
+#### 📋 Radiology & Clinical Vision-Language
+
+- **[Rethinking Medical Report Generation: Disease Revealing Enhancement with Knowledge Graph](https://arxiv.org/abs/2307.12526)** — Integrates a structured disease knowledge graph into the decoding process to surface rare and subtle findings that standard attention mechanisms overlook in chest X-ray report generation.
+
+---
+
 ## ICLR
 
 ### ICLR 2025
@@ -228,6 +272,15 @@ Covers **2023–2025**. Organized by conference. Contributions welcome — see [
 
 ---
 
+### ICLR 2023
+
+#### 🤖 Medical Vision-Language
+
+- **[Medical Image Understanding with Pretrained Vision Language Models: A Comprehensive Study](https://openreview.net/pdf?id=txlWziuCE5W)** — Systematic evaluation of pretrained VLMs across 9 medical imaging datasets and 8 adaptation strategies, establishing best practices for medical VLM transfer learning.
+- **[Advancing Radiograph Representation Learning with Masked Record Modeling](https://arxiv.org/abs/2301.13155)** — MRM: unified framework that reconstructs masked image patches and masked report tokens as complementary objectives, yielding strong pre-trained radiograph encoders that transfer efficiently with limited labels.
+
+---
+
 ## ICCV / ECCV
 
 ### ECCV 2024
@@ -243,9 +296,28 @@ Covers **2023–2025**. Organized by conference. Contributions welcome — see [
 
 ### ICCV 2023
 
+#### 🔬 Medical Imaging & Segmentation
+
+- **[UniverSeg: Universal Medical Image Segmentation](https://arxiv.org/abs/2304.06131)** — CrossBlock mechanism that produces accurate segmentation maps for any new anatomy or modality given a small labeled support set, trained on 53 open-access datasets (MegaMedical). *Butoi et al., MIT CSAIL*
+- **[CLIP-Driven Universal Model for Organ Segmentation and Tumor Detection](https://arxiv.org/abs/2301.00785)** — CLIP text embeddings guide a universal segmentation model to handle 25 organs and 6 tumor types with open-vocabulary extensibility.
+- **[CancerUniT: Towards a Single Unified Model for Effective Detection, Segmentation, and Diagnosis of Eight Major Cancers using a Large Collection of CT Scans](https://arxiv.org/abs/2301.12291)** — Joint detection, segmentation, and diagnosis of 8 cancer types in a single model trained on 1,000+ CT scans.
+- **[Preserving Tumor Volumes for Unsupervised Medical Image Registration](https://arxiv.org/abs/2309.10153)** — Volume-preservation regularization for unsupervised deformable registration to prevent pathological tissue distortion.
+- **[CuNeRF: Cube-based Neural Radiance Field for Zero-Shot Medical Image Arbitrary-Scale Super Resolution](https://arxiv.org/abs/2303.16242)** — Divides 3D medical volumes into cubes and applies NeRF-based implicit representation for zero-shot arbitrary-scale super-resolution.
+- **[Learning to Distill Global Representation for Sparse-View CT](https://arxiv.org/abs/2308.08463)** — GloReDi distills global frequency and spatial features from a dense-view teacher to reconstruct high-quality CT from sparse projections.
+
 #### 🤖 Medical Vision-Language
 
+- **[MedKLIP: Medical Knowledge Enhanced Language-Image Pre-Training for X-ray Diagnosis](https://arxiv.org/abs/2301.02228)** — Enriches VL pre-training by replacing raw report text with structured medical entity triplets, achieving strong zero-shot and few-shot performance on 11 X-ray datasets.
+- **[PRIOR: Prototype Representation Joint Learning from Medical Images and Reports](https://arxiv.org/abs/2307.12577)** — Prototype-based joint learning aligns local image regions with report sentences for fine-grained medical VL representation.
+- **[LIMITR: Leveraging Local Information for Medical Image-Text Representation](https://arxiv.org/abs/2303.11755)** — Local-region contrastive alignment between chest X-ray patches and report sentences for improved downstream classification and retrieval.
 - **[Towards Unifying Medical Vision-and-Language Pre-training via Soft Prompts](https://arxiv.org/abs/2302.08958)** — Soft-prompt-based unified pre-training framework across diverse medical vision-language tasks.
+
+#### 🧫 Computational Pathology
+
+- **[Multimodal Optimal Transport-based Co-Attention Transformer with Global Structure Consistency for Survival Prediction](https://arxiv.org/abs/2306.08330)** — MOTCat: optimal transport aligns pathology patches with genomic features for robust multimodal survival prediction on TCGA datasets.
+- **[Cross-Modal Translation and Alignment for Survival Analysis](https://arxiv.org/abs/2309.12855)** — CMTA translates between pathology and genomic modalities bidirectionally and aligns their representations for improved cancer survival prediction.
+- **[ConSlide: Asynchronous Hierarchical Interaction Transformer with Breakup-Reorganize Rehearsal for Continual Whole Slide Image Analysis](https://arxiv.org/abs/2308.13324)** — Continual learning framework for WSI analysis that handles sequentially arriving cancer datasets without forgetting.
+- **[Improving Representation Learning for Histopathologic Images with Cluster Constraints](https://arxiv.org/abs/2310.12334)** — CluSiam adds cluster-consistency constraints to self-supervised pre-training, improving patch-level histopathology representations.
 
 ---
 
@@ -260,6 +332,14 @@ Covers **2023–2025**. Organized by conference. Contributions welcome — see [
 
 ---
 
+### ACL 2023
+
+#### 📋 Clinical NLP
+
+- **[ORGAN: Observation-Guided Radiology Report Generation via Tree-Reasoning](https://aclanthology.org/2023.acl-long.451/)** — Tree-structured reasoning over clinical observations guides a decoder to generate complete, clinically consistent radiology reports with explicit rationales.
+
+---
+
 ### EMNLP 2024
 
 #### 📋 Clinical NLP
@@ -271,6 +351,24 @@ Covers **2023–2025**. Organized by conference. Contributions welcome — see [
 #### 📋 Clinical NLP
 
 - **[PhenotypeCLIP: Phenotype-based Contrastive Learning for Medical Imaging Report Generation](https://aclanthology.org/2023.emnlp-main.125/)** — Phenotype-aware contrastive learning for factually accurate and clinically consistent radiology report generation.
+
+---
+
+## NAACL
+
+### NAACL 2025
+
+#### 📋 Clinical NLP
+
+- **[Benchmarking Large Language Models on Answering and Explaining Challenging Medical Questions](https://2025.naacl.org/program/accepted_papers/)** — Systematic benchmark of frontier LLMs on expert-level medical questions requiring multi-step reasoning and explanation, revealing capability gaps across specialties.
+
+---
+
+### NAACL 2024
+
+#### 📋 Clinical NLP
+
+- **[LLM-based Medical Assistant Personalization with Short- and Long-Term Memory Coordination](https://aclanthology.org/2024.naacl-long.132/)** — Memory coordination mechanism that balances short-term context and long-term patient history in LLM-based medical assistants for personalised clinical dialogue.
 
 ---
 
@@ -293,9 +391,26 @@ Covers **2023–2025**. Organized by conference. Contributions welcome — see [
 
 ### AAAI 2024
 
+#### 🔬 Medical Imaging & Segmentation
+
+- **[MedSegDiff-V2: Diffusion based Medical Image Segmentation with Transformer](https://arxiv.org/abs/2301.11798)** — Upgraded diffusion segmentation framework that replaces the UNet denoiser with a Transformer backbone, outperforming prior diffusion-based segmentation models across multiple modalities.
+
 #### 📋 Clinical NLP & EHR
 
 - **[MedAlign: A Clinician-Generated Dataset for Instruction Following with Electronic Medical Records](https://arxiv.org/abs/2308.14089)** — Expert-annotated dataset benchmarking LLM instruction-following in EHR contexts across diverse clinical tasks.
+- **[Bootstrapping Large Language Models for Radiology Report Generation](https://ojs.aaai.org/index.php/AAAI/article/view/29826)** — Curriculum bootstrapping strategy that uses an LLM to iteratively generate and filter pseudo-labeled reports for self-training, improving radiology report quality with minimal annotated data.
+
+---
+
+### AAAI 2023
+
+#### 🔬 Medical Imaging & Segmentation
+
+- **[Unsupervised Domain Adaptation for Medical Image Segmentation by Selective Entropy Constraint and Adaptive Semantic Alignment](https://github.com/fengweie/SE_ASA)** — SE-ASA selectively constrains prediction entropy on confident regions and aligns domain semantics via adaptive class prototypes for cross-modality (MR↔CT) segmentation without target labels.
+
+#### 📋 Clinical NLP
+
+- **[Nothing Abnormal: Disambiguating Medical Reports via Contrastive Knowledge Infusion](https://arxiv.org/abs/2305.08300)** — Contrastive knowledge infusion disambiguates the ubiquitous "no abnormality" phrase in radiology reports, improving clinical NLP classification by pulling normal and pathological report representations apart.
 
 ---
 
@@ -306,6 +421,14 @@ Covers **2023–2025**. Organized by conference. Contributions welcome — see [
 #### 📋 Clinical & Healthcare AI
 
 - **[Clinical Trial Outcome Prediction with Drug-Disease Interaction and Heterogeneous GNN](https://dl.acm.org/doi/10.1145/3637528)** — Heterogeneous GNN modeling drug-disease interactions for clinical trial success prediction.
+
+---
+
+### KDD 2023
+
+#### 📋 Clinical & Healthcare AI
+
+- **[Expert Knowledge-Aware Image Difference Graph Representation Learning for Difference-Aware Medical Visual Question Answering](https://arxiv.org/abs/2307.11986)** — Knowledge graph encoding expert-defined difference relationships between paired medical images for difference-aware VQA on MIMIC-Diff-VQA benchmark.
 
 ---
 
