@@ -78,7 +78,7 @@ class Site:
 </head><body><a class="skip" href="#main">Skip to content</a>
 <header><a class="brand" href="{self.base}"><span class="brand-mark">m+</span> Medical AI Papers</a>
 <nav aria-label="Main navigation"><a href="{self.url('research/')}">Research</a><a href="{self.url('about/')}">Methodology</a><a class="star" href="{self.repo}">☆ Star on GitHub</a></nav></header>
-<main id="main">{body}</main><footer><p>An open research resource. Papers and original research belong to their authors.</p>
+<main id="main">{body}<aside class="repo-cta"><h2>Keep this collection handy.</h2><p>The paper list, research data, and scripts live on GitHub. If they save you time on literature reviews, star the repository to bookmark it.</p><a class="button" href="{self.repo}">View &amp; star on GitHub ☆</a></aside></main><footer><p>An open research resource. Papers and original research belong to their authors.</p>
 <p><a href="{self.repo}">GitHub</a> · <a href="{self.repo}/blob/main/CITATION.cff">Cite this resource</a> · <a href="{self.url('data/medical_papers.csv')}">Download CSV</a> · <a href="{self.url('llms.txt')}">Source guide</a> · <a href="{self.url('sitemap.xml')}">Sitemap</a></p>
 <p>Maintained by the Awesome Medical AI Papers contributors. No claim of exhaustive coverage or guaranteed clinical effectiveness.</p></footer>
 {f'<script src="{self.url("assets/app.js")}" defer data-catalog="{self.url("data/papers.json")}"></script>' if script else ''}
@@ -113,9 +113,9 @@ class Site:
         topic_links = ''.join(f'<a class="browse-link" href="{self.url("topics/"+slug(t)+"/")}"><strong>{h(t)}</strong><span>{n} title matches ↗</span></a>' for t,n in by_domain.most_common())
         year_links = ''.join(f'<a class="year-link" href="{self.url("years/"+str(y)+"/")}">{y} <span>{sum(r["year"]==y for r in self.rows)} papers</span> ↗</a>' for y in (2025,2024,2023))
         options = ''.join(f'<option>{v}</option>' for v in sorted(by_venue))
-        body = f'''<section class="hero"><p class="eyebrow">Evidence before hype · 2023–2025</p><h1>The medical AI<br>research landscape.</h1>
-<p class="lead">A curated guide to medical imaging, clinical language models, pathology, brain AI, and healthcare research at major CS/AI conferences.</p>
-<div class="hero-actions"><a class="button" href="#catalog">Find a paper ↓</a><a class="button secondary" href="{self.url('research/')}">Explore the research ↗</a></div>
+        body = f'''<section class="hero"><p class="eyebrow">Awesome Medical AI Papers · A GitHub collection</p><h1>Your medical AI<br>literature shortlist.</h1>
+<p class="lead">Find medical imaging, clinical language model, pathology, brain AI, and healthcare papers from major CS/AI conferences. The complete list, data, and analysis scripts are maintained in the GitHub repository.</p>
+<div class="hero-actions"><a class="button" href="{self.repo}">View &amp; star on GitHub ☆</a><a class="button secondary" href="#catalog">Browse papers ↓</a></div>
 <div class="stat-strip"><div><strong>{len(self.rows):,}</strong><span>curated papers</span></div><div><strong>{len(by_venue)}</strong><span>conference families</span></div><div><strong>3</strong><span>publication years</span></div></div></section>
 <section class="section"><div class="section-title"><h2>Browse by conference</h2><p>Official titles. Publication years. Paper-specific sources.</p></div><div class="browse-grid">{venue_links}</div><div class="year-grid">{year_links}</div></section>
 <section class="research-band"><p class="eyebrow">The data behind the list</p><h2>How much medical AI gets published?<br>What changed over three years?</h2>
@@ -131,7 +131,7 @@ class Site:
 <details><summary>Are publication shares acceptance rates?</summary><p>No. A publication share divides medical accepted papers by all accepted papers. A submission acceptance rate requires accepted and rejected submissions. Our decision-rate study is limited to ICLR public snapshots.</p></details>
 <details><summary>How can I contribute or cite this?</summary><p>Submit a paper with its official title, conference year, paper-specific source, and a short summary through <a href="{self.repo}/issues/new/choose">GitHub</a>. Use <a href="{self.repo}/blob/main/CITATION.cff">CITATION.cff</a> for attribution. If the resource helps your work, a GitHub star makes it easy to bookmark and discover.</p></details></section>'''
         schema = {"@context":"https://schema.org", "@type":"Dataset", "name":self.config["name"],
-                  "description":self.config["description"], "url":self.base, "sameAs":self.repo,
+                  "description":self.config["description"], "url":self.repo, "sameAs":self.base,
                   "license":"https://creativecommons.org/publicdomain/zero/1.0/", "temporalCoverage":"2023/2025",
                   "keywords":["medical AI","healthcare AI","conference papers","medical imaging","clinical NLP"],
                   "creator":{"@type":"Organization","name":"Awesome Medical AI Papers contributors","url":self.repo},
@@ -200,7 +200,8 @@ class Site:
 
 > Curated medical AI and healthcare conference papers, 2023–2025, with reproducible descriptive studies. This source guide is optional navigation, not a special ranking requirement.
 
-- [Catalog]({self.base}): conference, year, and topic entry points.
+- [Canonical project on GitHub]({self.repo}): the maintained paper list, original research, scripts, and citation metadata.
+- [Searchable catalog]({self.base}): conference, year, and topic entry points for the GitHub collection.
 - [Research]({self.url('research/')}): publication shares, ICLR snapshot decision rates, and title trends.
 - [Methodology]({self.url('about/')}): corpus, sources, denominators, and limitations.
 - [Paper metadata JSON]({self.url('data/papers.json')}): titles, summaries, source links, years, and labels.

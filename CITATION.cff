@@ -5,7 +5,7 @@ type: dataset
 authors:
   - name: "Awesome Medical AI Papers contributors"
 repository-code: "https://github.com/Nanboy-Ronan/awesome-medical-ai-papers"
-url: "https://nanboy-ronan.github.io/awesome-medical-ai-papers/"
+url: "https://github.com/Nanboy-Ronan/awesome-medical-ai-papers"
 license: CC0-1.0
 keywords:
   - medical AI

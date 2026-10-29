@@ -445,7 +445,7 @@
   "provenance": {
     "input_sha256": {
       "data/papers.jsonl": "a56f53a7c0789116775c140df58f9b84d5024223245cb21aadbbb42cc5f252c3",
-      "README.md": "0ca95f5eca70aa53a686fadc2fcbe789ee5c4d78031f8b3d0b208e320d5e6f23",
+      "README.md": "061f1f686260c8fc66640a02893c5b82effcc29972632a3de23a484402f1f4bb",
       "config/research_topics.json": "f7e8fad9ebc41aff428e172fab8e1218774d10fc25510711eb1237f24b6db809",
       "config/conference_statistics.json": "255bc5ffb0db00c396b5d2f9b7e7b2906c8d2fb111fa2f56ce4cc948e250e499",
       "data/submissions.jsonl": "645da4676a5c42af51df721cc1530e51451e065ffed494a7332b81a6ff704c68"

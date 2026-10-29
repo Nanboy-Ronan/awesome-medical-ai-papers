@@ -7,4 +7,5 @@ data/papers.jsonl
 data/screened.jsonl
 data/submissions.jsonl
 _site/
+reports/private-growth/
 data/.*.jsonl.tmp

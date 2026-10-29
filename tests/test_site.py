@@ -25,6 +25,7 @@ class CatalogSite(unittest.TestCase):
                 doc=BeautifulSoup(page.read_text(),"html.parser")
                 titles.append(doc.title.string)
                 self.assertTrue(doc.find("h1"))
+                self.assertEqual(doc.select_one('.repo-cta a')["href"],site.repo)
                 self.assertEqual(len(doc.select('link[rel="canonical"]')),1)
                 self.assertTrue(doc.select_one('meta[name="description"]')["content"])
                 for node in doc.select("[href], [src]"):

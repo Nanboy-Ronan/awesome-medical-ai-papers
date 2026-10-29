@@ -4,9 +4,11 @@
 
 Covers **2023–2025**. Organized by conference publication year, which may differ from the arXiv submission year. Contributions welcome — see [Contributing](#contributing).
 
-[Search the paper catalog](https://nanboy-ronan.github.io/awesome-medical-ai-papers/#catalog) · [Research and open data](reports/analysis/README.md) · [中文研究摘要](docs/research-summary.zh-CN.md) · [Suggest a paper](https://github.com/Nanboy-Ronan/awesome-medical-ai-papers/issues/new/choose)
+[Browse papers](#cvpr) · [Research and open data](reports/analysis/README.md) · [中文研究摘要](docs/research-summary.zh-CN.md) · [Searchable catalog](https://nanboy-ronan.github.io/awesome-medical-ai-papers/#catalog)
 
-If this collection helps your research, [star the repository](https://github.com/Nanboy-Ronan/awesome-medical-ai-papers) to bookmark it. Contributions and metadata corrections keep it useful.
+Find papers for your literature review, compare conference coverage, and explore research trends—all with verifiable sources and reusable data.
+
+**⭐ If this saves you time, star this repository to keep it handy for your next literature review.** [Suggest a missing paper](https://github.com/Nanboy-Ronan/awesome-medical-ai-papers/issues/new/choose) or help correct its metadata.
 
 ---
 

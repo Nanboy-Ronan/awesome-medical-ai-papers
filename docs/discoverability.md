@@ -1,8 +1,16 @@
 # Discovery, citation, and sustainable repository growth
 
-The catalog's purpose is to help researchers find useful papers and verify
-claims. Discovery improvements support that work; they do not guarantee search
-rankings, inclusion in AI answers, or GitHub stars.
+The primary growth goal is **net new GitHub stars**. The repository is the main
+resource; search, AI citations, and the catalog website should help relevant
+researchers discover it, understand its value, and bookmark it on GitHub.
+Website page counts and deployment success are implementation checks, not growth
+outcomes. Search rankings, AI inclusion, and stars are not guaranteed.
+
+The README leads with the literature-review benefit and repository navigation.
+The catalog's primary homepage action, persistent navigation action, and a
+post-content action on every page lead to GitHub. Citation metadata and the
+dataset's primary URL identify the repository as the project source. The catalog
+remains useful without requiring a star or blocking access to papers and data.
 
 ## Implemented
 
@@ -49,10 +57,30 @@ present. See Google's [robots location rules](https://developers.google.com/craw
 
 ## Measure useful outcomes
 
-Use GitHub traffic and referrers, stars/forks, contribution quality, and incoming
-citations to assess whether people find the resource useful. Website search
-clicks and CSV downloads are useful engagement signals if analytics are added
-later with appropriate disclosure. Do not treat a star count as research quality.
+Track net star change against `reports/discovery-baseline.json`. Repository
+unique visitors and referral sources diagnose whether discovery efforts bring
+people to GitHub. Evaluate changes over a meaningful observation window rather
+than describing a successful deployment as star growth.
+
+```sh
+# Requires GitHub CLI already authenticated to the repository.
+python scripts/track_growth.py
+
+# Optional owner-only aggregate visits, clones, and referring sources.
+python scripts/track_growth.py --traffic
+```
+
+Snapshots are saved under ignored `reports/private-growth/`; private traffic
+data are not committed or copied into the public website. The tool uses existing
+permissions and does not request wider access. Unavailable traffic is recorded
+as unavailable rather than zero. GitHub provides rolling traffic windows, so
+periodic snapshots are needed for longer-term comparisons. See the official
+[traffic API documentation](https://docs.github.com/en/rest/metrics/traffic).
+
+Net star counts and aggregate visits do not identify which visitor starred the
+repository, nor prove SEO/GEO caused a change. No exact visitor-to-star
+conversion rate is claimed. Forks, citations, and contribution quality remain
+secondary signals; a star count is not a measure of research quality.
 
 The owner can verify the public site in Google Search Console and submit its
 sitemap to inspect indexing and search queries. This needs the owner's Search

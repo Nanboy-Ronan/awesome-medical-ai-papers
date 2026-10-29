@@ -1,6 +1,6 @@
 # Proceedings index coverage
 
-Generated: 2026-10-29T21:01:11.159075+00:00
+Generated: 2026-10-29T21:15:40.084054+00:00
 
 Indexed **63,145 papers**; **51,547 have abstracts**. Matched **1430/1430** README entries. Found **3,566 unlisted candidates/review items**.
 
