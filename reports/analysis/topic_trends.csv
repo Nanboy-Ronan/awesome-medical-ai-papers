@@ -1,0 +1,70 @@
+year,family,topic,papers,year_medical_papers,share_of_medical_pct
+2023,domain,Medical imaging and reconstruction,74,282,26.24113475177305
+2023,domain,Pathology and microscopy,35,282,12.411347517730496
+2023,domain,Clinical language and medical QA,36,282,12.76595744680851
+2023,domain,"EHR, prognosis and treatment",31,282,10.99290780141844
+2023,domain,"Brain, EEG and BCI",40,282,14.184397163120567
+2023,domain,"Physiology, wearables and sleep",10,282,3.5460992907801416
+2023,domain,Mental health and behavior,12,282,4.25531914893617
+2023,domain,Surgical AI,4,282,1.4184397163120568
+2023,domain,Public health and care delivery,15,282,5.319148936170213
+2023,method,Segmentation,47,282,16.666666666666668
+2023,method,Large language models,7,282,2.482269503546099
+2023,method,Vision-language and multimodal,24,282,8.51063829787234
+2023,method,Foundation models and SAM,8,282,2.8368794326241136
+2023,method,Diffusion models,9,282,3.1914893617021276
+2023,method,Transformers and attention,21,282,7.446808510638298
+2023,method,Graph learning,20,282,7.092198581560283
+2023,method,Self-supervised and contrastive,24,282,8.51063829787234
+2023,method,"Weak, semi and few-shot learning",27,282,9.574468085106384
+2023,method,Federated learning and privacy,6,282,2.127659574468085
+2023,method,Robustness and domain shift,14,282,4.964539007092198
+2023,method,"Fairness, uncertainty and explainability",9,282,3.1914893617021276
+2023,method,Causal and reinforcement learning,16,282,5.673758865248227
+2023,method,"Datasets, benchmarks and evaluation",33,282,11.702127659574469
+2024,domain,Medical imaging and reconstruction,122,443,27.539503386004515
+2024,domain,Pathology and microscopy,68,443,15.349887133182845
+2024,domain,Clinical language and medical QA,44,443,9.932279909706546
+2024,domain,"EHR, prognosis and treatment",30,443,6.772009029345372
+2024,domain,"Brain, EEG and BCI",55,443,12.415349887133182
+2024,domain,"Physiology, wearables and sleep",23,443,5.191873589164786
+2024,domain,Mental health and behavior,14,443,3.160270880361174
+2024,domain,Surgical AI,8,443,1.8058690744920993
+2024,domain,Public health and care delivery,12,443,2.708803611738149
+2024,method,Segmentation,54,443,12.18961625282167
+2024,method,Large language models,41,443,9.255079006772009
+2024,method,Vision-language and multimodal,51,443,11.512415349887133
+2024,method,Foundation models and SAM,33,443,7.44920993227991
+2024,method,Diffusion models,23,443,5.191873589164786
+2024,method,Transformers and attention,32,443,7.223476297968397
+2024,method,Graph learning,11,443,2.4830699774266365
+2024,method,Self-supervised and contrastive,22,443,4.966139954853273
+2024,method,"Weak, semi and few-shot learning",25,443,5.643340857787811
+2024,method,Federated learning and privacy,11,443,2.4830699774266365
+2024,method,Robustness and domain shift,19,443,4.288939051918736
+2024,method,"Fairness, uncertainty and explainability",18,443,4.063205417607223
+2024,method,Causal and reinforcement learning,13,443,2.9345372460496613
+2024,method,"Datasets, benchmarks and evaluation",56,443,12.641083521444695
+2025,domain,Medical imaging and reconstruction,198,705,28.085106382978722
+2025,domain,Pathology and microscopy,93,705,13.191489361702128
+2025,domain,Clinical language and medical QA,100,705,14.184397163120567
+2025,domain,"EHR, prognosis and treatment",46,705,6.524822695035461
+2025,domain,"Brain, EEG and BCI",99,705,14.042553191489361
+2025,domain,"Physiology, wearables and sleep",33,705,4.680851063829787
+2025,domain,Mental health and behavior,19,705,2.6950354609929077
+2025,domain,Surgical AI,11,705,1.5602836879432624
+2025,domain,Public health and care delivery,26,705,3.6879432624113475
+2025,method,Segmentation,97,705,13.75886524822695
+2025,method,Large language models,68,705,9.645390070921986
+2025,method,Vision-language and multimodal,116,705,16.45390070921986
+2025,method,Foundation models and SAM,49,705,6.950354609929078
+2025,method,Diffusion models,35,705,4.964539007092198
+2025,method,Transformers and attention,31,705,4.397163120567376
+2025,method,Graph learning,36,705,5.1063829787234045
+2025,method,Self-supervised and contrastive,28,705,3.971631205673759
+2025,method,"Weak, semi and few-shot learning",43,705,6.099290780141844
+2025,method,Federated learning and privacy,18,705,2.5531914893617023
+2025,method,Robustness and domain shift,35,705,4.964539007092198
+2025,method,"Fairness, uncertainty and explainability",48,705,6.808510638297872
+2025,method,Causal and reinforcement learning,20,705,2.8368794326241136
+2025,method,"Datasets, benchmarks and evaluation",96,705,13.617021276595745

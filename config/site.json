@@ -1,0 +1,7 @@
+{
+  "name": "Awesome Medical AI Papers",
+  "base_url": "https://nanboy-ronan.github.io/awesome-medical-ai-papers/",
+  "repository": "https://github.com/Nanboy-Ronan/awesome-medical-ai-papers",
+  "description": "Curated medical AI and healthcare AI papers from major CS/AI conferences, with reproducible publication-share, ICLR decision-rate, and topic-trend studies for 2023–2025.",
+  "topics": ["awesome", "awesome-list", "medical-ai", "healthcare-ai", "medical-imaging", "clinical-nlp", "medical-llm", "computational-pathology", "brain-computer-interface", "eeg", "cvpr", "neurips", "icml", "iclr", "research-papers", "conference-papers", "research-trends", "open-data"]
+}

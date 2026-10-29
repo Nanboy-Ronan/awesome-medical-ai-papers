@@ -1,0 +1,43 @@
+venue,year,group,definition,accepted,rejected,desk_rejected,withdrawn,unknown,decision_denominator,decision_rate_pct,wilson95_low_pct,wilson95_high_pct,observed_pool_denominator,accepted_fraction_observed_pool_pct
+ICLR,2023,not_reported,self_reported_area_not_harmonized_across_years,1575,2285,18,1077,0,3860,40.803108808290155,39.26257224387146,42.36193260274553,4955,31.786074672048436
+ICLR,2024,applications to neuroscience & cognitive science,self_reported_area_not_harmonized_across_years,49,61,1,23,0,110,44.54545454545455,35.597712785237015,53.861311963470214,134,36.56716417910448
+ICLR,2024,"applications to physical sciences (physics, chemistry, biology, etc.)",self_reported_area_not_harmonized_across_years,96,152,2,70,0,248,38.70967741935484,32.86367363950531,44.900114633389464,320,30.0
+ICLR,2024,"applications to robotics, autonomy, planning",self_reported_area_not_harmonized_across_years,57,84,3,36,0,141,40.42553191489362,32.68335515595439,48.67557327528672,180,31.666666666666668
+ICLR,2024,causal reasoning,self_reported_area_not_harmonized_across_years,31,52,0,18,0,83,37.34939759036145,27.71968733976961,48.09831447044894,101,30.693069306930692
+ICLR,2024,datasets and benchmarks,self_reported_area_not_harmonized_across_years,89,123,2,58,0,212,41.9811320754717,35.5382636440017,48.70943363076292,272,32.720588235294116
+ICLR,2024,"general machine learning (i.e., none of the above)",self_reported_area_not_harmonized_across_years,214,380,8,191,0,594,36.02693602693603,32.26738758906683,39.96605364342102,793,26.986128625472887
+ICLR,2024,generative models,self_reported_area_not_harmonized_across_years,300,296,7,184,0,596,50.33557046979866,46.332222567947944,54.33462030214379,787,38.11944091486658
+ICLR,2024,"infrastructure, software libraries, hardware, etc.",self_reported_area_not_harmonized_across_years,13,24,1,9,0,37,35.13513513513514,21.825607133927427,51.240976877448716,47,27.659574468085108
+ICLR,2024,learning on graphs and other geometries & topologies,self_reported_area_not_harmonized_across_years,69,98,1,27,0,167,41.31736526946108,34.12634324320053,48.898854387289816,195,35.38461538461539
+ICLR,2024,learning theory,self_reported_area_not_harmonized_across_years,102,86,2,23,0,188,54.255319148936174,47.11993274113934,61.22028740645374,213,47.88732394366197
+ICLR,2024,"metric learning, kernel learning, and sparse coding",self_reported_area_not_harmonized_across_years,8,21,0,7,0,29,27.586206896551722,14.698755102088217,45.71713241686543,36,22.22222222222222
+ICLR,2024,"neurosymbolic & hybrid AI systems (physics-informed, logic & formal reasoning, etc.)",self_reported_area_not_harmonized_across_years,31,54,0,18,0,85,36.470588235294116,27.029319054247985,47.081866978367465,103,30.097087378640776
+ICLR,2024,optimization,self_reported_area_not_harmonized_across_years,95,161,6,56,0,256,37.109375,31.422929161013712,43.17696713746576,318,29.87421383647799
+ICLR,2024,"probabilistic methods (Bayesian methods, variational inference, sampling, UQ, etc.)",self_reported_area_not_harmonized_across_years,68,95,0,24,0,163,41.717791411042946,34.42393480496826,49.39303719297072,187,36.36363636363637
+ICLR,2024,reinforcement learning,self_reported_area_not_harmonized_across_years,206,335,2,118,0,541,38.07763401109057,34.08353587548174,42.23985179783891,661,31.164901664145233
+ICLR,2024,"representation learning for computer vision, audio, language, and other modalities",self_reported_area_not_harmonized_across_years,307,438,7,298,0,745,41.20805369127517,37.727509590325376,44.7788008633848,1050,29.238095238095237
+ICLR,2024,"societal considerations including fairness, safety, privacy",self_reported_area_not_harmonized_across_years,159,273,3,112,0,432,36.80555555555556,32.392632526332136,41.451067357459834,547,29.06764168190128
+ICLR,2024,"transfer learning, meta learning, and lifelong learning",self_reported_area_not_harmonized_across_years,86,169,2,123,0,255,33.72549019607843,28.2024736690703,39.73156580893458,380,22.63157894736842
+ICLR,2024,"unsupervised, self-supervised, semi-supervised, and supervised representation learning",self_reported_area_not_harmonized_across_years,218,433,4,208,0,651,33.48694316436252,29.967823696963208,37.199801824610496,863,25.26071842410197
+ICLR,2024,visualization or interpretation of learned representations,self_reported_area_not_harmonized_across_years,62,103,2,50,0,165,37.57575757575758,30.547648569247283,45.16921606437263,217,28.571428571428573
+ICLR,2025,"alignment, fairness, safety, privacy, and societal considerations",self_reported_area_not_harmonized_across_years,332,432,2,282,0,764,43.455497382198956,39.98194124359223,46.994536927619414,1048,31.6793893129771
+ICLR,2025,"applications to computer vision, audio, language, and other modalities",self_reported_area_not_harmonized_across_years,420,475,7,471,0,895,46.927374301675975,43.67794629341578,50.203065818312844,1373,30.58994901675164
+ICLR,2025,applications to neuroscience & cognitive science,self_reported_area_not_harmonized_across_years,67,96,0,51,0,163,41.104294478527606,33.840416821949525,48.77781236102199,214,31.30841121495327
+ICLR,2025,"applications to physical sciences (physics, chemistry, biology, etc.)",self_reported_area_not_harmonized_across_years,178,245,3,117,0,423,42.08037825059102,37.467643367404,46.835662083497596,543,32.78084714548803
+ICLR,2025,"applications to robotics, autonomy, planning",self_reported_area_not_harmonized_across_years,91,85,0,68,0,176,51.70454545454545,44.36471939575397,58.97155247356074,244,37.295081967213115
+ICLR,2025,causal reasoning,self_reported_area_not_harmonized_across_years,34,67,0,18,0,101,33.663366336633665,25.196574222865102,43.32732808524894,119,28.571428571428573
+ICLR,2025,datasets and benchmarks,self_reported_area_not_harmonized_across_years,228,323,5,204,0,551,41.37931034482759,37.340478534401214,45.53751327934665,760,30.0
+ICLR,2025,"foundation or frontier models, including LLMs",self_reported_area_not_harmonized_across_years,469,545,7,276,0,1014,46.252465483234715,43.20352187202833,49.32969640657704,1297,36.160370084811106
+ICLR,2025,generative models,self_reported_area_not_harmonized_across_years,377,390,5,291,0,767,49.152542372881356,45.62758828703043,52.685943003841174,1063,35.465663217309505
+ICLR,2025,"infrastructure, software libraries, hardware, systems, etc.",self_reported_area_not_harmonized_across_years,28,34,2,25,0,62,45.16129032258065,33.41971316759982,57.46748753015536,89,31.46067415730337
+ICLR,2025,interpretability and explainable AI,self_reported_area_not_harmonized_across_years,155,246,6,109,0,401,38.65336658354115,34.01635745069519,43.505707541096015,516,30.03875968992248
+ICLR,2025,learning on graphs and other geometries & topologies,self_reported_area_not_harmonized_across_years,134,207,0,88,0,341,39.29618768328446,34.25913150400366,44.57172014311295,429,31.235431235431236
+ICLR,2025,learning on time series and dynamical systems,self_reported_area_not_harmonized_across_years,61,122,2,85,0,183,33.333333333333336,26.907965393744515,40.44403432568614,270,22.59259259259259
+ICLR,2025,learning theory,self_reported_area_not_harmonized_across_years,141,156,4,64,0,297,47.474747474747474,41.86410045903545,53.14988462839219,365,38.63013698630137
+ICLR,2025,"neurosymbolic & hybrid AI systems (physics-informed, logic & formal reasoning, etc.)",self_reported_area_not_harmonized_across_years,29,57,0,19,0,86,33.72093023255814,24.616548577577984,44.217439241027506,105,27.61904761904762
+ICLR,2025,optimization,self_reported_area_not_harmonized_across_years,162,247,3,109,0,409,39.608801955990224,34.98670504066545,44.424277508711356,521,31.09404990403071
+ICLR,2025,"other topics in machine learning (i.e., none of the above)",self_reported_area_not_harmonized_across_years,152,240,8,162,0,392,38.775510204081634,34.08334030980825,43.685537093237656,562,27.04626334519573
+ICLR,2025,"probabilistic methods (Bayesian methods, variational inference, sampling, UQ, etc.)",self_reported_area_not_harmonized_across_years,84,103,3,46,0,187,44.919786096256686,37.96417097050577,52.07992106410211,236,35.59322033898305
+ICLR,2025,reinforcement learning,self_reported_area_not_harmonized_across_years,230,323,4,119,0,553,41.59132007233273,37.55515790355073,45.743499456308946,676,34.023668639053255
+ICLR,2025,"transfer learning, meta learning, and lifelong learning",self_reported_area_not_harmonized_across_years,95,144,3,132,0,239,39.7489539748954,33.75392406607251,46.06830223830003,374,25.40106951871658
+ICLR,2025,"unsupervised, self-supervised, semi-supervised, and supervised representation learning",self_reported_area_not_harmonized_across_years,236,374,6,252,0,610,38.68852459016394,34.9058136299161,42.61281141292083,868,27.1889400921659

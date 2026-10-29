@@ -1,0 +1,153 @@
+venue,year,track,catalog_records,curated_medical_records,eligible_research,curated_share_pct
+AAAI,2023,AAAI Doctoral Consortium Track,20,0,False,0.0
+AAAI,2023,AAAI Special Track on AI for Social Impact,66,11,True,16.666666666666668
+AAAI,2023,AAAI Special Track on Safe and Robust AI,76,1,True,1.3157894736842106
+AAAI,2023,AAAI Student Abstract and Poster Program,123,0,False,0.0
+AAAI,2023,AAAI Technical Track on Cognitive Modeling & Cognitive Systems,17,1,True,5.882352941176471
+AAAI,2023,AAAI Technical Track on Computer Vision I,139,5,True,3.597122302158273
+AAAI,2023,AAAI Technical Track on Computer Vision II,138,6,True,4.3478260869565215
+AAAI,2023,AAAI Technical Track on Computer Vision III,139,5,True,3.597122302158273
+AAAI,2023,AAAI Technical Track on Constraint Satisfaction and Optimization,27,0,True,0.0
+AAAI,2023,AAAI Technical Track on Data Mining and Knowledge Management,96,2,True,2.0833333333333335
+AAAI,2023,AAAI Technical Track on Domain(s) of Application,52,2,True,3.8461538461538463
+AAAI,2023,AAAI Technical Track on Game Theory and Economic Paradigms,55,0,True,0.0
+AAAI,2023,AAAI Technical Track on Humans and AI,26,2,True,7.6923076923076925
+AAAI,2023,AAAI Technical Track on Intelligent Robotics,7,0,True,0.0
+AAAI,2023,AAAI Technical Track on Knowledge Representation and Reasoning,48,0,True,0.0
+AAAI,2023,AAAI Technical Track on Machine Learning I,137,3,True,2.18978102189781
+AAAI,2023,AAAI Technical Track on Machine Learning II,138,3,True,2.1739130434782608
+AAAI,2023,AAAI Technical Track on Machine Learning III,137,2,True,1.4598540145985401
+AAAI,2023,AAAI Technical Track on Machine Learning IV,135,1,True,0.7407407407407407
+AAAI,2023,AAAI Technical Track on Multiagent Systems,31,1,True,3.225806451612903
+AAAI,2023,AAAI Technical Track on Philosophy and Ethics of AI,16,0,True,0.0
+AAAI,2023,"AAAI Technical Track on Planning, Routing, and Scheduling",26,1,True,3.8461538461538463
+AAAI,2023,AAAI Technical Track on Reasoning Under Uncertainty,19,0,True,0.0
+AAAI,2023,AAAI Technical Track on Search and Optimization,22,1,True,4.545454545454546
+AAAI,2023,AAAI Technical Track on Speech & Natural Language Processing,173,2,True,1.1560693641618498
+AAAI,2023,Demonstrations,34,0,False,0.0
+AAAI,2023,EAAI Symposium: AI for Education,10,0,False,0.0
+AAAI,2023,EAAI Symposium: Human-Aware AI in Sound and Music,6,0,False,0.0
+AAAI,2023,EAAI Symposium: Main Track,12,0,False,0.0
+AAAI,2023,EAAI Symposium: Model AI Assignment Abstracts,1,0,False,0.0
+AAAI,2023,EAAI Symposium: Resources for Teaching AI in K-12,10,0,False,0.0
+AAAI,2023,Errata,2,0,False,0.0
+AAAI,2023,IAAI Technical Track on Innovative Tools for Enabling AI Application,2,0,False,0.0
+AAAI,2023,IAAI Technical Track on deployed Highly Innovative Applications of AI,18,0,False,0.0
+AAAI,2023,IAAI Technical Track on emerging Applications of AI,19,0,False,0.0
+AAAI,2023,IAAI Technical Track on nnovative Inter-disciplinary AI Integration,2,0,False,0.0
+AAAI,2023,New Faculty Highlights,35,0,False,0.0
+AAAI,2023,Senior Member Presentation: Blue Sky Papers,4,0,False,0.0
+AAAI,2023,Senior Member Presentation: Bridge Papers,3,0,False,0.0
+AAAI,2023,Senior Member Presentation: Summary Papers,2,0,False,0.0
+AAAI,2024,AAAI Journal Track,25,0,False,0.0
+AAAI,2024,AAAI Technical Track on AI for Social Impact Track,77,7,True,9.090909090909092
+AAAI,2024,AAAI Technical Track on Application Domains,50,2,True,4.0
+AAAI,2024,AAAI Technical Track on Cognitive Modeling & Cognitive Systems,25,1,True,4.0
+AAAI,2024,AAAI Technical Track on Computer Vision I,122,8,True,6.557377049180328
+AAAI,2024,AAAI Technical Track on Computer Vision II,123,6,True,4.878048780487805
+AAAI,2024,AAAI Technical Track on Computer Vision III,123,5,True,4.065040650406504
+AAAI,2024,AAAI Technical Track on Computer Vision IV,123,6,True,4.878048780487805
+AAAI,2024,AAAI Technical Track on Computer Vision V,156,3,True,1.9230769230769231
+AAAI,2024,AAAI Technical Track on Computer Vision VI,157,7,True,4.45859872611465
+AAAI,2024,AAAI Technical Track on Constraint Satisfaction and Optimization,35,0,True,0.0
+AAAI,2024,AAAI Technical Track on Data Mining & Knowledge Management,135,2,True,1.4814814814814814
+AAAI,2024,AAAI Technical Track on Game Theory and Economic Paradigms,65,0,True,0.0
+AAAI,2024,AAAI Technical Track on Humans and AI,31,3,True,9.67741935483871
+AAAI,2024,AAAI Technical Track on Knowledge Representation and Reasoning,38,0,True,0.0
+AAAI,2024,AAAI Technical Track on Machine Learning I,124,2,True,1.6129032258064515
+AAAI,2024,AAAI Technical Track on Machine Learning II,123,0,True,0.0
+AAAI,2024,AAAI Technical Track on Machine Learning III,122,1,True,0.819672131147541
+AAAI,2024,AAAI Technical Track on Machine Learning IV,124,2,True,1.6129032258064515
+AAAI,2024,AAAI Technical Track on Machine Learning V,117,4,True,3.4188034188034186
+AAAI,2024,AAAI Technical Track on Machine Learning VI,118,1,True,0.847457627118644
+AAAI,2024,AAAI Technical Track on Multiagent Systems,39,0,True,0.0
+AAAI,2024,AAAI Technical Track on Natural Language Processing I,96,3,True,3.125
+AAAI,2024,AAAI Technical Track on Natural Language Processing II,144,3,True,2.0833333333333335
+AAAI,2024,AAAI Technical Track on Philosophy and Ethics of AI,24,0,True,0.0
+AAAI,2024,"AAAI Technical Track on Planning, Routing, and Scheduling",32,0,True,0.0
+AAAI,2024,AAAI Technical Track on Reasoning under Uncertainty,37,0,True,0.0
+AAAI,2024,"AAAI Technical Track on Safe, Robust and Responsible AI Track",109,1,True,0.9174311926605505
+AAAI,2024,AAAI Technical Track on Search and Optimization,32,1,True,3.125
+AAAI,2024,Intelligent Robots (ROB),16,0,True,0.0
+AAAI,2024,New Faculty Highlights,29,0,False,0.0
+AAAI,2024,Senior Member Presentation: Blue Sky Papers,6,0,False,0.0
+AAAI,2024,Senior Member Presentation: Bridge Sky Papers,1,0,False,0.0
+AAAI,2024,Senior Member Presentation: Summary Sky Papers,3,0,False,0.0
+AAAI,2025,AAAI Journal Track,7,0,False,0.0
+AAAI,2025,AAAI Technical Track on AI Alignment,66,0,True,0.0
+AAAI,2025,AAAI Technical Track on AI for Social Impact Track,88,15,True,17.045454545454547
+AAAI,2025,AAAI Technical Track on Application Domains,139,4,True,2.8776978417266186
+AAAI,2025,AAAI Technical Track on Cognitive Modeling & Cognitive Systems,50,1,True,2.0
+AAAI,2025,AAAI Technical Track on Computer Vision I,73,3,True,4.109589041095891
+AAAI,2025,AAAI Technical Track on Computer Vision II,124,9,True,7.258064516129032
+AAAI,2025,AAAI Technical Track on Computer Vision III,118,7,True,5.932203389830509
+AAAI,2025,AAAI Technical Track on Computer Vision IV,117,12,True,10.256410256410257
+AAAI,2025,AAAI Technical Track on Computer Vision IX,121,7,True,5.785123966942149
+AAAI,2025,AAAI Technical Track on Computer Vision V,123,13,True,10.56910569105691
+AAAI,2025,AAAI Technical Track on Computer Vision VI,122,11,True,9.01639344262295
+AAAI,2025,AAAI Technical Track on Computer Vision VII,123,7,True,5.691056910569106
+AAAI,2025,AAAI Technical Track on Computer Vision VIII,123,3,True,2.4390243902439024
+AAAI,2025,AAAI Technical Track on Constraint Satisfaction and Optimization,34,0,True,0.0
+AAAI,2025,AAAI Technical Track on Data Mining & Knowledge Management I,89,2,True,2.247191011235955
+AAAI,2025,AAAI Technical Track on Data Mining & Knowledge Management II,144,1,True,0.6944444444444444
+AAAI,2025,AAAI Technical Track on Game Theory and Economic Paradigms,80,0,True,0.0
+AAAI,2025,AAAI Technical Track on Humans and AI,39,11,True,28.205128205128204
+AAAI,2025,AAAI Technical Track on Intelligent Robots,26,0,True,0.0
+AAAI,2025,AAAI Technical Track on Knowledge Representation and Reasoning,57,0,True,0.0
+AAAI,2025,AAAI Technical Track on Machine Learning I,125,2,True,1.6
+AAAI,2025,AAAI Technical Track on Machine Learning II,125,2,True,1.6
+AAAI,2025,AAAI Technical Track on Machine Learning III,126,0,True,0.0
+AAAI,2025,AAAI Technical Track on Machine Learning IV,126,3,True,2.380952380952381
+AAAI,2025,AAAI Technical Track on Machine Learning V,126,1,True,0.7936507936507936
+AAAI,2025,AAAI Technical Track on Machine Learning VI,125,1,True,0.8
+AAAI,2025,AAAI Technical Track on Machine Learning VII,123,1,True,0.8130081300813008
+AAAI,2025,AAAI Technical Track on Multiagent Systems,32,0,True,0.0
+AAAI,2025,AAAI Technical Track on Natural Language Processing I,78,1,True,1.2820512820512822
+AAAI,2025,AAAI Technical Track on Natural Language Processing II,115,2,True,1.7391304347826086
+AAAI,2025,AAAI Technical Track on Natural Language Processing III,115,4,True,3.4782608695652173
+AAAI,2025,AAAI Technical Track on Philosophy and Ethics of AI,27,1,True,3.7037037037037037
+AAAI,2025,"AAAI Technical Track on Planning, Routing, and Scheduling",35,0,True,0.0
+AAAI,2025,AAAI Technical Track on Reasoning under Uncertainty,13,0,True,0.0
+AAAI,2025,AAAI Technical Track on Search and Optimization,35,0,True,0.0
+AAAI,2025,New Faculty Highlights,35,0,False,0.0
+AAAI,2025,Senior Member Presentation: Blue Sky Papers,7,0,False,0.0
+AAAI,2025,Senior Member Presentation: Bridge Sky Papers,3,0,False,0.0
+AAAI,2025,Senior Member Presentation: Summary Sky Papers,5,0,False,0.0
+ACL,2023,long,911,16,True,1.756311745334797
+ACL,2023,short,164,5,True,3.048780487804878
+ACL,2024,long,864,10,True,1.1574074074074074
+ACL,2024,short,76,1,True,1.3157894736842106
+ACL,2025,long,1602,41,True,2.5593008739076155
+ACL,2025,short,97,4,True,4.123711340206185
+CVPR,2023,main,2353,43,True,1.827454313642159
+CVPR,2024,main,2716,77,True,2.8350515463917527
+CVPR,2025,main,2871,89,True,3.099965168930686
+ECCV,2024,main,2387,69,True,2.890657729367407
+EMNLP,2023,main,1047,30,True,2.865329512893983
+EMNLP,2024,main,1268,40,True,3.1545741324921135
+EMNLP,2025,main,1809,50,True,2.7639579878385847
+ICCV,2023,main,2156,40,True,1.8552875695732838
+ICCV,2025,main,2701,86,True,3.1840059237319513
+ICLR,2023,main,1584,13,True,0.8207070707070707
+ICLR,2024,main,2260,24,True,1.0619469026548674
+ICLR,2025,main,3703,52,True,1.404266810694032
+ICML,2023,main,1828,10,True,0.5470459518599562
+ICML,2024,main,2610,24,True,0.9195402298850575
+ICML,2025,main,3330,52,True,1.5615615615615615
+KDD,2023,applied-data-science,183,10,True,5.46448087431694
+KDD,2023,research,313,9,True,2.8753993610223643
+KDD,2024,applied-data-science,151,9,True,5.960264900662252
+KDD,2024,research,411,6,True,1.4598540145985401
+KDD,2025,applied-data-science,155,8,True,5.161290322580645
+KDD,2025,datasets-and-benchmarks,64,6,True,9.375
+KDD,2025,research,552,13,True,2.3550724637681157
+NAACL,2024,long,487,14,True,2.8747433264887063
+NAACL,2024,short,75,3,True,4.0
+NAACL,2025,long,637,15,True,2.3547880690737832
+NAACL,2025,short,81,4,True,4.938271604938271
+NeurIPS,2023,datasets-and-benchmarks,322,24,True,7.453416149068323
+NeurIPS,2023,main,3218,33,True,1.0254816656308265
+NeurIPS,2024,datasets-and-benchmarks,459,36,True,7.8431372549019605
+NeurIPS,2024,main,4034,62,True,1.5369360436291521
+NeurIPS,2025,datasets-and-benchmarks,497,39,True,7.847082494969819
+NeurIPS,2025,main,5326,122,True,2.290649643259482

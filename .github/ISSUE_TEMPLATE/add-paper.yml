@@ -1,0 +1,30 @@
+name: Add a medical AI paper
+description: Suggest a paper with verifiable conference metadata.
+title: "[Paper] "
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Published paper title
+    validations:
+      required: true
+  - type: input
+    id: conference
+    attributes:
+      label: Conference, year, and track
+      placeholder: "CVPR 2025 main conference"
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Paper-specific official proceedings URL or DOI
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Medical relevance and one-sentence summary
+      description: Explain the clinical, imaging, physiological, or healthcare task. Check for existing full-title and acronym matches.
+    validations:
+      required: true

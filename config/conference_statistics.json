@@ -1,0 +1,10 @@
+{
+  "note": "Chair-reported baselines are kept separate from proceedings counts and public-snapshot decision rates. The ICLR 2023 figures are derived from the explicit year-on-year differences in the 2024 fact sheet.",
+  "official_baselines": [
+    {"venue": "ICLR", "year": 2023, "track": "main", "submitted": 4938, "accepted": 1574, "source": "https://media.iclr.cc/Conferences/ICLR2024/ICLR2024-Fact_Sheet.pdf", "basis": "Derived: 7262 minus 2324 submissions; 2260 minus 686 accepts."},
+    {"venue": "ICLR", "year": 2024, "track": "main", "submitted": 7262, "accepted": 2260, "source": "https://media.iclr.cc/Conferences/ICLR2024/ICLR2024-Fact_Sheet.pdf", "basis": "Program Committee Statistics, page 2."},
+    {"venue": "ICLR", "year": 2025, "track": "main", "submitted": 11603, "accepted": 3704, "source": "https://media.iclr.cc/Conferences/ICLR2025/ICLR2025_Fact_Sheet.pdf", "basis": "Program Committee Statistics."},
+    {"venue": "NeurIPS", "year": 2024, "track": "main", "submitted": 15671, "accepted": 4037, "source": "https://media.neurips.cc/Conferences/NeurIPS2024/NeurIPS2024-Fact_Sheet.pdf", "basis": "Main conference track, excluding Datasets and Benchmarks."},
+    {"venue": "NeurIPS", "year": 2025, "track": "main", "submitted": 21575, "accepted": 5290, "source": "https://blog.neurips.cc/2025/09/30/reflections-on-the-2025-review-process-from-the-program-committee-chairs/", "basis": "Program Committee Chairs: valid main-track submissions."}
+  ]
+}

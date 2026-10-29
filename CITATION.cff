@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this collection or its original analyses, cite this resource and cite the original papers separately."
+title: "Awesome Medical AI Papers: Conference Papers and Research Trends, 2023–2025"
+type: dataset
+authors:
+  - name: "Awesome Medical AI Papers contributors"
+repository-code: "https://github.com/Nanboy-Ronan/awesome-medical-ai-papers"
+url: "https://nanboy-ronan.github.io/awesome-medical-ai-papers/"
+license: CC0-1.0
+keywords:
+  - medical AI
+  - healthcare AI
+  - medical imaging
+  - clinical NLP
+  - conference papers
+  - research trends

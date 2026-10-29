@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "text_field": "title",
+  "phrase_stopword_exceptions": ["model", "models", "large"],
+  "note": "Transparent multi-label title rules; keyword absence is not proof that a topic is absent. No abstract-only topic counts are mixed into the title time series.",
+  "domains": {
+    "Medical imaging and reconstruction": ["medical imag", "biomedical imag", "radiolog", "radiograph", "x-ray", "tomograph", "\\bmri\\b", "ultrasound", "echocardiograph", "fundus", "retin", "ophthalm", "dermoscop", "anatom", "organ segment", "tumou?r", "lesion", "polyp", "dental"],
+    "Pathology and microscopy": ["histopath", "histolog", "patholog", "whole.slide", "\\bwsi\\b", "gigapixel", "microscop", "nucle[ui]", "cytolog", "cell (?:segment|track|detect|morph)", "mitochond", "organoid"],
+    "Clinical language and medical QA": ["medical.*(?:question|answer|language|text|reason|dialog)", "clinical.*(?:language|text|question|reason|dialog|note|summar)", "biomedical.*(?:language|text|relation|entit|retriev|summar|reason)", "report generation", "radiology report", "medical report", "medical.*(?:llm|chat|gpt)", "\\bvqa\\b"],
+    "EHR, prognosis and treatment": ["\\behr\\b", "electronic health", "electronic medical", "health record", "mortality", "readmission", "survival", "prognos", "treatment", "medication", "prescri", "patient.*(?:risk|predict|record)", "clinical trial", "sepsis"],
+    "Brain, EEG and BCI": ["brain", "\\beeg\\b", "\\bfmri\\b", "electroencephal", "neuroimag", "neural decod", "intracranial", "brain.computer", "\\bbci\\b", "alzheimer", "dementia", "epilep", "seizure"],
+    "Physiology, wearables and sleep": ["\\becg\\b", "\\bekg\\b", "\\bppg\\b", "physiolog", "electrocardio", "wearable", "sleep", "heart.rate", "blood pressure", "blood glucose", "respirat", "photoplethysmograph"],
+    "Mental health and behavior": ["mental health", "psychiatr", "depress", "suicid", "psychotherap", "psychosis", "autism", "cognitive impair", "mental disorder"],
+    "Surgical AI": ["surg", "endoscop", "laparoscop", "operative", "instrument segmentation", "instrument recognition"],
+    "Public health and care delivery": ["public health", "epidemi", "pandemic", "covid", "health insurance", "mobile.health", "maternal", "reproductive health", "nutrition", "health.aware", "health information", "community health", "healthcare", "health care"]
+  },
+  "methods": {
+    "Segmentation": ["segment"],
+    "Large language models": ["large language", "\\bllms?\\b", "\\bgpt\\b", "chatgpt", "chatbot", "instruction tun", "medical assistant", "biomedical assistant"],
+    "Vision-language and multimodal": ["vision.language", "vision.and.language", "visual.language", "multimodal", "multi.modal", "image.text", "\\bvqa\\b", "visual question"],
+    "Foundation models and SAM": ["foundation model", "segment anything", "\\bsam\\b", "medsam", "pre.train"],
+    "Diffusion models": ["diffusion", "score.based generat", "flow matching"],
+    "Transformers and attention": ["transformer", "attention", "\\bvit\\b"],
+    "Graph learning": ["\\bgraph", "\\bgnn\\b", "hypergraph", "connectom"],
+    "Self-supervised and contrastive": ["self.supervis", "contrastive", "masked.*(?:autoencod|model|learn)"],
+    "Weak, semi and few-shot learning": ["semi.supervis", "weakly.supervis", "few.shot", "zero.shot", "one.shot", "limited.*(?:label|annotat)", "sparse.*supervis"],
+    "Federated learning and privacy": ["federat", "privacy", "private", "de.identif"],
+    "Robustness and domain shift": ["domain adapt", "domain general", "test.time", "out.of.distribution", "robust", "distribution shift"],
+    "Fairness, uncertainty and explainability": ["fair", "uncertain", "calibrat", "conformal", "interpret", "explainab", "hallucinat", "trustworth"],
+    "Causal and reinforcement learning": ["causal", "counterfactual", "reinforcement", "bandit", "treatment effect", "treatment regime"],
+    "Datasets, benchmarks and evaluation": ["dataset", "benchmark", "evaluat", "corpus", "corpora", "survey", "systematic review"]
+  },
+  "medical_proxy_patterns": ["\\bmedical\\b", "\\bclinical\\b", "\\bhealthcare\\b", "health care", "radiolog", "radiograph", "chest x", "histopath", "whole.slide", "electronic health", "health record", "\\behr\\b", "\\beeg\\b", "\\becg\\b", "\\bekg\\b", "\\bppg\\b", "\\bfmri\\b", "\\bmri\\b", "neuroimag", "electroencephal", "electrocardio", "physiolog", "surg", "ultrasound", "echocardiograph", "retin", "fundus", "tumou?r", "cancer", "lesion", "polyp", "mental health", "depress", "suicid", "alzheimer", "dementia", "epilep", "seizure", "sleep stag", "sleep apnea", "brain.computer", "brain decod", "brain activit", "mortality", "readmission", "sepsis", "diabet", "patient", "hospital", "intensive care"],
+  "broad_proxy_patterns": ["biomedical", "brain", "health", "survival", "treatment", "microscop", "wearable"],
+  "false_positive_patterns": ["software diagnos", "fault diagnos", "fault detect", "industrial", "bearing", "vector.*stroke", "sketch.*stroke", "stroke.*sketch", "cognitive diagnos", "medical school admission"],
+  "stopwords": "a an and are as at based be been between by can data deep for from general image images in into is it its learning medical method methods model models network networks neural new of on or our paper prediction representation representations study task tasks that the their this through to towards using via we with without approach framework analysis ai improved improving efficient effective robust novel toward modeling large multi cross end state art supervised understanding generalization benchmark datasets dataset train training test time classification generation segmentation applications application healthcare clinical biomedical"
+}

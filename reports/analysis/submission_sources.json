@@ -1,0 +1,92 @@
+{
+  "sources": [
+    {
+      "kind": "third_party_openreview_snapshot",
+      "publisher": "Paper Copilot",
+      "repository": "https://github.com/papercopilot/paperlists",
+      "commit": "9fcfd1234879a8e5630b5116dde411ec143dd763",
+      "url": "https://raw.githubusercontent.com/papercopilot/paperlists/9fcfd1234879a8e5630b5116dde411ec143dd763/iclr/iclr2023.json",
+      "sha256": "fac275dde32ef7b9ebeee8a8b38c0de41028b0f249cd8f2a2736cf25eb3c5120",
+      "limitation": "Historical third-party snapshot, not a live official census. Counts can differ from chair statistics and proceedings.",
+      "venue": "ICLR",
+      "year": 2023,
+      "count": 4955,
+      "statuses": {
+        "withdrawn": 1077,
+        "rejected": 2285,
+        "accepted": 1575,
+        "desk_rejected": 18
+      }
+    },
+    {
+      "kind": "third_party_openreview_snapshot",
+      "publisher": "Paper Copilot",
+      "repository": "https://github.com/papercopilot/paperlists",
+      "commit": "9fcfd1234879a8e5630b5116dde411ec143dd763",
+      "url": "https://raw.githubusercontent.com/papercopilot/paperlists/9fcfd1234879a8e5630b5116dde411ec143dd763/iclr/iclr2024.json",
+      "sha256": "a18726a3da8ae573eadcfc493e62e0484b37924c7c0c61596c3200137b4d0755",
+      "limitation": "Historical third-party snapshot, not a live official census. Counts can differ from chair statistics and proceedings.",
+      "venue": "ICLR",
+      "year": 2024,
+      "count": 7404,
+      "statuses": {
+        "withdrawn": 1653,
+        "rejected": 3438,
+        "accepted": 2260,
+        "desk_rejected": 53
+      }
+    },
+    {
+      "kind": "third_party_openreview_snapshot",
+      "publisher": "Paper Copilot",
+      "repository": "https://github.com/papercopilot/paperlists",
+      "commit": "9fcfd1234879a8e5630b5116dde411ec143dd763",
+      "url": "https://media.githubusercontent.com/media/papercopilot/paperlists/9fcfd1234879a8e5630b5116dde411ec143dd763/iclr/iclr2025.json",
+      "sha256": "d288d0348d121671156481f0939312a45abbc5f95511c15c4b9a6e9675d19549",
+      "limitation": "Historical third-party snapshot, not a live official census. Counts can differ from chair statistics and proceedings.",
+      "venue": "ICLR",
+      "year": 2025,
+      "count": 11672,
+      "statuses": {
+        "accepted": 3703,
+        "rejected": 4911,
+        "withdrawn": 2988,
+        "desk_rejected": 70
+      }
+    }
+  ],
+  "http_sources": [
+    {
+      "url": "https://raw.githubusercontent.com/papercopilot/paperlists/9fcfd1234879a8e5630b5116dde411ec143dd763/iclr/iclr2023.json",
+      "resolved_url": "https://raw.githubusercontent.com/papercopilot/paperlists/9fcfd1234879a8e5630b5116dde411ec143dd763/iclr/iclr2023.json",
+      "fetched_at": "2026-10-29T20:45:42.773684+00:00",
+      "sha256": "fac275dde32ef7b9ebeee8a8b38c0de41028b0f249cd8f2a2736cf25eb3c5120",
+      "bytes": 30711421,
+      "cached": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/papercopilot/paperlists/9fcfd1234879a8e5630b5116dde411ec143dd763/iclr/iclr2024.json",
+      "resolved_url": "https://raw.githubusercontent.com/papercopilot/paperlists/9fcfd1234879a8e5630b5116dde411ec143dd763/iclr/iclr2024.json",
+      "fetched_at": "2026-10-29T20:45:45.879561+00:00",
+      "sha256": "a18726a3da8ae573eadcfc493e62e0484b37924c7c0c61596c3200137b4d0755",
+      "bytes": 44505800,
+      "cached": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/papercopilot/paperlists/9fcfd1234879a8e5630b5116dde411ec143dd763/iclr/iclr2025.json",
+      "resolved_url": "https://raw.githubusercontent.com/papercopilot/paperlists/9fcfd1234879a8e5630b5116dde411ec143dd763/iclr/iclr2025.json",
+      "fetched_at": "2026-10-29T20:45:46.165379+00:00",
+      "sha256": "5eaa5bac9b62eafa580e2853ca2b015668569e7e141c36e5ca757449312dfa04",
+      "bytes": 133,
+      "cached": true
+    },
+    {
+      "url": "https://media.githubusercontent.com/media/papercopilot/paperlists/9fcfd1234879a8e5630b5116dde411ec143dd763/iclr/iclr2025.json",
+      "resolved_url": "https://media.githubusercontent.com/media/papercopilot/paperlists/9fcfd1234879a8e5630b5116dde411ec143dd763/iclr/iclr2025.json",
+      "fetched_at": "2026-10-29T20:45:49.047062+00:00",
+      "sha256": "d288d0348d121671156481f0939312a45abbc5f95511c15c4b9a6e9675d19549",
+      "bytes": 54962845,
+      "cached": true
+    }
+  ]
+}

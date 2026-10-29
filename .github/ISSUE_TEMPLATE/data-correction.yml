@@ -1,0 +1,16 @@
+name: Correct metadata or research data
+description: Report a title, URL, year, topic label, count, or denominator problem.
+title: "[Correction] "
+body:
+  - type: textarea
+    id: issue
+    attributes:
+      label: Entry or statistic and proposed correction
+    validations:
+      required: true
+  - type: input
+    id: evidence
+    attributes:
+      label: Supporting primary source
+    validations:
+      required: true

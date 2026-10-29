@@ -1,0 +1,459 @@
+{
+  "years": [
+    2023,
+    2024,
+    2025
+  ],
+  "curated_papers": 1430,
+  "yearly": [
+    {
+      "year": 2023,
+      "catalog_records": 16102,
+      "eligible_research_records": 15799,
+      "curated_medical_records": 282,
+      "curated_share_pct": 1.7849230963985063,
+      "held_editions": 9
+    },
+    {
+      "year": 2024,
+      "catalog_records": 20379,
+      "eligible_research_records": 20315,
+      "curated_medical_records": 443,
+      "curated_share_pct": 2.1806546886537044,
+      "held_editions": 10
+    },
+    {
+      "year": 2025,
+      "catalog_records": 26664,
+      "eligible_research_records": 26607,
+      "curated_medical_records": 705,
+      "curated_share_pct": 2.649678655992784,
+      "held_editions": 10
+    }
+  ],
+  "balanced": [
+    {
+      "year": 2023,
+      "common_families": 9,
+      "equal_weight_family_share_pct": 2.0176627392097277
+    },
+    {
+      "year": 2024,
+      "common_families": 9,
+      "equal_weight_family_share_pct": 2.1759802317745396
+    },
+    {
+      "year": 2025,
+      "common_families": 9,
+      "equal_weight_family_share_pct": 2.7584597562737403
+    }
+  ],
+  "common_families": [
+    "AAAI",
+    "ACL",
+    "CVPR",
+    "EMNLP",
+    "ICCV/ECCV",
+    "ICLR",
+    "ICML",
+    "KDD",
+    "NeurIPS"
+  ],
+  "topic_label_coverage": [
+    {
+      "year": 2023,
+      "family": "domain",
+      "matched_papers": 234,
+      "unmatched_papers": 48,
+      "medical_papers": 282,
+      "matched_pct": 82.97872340425532
+    },
+    {
+      "year": 2023,
+      "family": "method",
+      "matched_papers": 183,
+      "unmatched_papers": 99,
+      "medical_papers": 282,
+      "matched_pct": 64.8936170212766
+    },
+    {
+      "year": 2024,
+      "family": "domain",
+      "matched_papers": 349,
+      "unmatched_papers": 94,
+      "medical_papers": 443,
+      "matched_pct": 78.78103837471784
+    },
+    {
+      "year": 2024,
+      "family": "method",
+      "matched_papers": 295,
+      "unmatched_papers": 148,
+      "medical_papers": 443,
+      "matched_pct": 66.59142212189616
+    },
+    {
+      "year": 2025,
+      "family": "domain",
+      "matched_papers": 570,
+      "unmatched_papers": 135,
+      "medical_papers": 705,
+      "matched_pct": 80.85106382978724
+    },
+    {
+      "year": 2025,
+      "family": "method",
+      "matched_papers": 490,
+      "unmatched_papers": 215,
+      "medical_papers": 705,
+      "matched_pct": 69.50354609929079
+    }
+  ],
+  "acceptance_rates": [
+    {
+      "venue": "ICLR",
+      "year": 2023,
+      "group": "medical_keyword",
+      "definition": "specific_title_proxy",
+      "accepted": 12,
+      "rejected": 21,
+      "desk_rejected": 1,
+      "withdrawn": 14,
+      "unknown": 0,
+      "decision_denominator": 33,
+      "decision_rate_pct": 36.36363636363637,
+      "wilson95_low_pct": 22.187178235242673,
+      "wilson95_high_pct": 53.38382169773315,
+      "observed_pool_denominator": 48,
+      "accepted_fraction_observed_pool_pct": 25.0
+    },
+    {
+      "venue": "ICLR",
+      "year": 2023,
+      "group": "other_titles",
+      "definition": "specific_title_proxy",
+      "accepted": 1563,
+      "rejected": 2264,
+      "desk_rejected": 17,
+      "withdrawn": 1063,
+      "unknown": 0,
+      "decision_denominator": 3827,
+      "decision_rate_pct": 40.8413901228116,
+      "wilson95_low_pct": 39.29400718749504,
+      "wilson95_high_pct": 42.407141044940566,
+      "observed_pool_denominator": 4907,
+      "accepted_fraction_observed_pool_pct": 31.85245567556552
+    },
+    {
+      "venue": "ICLR",
+      "year": 2023,
+      "group": "medical_keyword",
+      "definition": "broad_sensitivity",
+      "accepted": 17,
+      "rejected": 43,
+      "desk_rejected": 1,
+      "withdrawn": 23,
+      "unknown": 0,
+      "decision_denominator": 60,
+      "decision_rate_pct": 28.333333333333332,
+      "wilson95_low_pct": 18.506828428432936,
+      "wilson95_high_pct": 40.76728516439083,
+      "observed_pool_denominator": 84,
+      "accepted_fraction_observed_pool_pct": 20.238095238095237
+    },
+    {
+      "venue": "ICLR",
+      "year": 2023,
+      "group": "other_titles",
+      "definition": "broad_sensitivity",
+      "accepted": 1558,
+      "rejected": 2242,
+      "desk_rejected": 17,
+      "withdrawn": 1054,
+      "unknown": 0,
+      "decision_denominator": 3800,
+      "decision_rate_pct": 41.0,
+      "wilson95_low_pct": 39.446077536327195,
+      "wilson95_high_pct": 42.57210047122676,
+      "observed_pool_denominator": 4871,
+      "accepted_fraction_observed_pool_pct": 31.985218640936154
+    },
+    {
+      "venue": "ICLR",
+      "year": 2023,
+      "group": "all_titles",
+      "definition": "snapshot_baseline",
+      "accepted": 1575,
+      "rejected": 2285,
+      "desk_rejected": 18,
+      "withdrawn": 1077,
+      "unknown": 0,
+      "decision_denominator": 3860,
+      "decision_rate_pct": 40.803108808290155,
+      "wilson95_low_pct": 39.26257224387146,
+      "wilson95_high_pct": 42.36193260274553,
+      "observed_pool_denominator": 4955,
+      "accepted_fraction_observed_pool_pct": 31.786074672048436
+    },
+    {
+      "venue": "ICLR",
+      "year": 2024,
+      "group": "medical_keyword",
+      "definition": "specific_title_proxy",
+      "accepted": 23,
+      "rejected": 49,
+      "desk_rejected": 0,
+      "withdrawn": 32,
+      "unknown": 0,
+      "decision_denominator": 72,
+      "decision_rate_pct": 31.944444444444443,
+      "wilson95_low_pct": 22.325610278262204,
+      "wilson95_high_pct": 43.39234873216534,
+      "observed_pool_denominator": 104,
+      "accepted_fraction_observed_pool_pct": 22.115384615384617
+    },
+    {
+      "venue": "ICLR",
+      "year": 2024,
+      "group": "other_titles",
+      "definition": "specific_title_proxy",
+      "accepted": 2237,
+      "rejected": 3389,
+      "desk_rejected": 53,
+      "withdrawn": 1621,
+      "unknown": 0,
+      "decision_denominator": 5626,
+      "decision_rate_pct": 39.7618201208674,
+      "wilson95_low_pct": 38.490380183874876,
+      "wilson95_high_pct": 41.04723187098903,
+      "observed_pool_denominator": 7300,
+      "accepted_fraction_observed_pool_pct": 30.643835616438356
+    },
+    {
+      "venue": "ICLR",
+      "year": 2024,
+      "group": "medical_keyword",
+      "definition": "broad_sensitivity",
+      "accepted": 41,
+      "rejected": 80,
+      "desk_rejected": 0,
+      "withdrawn": 47,
+      "unknown": 0,
+      "decision_denominator": 121,
+      "decision_rate_pct": 33.88429752066116,
+      "wilson95_low_pct": 26.06267640395852,
+      "wilson95_high_pct": 42.697701463770066,
+      "observed_pool_denominator": 168,
+      "accepted_fraction_observed_pool_pct": 24.404761904761905
+    },
+    {
+      "venue": "ICLR",
+      "year": 2024,
+      "group": "other_titles",
+      "definition": "broad_sensitivity",
+      "accepted": 2219,
+      "rejected": 3358,
+      "desk_rejected": 53,
+      "withdrawn": 1606,
+      "unknown": 0,
+      "decision_denominator": 5577,
+      "decision_rate_pct": 39.78841671149363,
+      "wilson95_low_pct": 38.511273912645336,
+      "wilson95_high_pct": 41.079617382075554,
+      "observed_pool_denominator": 7236,
+      "accepted_fraction_observed_pool_pct": 30.666113875069097
+    },
+    {
+      "venue": "ICLR",
+      "year": 2024,
+      "group": "all_titles",
+      "definition": "snapshot_baseline",
+      "accepted": 2260,
+      "rejected": 3438,
+      "desk_rejected": 53,
+      "withdrawn": 1653,
+      "unknown": 0,
+      "decision_denominator": 5698,
+      "decision_rate_pct": 39.66303966303966,
+      "wilson95_low_pct": 38.40021430750707,
+      "wilson95_high_pct": 40.939793503870334,
+      "observed_pool_denominator": 7404,
+      "accepted_fraction_observed_pool_pct": 30.52404105888709
+    },
+    {
+      "venue": "ICLR",
+      "year": 2025,
+      "group": "medical_keyword",
+      "definition": "specific_title_proxy",
+      "accepted": 46,
+      "rejected": 111,
+      "desk_rejected": 1,
+      "withdrawn": 77,
+      "unknown": 0,
+      "decision_denominator": 157,
+      "decision_rate_pct": 29.29936305732484,
+      "wilson95_low_pct": 22.742615406465134,
+      "wilson95_high_pct": 36.844918506378804,
+      "observed_pool_denominator": 235,
+      "accepted_fraction_observed_pool_pct": 19.574468085106382
+    },
+    {
+      "venue": "ICLR",
+      "year": 2025,
+      "group": "other_titles",
+      "definition": "specific_title_proxy",
+      "accepted": 3657,
+      "rejected": 4800,
+      "desk_rejected": 69,
+      "withdrawn": 2911,
+      "unknown": 0,
+      "decision_denominator": 8457,
+      "decision_rate_pct": 43.24228449804895,
+      "wilson95_low_pct": 42.18972708674472,
+      "wilson95_high_pct": 44.30097829329302,
+      "observed_pool_denominator": 11437,
+      "accepted_fraction_observed_pool_pct": 31.97516831336889
+    },
+    {
+      "venue": "ICLR",
+      "year": 2025,
+      "group": "medical_keyword",
+      "definition": "broad_sensitivity",
+      "accepted": 86,
+      "rejected": 153,
+      "desk_rejected": 2,
+      "withdrawn": 102,
+      "unknown": 0,
+      "decision_denominator": 239,
+      "decision_rate_pct": 35.98326359832636,
+      "wilson95_low_pct": 30.164441363552676,
+      "wilson95_high_pct": 42.24554154242609,
+      "observed_pool_denominator": 343,
+      "accepted_fraction_observed_pool_pct": 25.072886297376094
+    },
+    {
+      "venue": "ICLR",
+      "year": 2025,
+      "group": "other_titles",
+      "definition": "broad_sensitivity",
+      "accepted": 3617,
+      "rejected": 4758,
+      "desk_rejected": 68,
+      "withdrawn": 2886,
+      "unknown": 0,
+      "decision_denominator": 8375,
+      "decision_rate_pct": 43.188059701492534,
+      "wilson95_low_pct": 42.13056318993033,
+      "wilson95_high_pct": 44.251802372091014,
+      "observed_pool_denominator": 11329,
+      "accepted_fraction_observed_pool_pct": 31.926913231529703
+    },
+    {
+      "venue": "ICLR",
+      "year": 2025,
+      "group": "all_titles",
+      "definition": "snapshot_baseline",
+      "accepted": 3703,
+      "rejected": 4911,
+      "desk_rejected": 70,
+      "withdrawn": 2988,
+      "unknown": 0,
+      "decision_denominator": 8614,
+      "decision_rate_pct": 42.98815881123752,
+      "wilson95_low_pct": 41.94606431969226,
+      "wilson95_high_pct": 44.03650445031492,
+      "observed_pool_denominator": 11672,
+      "accepted_fraction_observed_pool_pct": 31.725496915695683
+    }
+  ],
+  "submission_validation": [
+    {
+      "venue": "ICLR",
+      "year": 2023,
+      "snapshot_accepted": 1575,
+      "accepted_exact_title_matches_to_catalog": 1574,
+      "accepted_title_match_pct": 99.93650793650794,
+      "indexed_catalog_papers": 1584,
+      "unresolved_status": 0
+    },
+    {
+      "venue": "ICLR",
+      "year": 2024,
+      "snapshot_accepted": 2260,
+      "accepted_exact_title_matches_to_catalog": 2260,
+      "accepted_title_match_pct": 100.0,
+      "indexed_catalog_papers": 2260,
+      "unresolved_status": 0
+    },
+    {
+      "venue": "ICLR",
+      "year": 2025,
+      "snapshot_accepted": 3703,
+      "accepted_exact_title_matches_to_catalog": 3696,
+      "accepted_title_match_pct": 99.8109640831758,
+      "indexed_catalog_papers": 3703,
+      "unresolved_status": 0
+    }
+  ],
+  "official_baselines": [
+    {
+      "venue": "ICLR",
+      "year": 2023,
+      "track": "main",
+      "submitted": 4938,
+      "accepted": 1574,
+      "source": "https://media.iclr.cc/Conferences/ICLR2024/ICLR2024-Fact_Sheet.pdf",
+      "basis": "Derived: 7262 minus 2324 submissions; 2260 minus 686 accepts."
+    },
+    {
+      "venue": "ICLR",
+      "year": 2024,
+      "track": "main",
+      "submitted": 7262,
+      "accepted": 2260,
+      "source": "https://media.iclr.cc/Conferences/ICLR2024/ICLR2024-Fact_Sheet.pdf",
+      "basis": "Program Committee Statistics, page 2."
+    },
+    {
+      "venue": "ICLR",
+      "year": 2025,
+      "track": "main",
+      "submitted": 11603,
+      "accepted": 3704,
+      "source": "https://media.iclr.cc/Conferences/ICLR2025/ICLR2025_Fact_Sheet.pdf",
+      "basis": "Program Committee Statistics."
+    },
+    {
+      "venue": "NeurIPS",
+      "year": 2024,
+      "track": "main",
+      "submitted": 15671,
+      "accepted": 4037,
+      "source": "https://media.neurips.cc/Conferences/NeurIPS2024/NeurIPS2024-Fact_Sheet.pdf",
+      "basis": "Main conference track, excluding Datasets and Benchmarks."
+    },
+    {
+      "venue": "NeurIPS",
+      "year": 2025,
+      "track": "main",
+      "submitted": 21575,
+      "accepted": 5290,
+      "source": "https://blog.neurips.cc/2025/09/30/reflections-on-the-2025-review-process-from-the-program-committee-chairs/",
+      "basis": "Program Committee Chairs: valid main-track submissions."
+    }
+  ],
+  "provenance": {
+    "input_sha256": {
+      "data/papers.jsonl": "a56f53a7c0789116775c140df58f9b84d5024223245cb21aadbbb42cc5f252c3",
+      "README.md": "0ca95f5eca70aa53a686fadc2fcbe789ee5c4d78031f8b3d0b208e320d5e6f23",
+      "config/research_topics.json": "f7e8fad9ebc41aff428e172fab8e1218774d10fc25510711eb1237f24b6db809",
+      "config/conference_statistics.json": "255bc5ffb0db00c396b5d2f9b7e7b2906c8d2fb111fa2f56ce4cc948e250e499",
+      "data/submissions.jsonl": "645da4676a5c42af51df721cc1530e51451e065ffed494a7332b81a6ff704c68"
+    },
+    "corpus": "Exact normalized README title + conference + publication-year join; title-only topic and keyword analysis",
+    "snapshot_fetcher": "scripts/fetch_submissions.py",
+    "submission_rows": 24031,
+    "missing_submission_data": false
+  },
+  "interpretation": "Descriptive snapshot, not evidence of review preference, causal effects, or exhaustive medical coverage."
+}

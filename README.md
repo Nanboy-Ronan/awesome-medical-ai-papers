@@ -4,6 +4,10 @@
 
 Covers **2023–2025**. Organized by conference publication year, which may differ from the arXiv submission year. Contributions welcome — see [Contributing](#contributing).
 
+[Search the paper catalog](https://nanboy-ronan.github.io/awesome-medical-ai-papers/#catalog) · [Research and open data](reports/analysis/README.md) · [中文研究摘要](docs/research-summary.zh-CN.md) · [Suggest a paper](https://github.com/Nanboy-Ronan/awesome-medical-ai-papers/issues/new/choose)
+
+If this collection helps your research, [star the repository](https://github.com/Nanboy-Ronan/awesome-medical-ai-papers) to bookmark it. Contributions and metadata corrections keep it useful.
+
 ---
 
 <!-- curated-counts:start -->
@@ -49,8 +53,23 @@ Counts describe this curated list, not all relevant papers in each proceedings. 
 - [NAACL](#naacl)
 - [AAAI](#aaai)
 - [KDD](#kdd)
+- [Research and data](#research-and-data)
 - [Proceedings indexing](#proceedings-indexing)
 - [Contributing](#contributing)
+
+---
+
+## Research and data
+
+The list comes with three reproducible studies, publication-year figures, and downloadable CSV data:
+
+1. **[Medical AI's share of conference proceedings](reports/analysis/medical-share.md)** — Curated medical papers account for **1.78%, 2.18%, and 2.65%** of eligible indexed research papers in 2023, 2024, and 2025. These are observed lower-bound shares, affected by curation coverage and venue mix.
+2. **[ICLR medical-keyword versus other-title decision rates](reports/analysis/acceptance-rates.md)** — A consistent title classifier applied to public 2023–2025 submission snapshots, with explicit accepted/rejected denominators, withdrawals, source limitations, and confidence intervals. This is not a domain acceptance-rate census of all conferences.
+3. **[Topics, methods, and title keywords by year](reports/analysis/topics.md)** — Multi-label domain/method analysis. Vision-language and multimodal title matches rise from **8.5% to 16.5%** of the curated medical corpus between 2023 and 2025; LLM title matches rise from **2.5% to 9.6%**.
+
+![Observed lower-bound medical share of eligible indexed conference papers, 2023–2025](reports/analysis/figures/medical-share.svg)
+
+Publication share and submission acceptance rate have different denominators. See the [methodology](docs/research-methodology.md), [paper-level labels](reports/analysis/medical_papers.csv), [input provenance](reports/analysis/summary.json), and [citation metadata](CITATION.cff). The [searchable website](https://nanboy-ronan.github.io/awesome-medical-ai-papers/) provides conference, year, and topic entry points.
 
 ---
 
