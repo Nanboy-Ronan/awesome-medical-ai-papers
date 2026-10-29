@@ -2,7 +2,7 @@
 
 > A curated list of medical AI, healthcare AI, and medical imaging papers published at top CS/AI conferences: **CVPR, NeurIPS, ICLR, ICML, ICCV, ECCV, ACL, EMNLP, NAACL, AAAI, KDD**, and more.
 
-Covers **2023–2025**. Organized by conference. Contributions welcome — see [Contributing](#contributing).
+Covers **2023–2025**. Organized by conference publication year, which may differ from the arXiv submission year. Contributions welcome — see [Contributing](#contributing).
 
 ---
 
@@ -14,7 +14,9 @@ Covers **2023–2025**. Organized by conference. Contributions welcome — see [
 | 🧫 | Computational Pathology |
 | 🤖 | Foundation Models & Vision-Language |
 | 📋 | Clinical NLP & EHR |
-| 🧠 | Neuroimaging & Brain AI |
+| 🧠 | Neuroimaging, EEG & Brain AI |
+| 🫀 | Physiological Signals & Medical Time Series |
+| 🏥 | Surgical AI |
 
 ---
 
@@ -53,6 +55,13 @@ Covers **2023–2025**. Organized by conference. Contributions welcome — see [
 - **[BiomedCoOp: Learning to Prompt for Biomedical Vision-Language Models](https://arxiv.org/abs/2411.15232)** — Context optimization for prompt learning in biomedical vision-language models.
 - **[BIOMEDICA: An Open Biomedical Image-Caption Archive and Vision-Language Models Derived from Scientific Literature](https://arxiv.org/abs/2501.07171)** — Large-scale open archive of biomedical image-caption pairs mined from scientific literature.
 - **[MedUnifier: Unifying Vision-and-Language Pre-training for Medical Vision-Language Models with Pixel-level Image Editing](https://arxiv.org/abs/2503.01019)** — Unified pre-training framework bridging medical vision and language with pixel-level editing tasks.
+- **[MIMO: A Medical Vision Language Model with Visual Referring Multimodal Input and Pixel Grounding Multimodal Output](https://openaccess.thecvf.com/content/CVPR2025/html/Chen_MIMO_A_Medical_Vision_Language_Model_with_Visual_Referring_Multimodal_CVPR_2025_paper.html)** — Accepts visual references alongside text instructions and grounds generated medical terminology in image regions.
+- **[Alignment, Mining and Fusion: Representation Alignment with Hard Negative Mining and Selective Knowledge Fusion for Medical Visual Question Answering](https://openaccess.thecvf.com/content/CVPR2025/html/Zou_Alignment_Mining_and_Fusion_Representation_Alignment_with_Hard_Negative_Mining_CVPR_2025_paper.html)** — Combines multi-level image-text alignment, hard negative mining, and gated knowledge fusion for medical VQA.
+- **[Multi-modal Vision Pre-training for Medical Image Analysis](https://openaccess.thecvf.com/content/CVPR2025/html/Rui_Multi-modal_Vision_Pre-training_for_Medical_Image_Analysis_CVPR_2025_paper.html)** — BrainMVP learns cross-modality MRI representations through reconstruction, contrastive learning, and modality template distillation.
+
+#### 🔬 Patient Identification & Privacy
+
+- **[Towards All-in-One Medical Image Re-Identification](https://openaccess.thecvf.com/content/CVPR2025/html/Tian_Towards_All-in-One_Medical_Image_Re-Identification_CVPR_2025_paper.html)** — Benchmarks patient re-identification across imaging modalities and introduces modality-adaptive representations for personalized diagnosis and privacy analysis.
 
 #### 🧫 Computational Pathology
 
@@ -122,6 +131,10 @@ Covers **2023–2025**. Organized by conference. Contributions welcome — see [
 - **[MedM2G: Unifying Medical Multi-Modal Generation via Cross-Guided Diffusion with Visual Invariant](https://arxiv.org/abs/2403.04290)** — Unified multi-modal medical image generation via cross-guided diffusion.
 - **[FocusMAE: Gallbladder Cancer Detection from Ultrasound Videos with Focused Masked Autoencoders](https://arxiv.org/abs/2403.08848)** — Masked autoencoding focused on lesion regions for cancer detection in ultrasound video.
 
+#### 🏥 Surgical AI
+
+- **[Intraoperative 2D/3D Image Registration via Differentiable X-ray Rendering](https://openaccess.thecvf.com/content/CVPR2024/html/Gopalakrishnan_Intraoperative_2D3D_Image_Registration_via_Differentiable_X-ray_Rendering_CVPR_2024_paper.html)** — DiffPose combines patient-specific simulation with differentiable rendering to align intraoperative X-rays with preoperative CT without landmark annotations.
+
 ---
 
 ### CVPR 2023
@@ -156,6 +169,40 @@ Covers **2023–2025**. Organized by conference. Contributions welcome — see [
 ---
 
 ## NeurIPS
+
+### NeurIPS 2025
+
+#### 🔬 Medical Imaging & Segmentation
+
+- **[Pancakes: Consistent Multi-Protocol Image Segmentation Across Biomedical Domains](https://proceedings.neurips.cc/paper_files/paper/2025/hash/3cd5473f038dfb5357e3544cc1cb3b98-Abstract-Conference.html)** — Generates multiple plausible segmentation protocols for unseen biomedical domains while maintaining semantic consistency across images.
+- **[PanTS: The Pancreatic Tumor Segmentation Dataset](https://proceedings.neurips.cc/paper_files/paper/2025/hash/2dc24f4adc257251b2f3929c67ec1e3a-Abstract-Datasets_and_Benchmarks_Track.html)** — Multi-institutional CT dataset with expert-validated annotations of pancreatic tumors, pancreatic subregions, and surrounding anatomy. *Datasets and Benchmarks Track*
+- **[The Boundaries of Fair AI in Medical Image Prognosis: A Causal Perspective](https://proceedings.neurips.cc/paper_files/paper/2025/hash/c1715562b2227580b6c6db2050d7f6d2-Abstract-Conference.html)** — FairTTE studies demographic disparities and their causal sources in imaging-based time-to-event prediction, including under distribution shifts.
+
+#### 🤖 Foundation Models & Vision-Language
+
+- **[Better Tokens for Better 3D: Advancing Vision-Language Modeling in 3D Medical Imaging](https://proceedings.neurips.cc/paper_files/paper/2025/hash/c4861cc81b768dc36a676fceed8f7672-Abstract-Conference.html)** — BTB3D learns compact volumetric tokens for high-resolution CT report generation and text-conditioned CT synthesis.
+- **[QoQ-Med: Building Multimodal Clinical Foundation Models with Domain-Aware GRPO Training](https://proceedings.neurips.cc/paper_files/paper/2025/hash/359ffa88712bd688963a0ca641d8330b-Abstract-Conference.html)** — Trains generalist clinical models across medical images, time-series signals, and reports using rewards adjusted for domain rarity and modality difficulty.
+- **[RAD: Towards Trustworthy Retrieval-Augmented Multi-modal Clinical Diagnosis](https://proceedings.neurips.cc/paper_files/paper/2025/hash/b28ca52a43881fd87196c71145f30092-Abstract-Conference.html)** — Retrieves disease-centered knowledge and uses clinical guidelines to guide multimodal feature alignment and diagnostic fusion.
+
+#### 🤖 Multimodal Benchmarks
+
+- **[3D-RAD: A Comprehensive 3D Radiology Med-VQA Dataset with Multi-Temporal Analysis and Diverse Diagnostic Tasks](https://proceedings.neurips.cc/paper_files/paper/2025/hash/f8250afec8305ed4a6b27ae405507442-Abstract-Datasets_and_Benchmarks_Track.html)** — Benchmarks CT visual question answering across six tasks, including medical computation and longitudinal diagnosis. *Datasets and Benchmarks Track*
+- **[DrVD-Bench: Do Vision-Language Models Reason Like Human Doctors in Medical Image Diagnosis?](https://proceedings.neurips.cc/paper_files/paper/2025/hash/12750d99d0faa73763108ff2bbeb54fd-Abstract-Datasets_and_Benchmarks_Track.html)** — Evaluates visual evidence comprehension, diagnostic reasoning trajectories, and report generation across five medical imaging modalities. *Datasets and Benchmarks Track*
+- **[SMMILE: An expert-driven benchmark for multimodal medical in-context learning](https://proceedings.neurips.cc/paper_files/paper/2025/hash/5e0d42bf1eaafd60c03f141eb7ac761b-Abstract-Datasets_and_Benchmarks_Track.html)** — Expert-curated benchmark testing whether multimodal models can learn medical tasks from demonstrations across specialties and imaging modalities. *Datasets and Benchmarks Track*
+
+#### 📋 Clinical NLP & EHR
+
+- **[ClinBench: A Standardized Multi-Domain Framework for Evaluating Large Language Models in Clinical Information Extraction](https://proceedings.neurips.cc/paper_files/paper/2025/hash/621b4af77315234465ef366ea14b5dc5-Abstract-Datasets_and_Benchmarks_Track.html)** — Standardizes evaluation of structured extraction from clinical notes across oncology, atrial fibrillation, and social determinants of health. *Datasets and Benchmarks Track*
+- **[MedChain: Bridging the Gap Between LLM Agents and Clinical Practice with Interactive Sequence](https://proceedings.neurips.cc/paper_files/paper/2025/hash/6bc02900c74234aa5a0c1a7148ed933f-Abstract-Datasets_and_Benchmarks_Track.html)** — Introduces sequential, interactive clinical cases and a retrieval-augmented agent spanning five stages of clinical workflow. *Datasets and Benchmarks Track*
+- **[ClinicalLab: Aligning Agents for Multi-Departmental Clinical Diagnostics in the Real World](https://proceedings.neurips.cc/paper_files/paper/2025/hash/6a059625a6027aca18302803743abaa2-Abstract-Datasets_and_Benchmarks_Track.html)** — Combines a multi-department diagnostic benchmark, clinical evaluation metrics, and an agent designed around clinical workflows. *Datasets and Benchmarks Track*
+- **[Detecting Data Deviations in Electronic Health Records](https://proceedings.neurips.cc/paper_files/paper/2025/hash/4b460c81b7bbdee478817bf1b7f0b9ca-Abstract-Conference.html)** — Uses layered knowledge distillation to estimate EHR data fidelity and detect records that deviate from patients' physiological states.
+
+#### 🫀 Physiological Signals & Medical Time Series
+
+- **[MIRA: Medical Time Series Foundation Model for Real-World Health Data](https://proceedings.neurips.cc/paper_files/paper/2025/hash/8e12ba543adc673da5b89c9311fcf72c-Abstract-Conference.html)** — Pretrains a continuous-time forecasting model to handle irregular sampling, heterogeneous frequencies, and missing observations in medical time series.
+- **[GEM: Empowering MLLM for Grounded ECG Understanding with Time Series and Images](https://proceedings.neurips.cc/paper_files/paper/2025/hash/8798321486948322be2b4d658744ba72-Abstract-Conference.html)** — Unifies ECG waveforms, ECG images, and text while linking diagnostic explanations to measurable waveform evidence.
+
+---
 
 ### NeurIPS 2024
 
@@ -204,9 +251,32 @@ Covers **2023–2025**. Organized by conference. Contributions welcome — see [
 
 - **[EHRSHOT: An EHR Benchmark for Few-Shot Evaluation of Foundation Models](https://openreview.net/forum?id=CsXC6IcdwI)** — Releases de-identified EHR data for 6,739 Stanford patients with 35 clinical tasks plus a foundation model pretrained on 2.57M patients, enabling few-shot clinical prediction benchmarking.
 
+#### 🫀 Physiological Signals
+
+- **[BIOT: Biosignal Transformer for Cross-data Learning in the Wild](https://proceedings.neurips.cc/paper_files/paper/2023/hash/f6b30f3e2dd9cb53bbf2024402d02295-Abstract.html)** — Tokenizes biosignals into a shared representation for cross-dataset learning despite mismatched channels, variable recording lengths, and missing values.
+
 ---
 
 ## ICML
+
+### ICML 2025
+
+#### 🤖 Medical Foundation Models & Benchmarks
+
+- **[CLIMB: Data Foundations for Large Scale Multimodal Clinical Foundation Models](https://proceedings.mlr.press/v267/dai25b.html)** — Unifies clinical imaging, text, time series, and graph datasets to study multitask pretraining and multimodal transfer.
+- **[MMedPO: Aligning Medical Vision-Language Models with Clinical-Aware Multimodal Preference Optimization](https://proceedings.mlr.press/v267/zhu25v.html)** — Weights preference optimization by clinical relevance using plausible hallucinations and lesion-region perturbations to improve image-grounded responses.
+- **[Raptor: Scalable Train-Free Embeddings for 3D Medical Volumes Leveraging Pretrained 2D Foundation Models](https://proceedings.mlr.press/v267/an25a.html)** — Builds volumetric embeddings from frozen 2D image encoders and random projections without additional pretraining.
+
+#### 📋 Clinical NLP & EHR
+
+- **[BoxLM: Unifying Structures and Semantics of Medical Concepts for Diagnosis Prediction in Healthcare](https://proceedings.mlr.press/v267/tan25e.html)** — Fuses ontology and EHR hierarchies with language-model semantics through box embeddings for longitudinal diagnosis prediction.
+
+#### 🫀 Physiological Signals & Brain AI
+
+- **[EEG-Language Pretraining for Highly Label-Efficient Clinical Phenotyping](https://proceedings.mlr.press/v267/gijsen25a.html)** — Aligns EEG segments with clinical report segments to improve label-efficient phenotyping, zero-shot classification, and cross-modal retrieval.
+- **[From Token to Rhythm: A Multi-Scale Approach for ECG-Language Pretraining](https://proceedings.mlr.press/v267/wang25du.html)** — MELP aligns ECG signals and reports at token, beat, and rhythm levels for transferable cardiac representations.
+
+---
 
 ### ICML 2024
 
@@ -214,6 +284,10 @@ Covers **2023–2025**. Organized by conference. Contributions welcome — see [
 
 - **[ED-Copilot: Reduce Emergency Department Wait Time with Language Model Diagnostic Assistance](https://icml.cc/virtual/2024/poster/35181)** — RL-trained LLM that sequentially recommends patient-specific lab tests in the ED to minimize wait time while maximizing diagnostic accuracy, evaluated on a new MIMIC-ED-Assist benchmark.
 - **[Contrastive Learning for Clinical Outcome Prediction with Partial Data Sources](https://icml.cc/virtual/2024/poster/33453)** — CLOPPS learns robust cross-modal clinical representations under missing modalities (labs, notes, imaging) via contrastive alignment, enabling strong single-source inference at test time.
+
+#### 🫀 Physiological Signals
+
+- **[SleepFM: Multi-modal Representation Learning for Sleep Across Brain Activity, ECG and Respiratory Signals](https://proceedings.mlr.press/v235/thapa24a.html)** — Learns multimodal representations from polysomnography using leave-one-out contrastive learning for sleep staging and sleep-disordered breathing detection.
 
 ---
 
@@ -251,6 +325,10 @@ Covers **2023–2025**. Organized by conference. Contributions welcome — see [
 - **[Reasoning-Enhanced Healthcare Predictions with Knowledge Graph Community Retrieval](https://arxiv.org/abs/2410.04585)** — KARE integrates multi-source medical KG community retrieval with LLM reasoning; outperforms leading models by up to 15% on MIMIC mortality/readmission prediction. *[Code](https://github.com/pat-jj/KARE)*
 - **[Efficiently Democratizing Medical LLMs for 50 Languages via a Mixture of Language Family Experts](https://arxiv.org/abs/2410.10626)** — MoE routing with language-family-specific experts enables high-quality multilingual medical LLMs under data scarcity. *[Code](https://github.com/FreedomIntelligence/ApolloMoE)*
 
+#### 🧠 EEG & Brain AI
+
+- **[CBraMod: A Criss-Cross Brain Foundation Model for EEG Decoding](https://proceedings.iclr.cc/paper_files/paper/2025/hash/bbbd6d915cb90be21c1254a82d45cedd-Abstract-Conference.html)** — Separately models spatial and temporal EEG dependencies with adaptable positional encoding for transfer across clinical and BCI tasks.
+
 ---
 
 ### ICLR 2024
@@ -266,9 +344,10 @@ Covers **2023–2025**. Organized by conference. Contributions welcome — see [
 - **[Multimodal Patient Representation Learning with Missing Modalities and Labels](https://openreview.net/forum?id=Je5SHCKpPa)** — Robust multimodal patient representation learning under realistic conditions of missing modalities and labels.
 - **[GraphCare: Enhancing Healthcare Predictions with Personalized Knowledge Graphs](https://arxiv.org/abs/2305.12788)** — Constructs patient-specific knowledge graphs from open biomedical KGs and applies Bi-Attention Augmented GNN, achieving strong clinical prediction performance with dramatically less labeled data.
 
-#### 🧠 Neuroimaging
+#### 🧠 Neuroimaging & EEG
 
 - **[BrainLM: A Foundation Model for Brain Activity Recordings](https://proceedings.iclr.cc/paper_files/paper/2024/hash/029ce70401321de3808b3ac39e1ab167-Abstract-Conference.html)** — Transformer foundation model pre-trained on 6,700 hours of fMRI data; predicts clinical variables (age, anxiety, PTSD) and generalizes to unseen cohorts. *Caro et al.*
+- **[Large Brain Model for Learning Generic Representations with Tremendous EEG Data in BCI](https://proceedings.iclr.cc/paper_files/paper/2024/hash/47393e8594c82ce8fd83adc672cf9872-Abstract-Conference.html)** — LaBraM uses neural spectrum tokenization and masked code prediction to pretrain EEG representations across heterogeneous datasets.
 
 ---
 
@@ -282,6 +361,28 @@ Covers **2023–2025**. Organized by conference. Contributions welcome — see [
 ---
 
 ## ICCV / ECCV
+
+### ICCV 2025
+
+#### 🤖 Medical Vision-Language & Benchmarks
+
+- **[GEMeX: A Large-Scale, Groundable, and Explainable Medical VQA Benchmark for Chest X-ray Diagnosis](https://openaccess.thecvf.com/content/ICCV2025/html/Liu_GEMeX_A_Large-Scale_Groundable_and_Explainable_Medical_VQA_Benchmark_for_ICCV_2025_paper.html)** — Pairs chest X-ray questions and answers with visual and textual explanations across multiple question formats.
+- **[ProbMED: A Probabilistic Framework for Medical Multimodal Binding](https://openaccess.thecvf.com/content/ICCV2025/html/Gao_ProbMED_A_Probabilistic_Framework_for_Medical_Multimodal_Binding_ICCV_2025_paper.html)** — Aligns chest X-rays, ECGs, echocardiograms, and text as probability distributions to capture many-to-many relationships across clinical modalities.
+- **[Medical World Model](https://openaccess.thecvf.com/content/ICCV2025/html/Yang_Medical_World_Model_ICCV_2025_paper.html)** — Combines vision-language policies, tumor dynamics generation, and survival analysis to simulate treatment-conditioned disease evolution.
+
+#### 🧫 Computational Pathology
+
+- **[PathFinder: A Multi-Modal Multi-Agent System for Medical Diagnostic Decision-Making Applied to Histopathology](https://openaccess.thecvf.com/content/ICCV2025/html/Ghezloo_PathFinder_A_Multi-Modal_Multi-Agent_System_for_Medical_Diagnostic_Decision-Making_Applied_ICCV_2025_paper.html)** — Coordinates triage, navigation, description, and diagnosis agents to inspect whole-slide images and explain diagnostic evidence.
+- **[Normal and Abnormal Pathology Knowledge-Augmented Vision-Language Model for Anomaly Detection in Pathology Images](https://openaccess.thecvf.com/content/ICCV2025/html/Song_Normal_and_Abnormal_Pathology_Knowledge-Augmented_Vision-Language_Model_for_Anomaly_Detection_ICCV_2025_paper.html)** — Ano-NAViLa incorporates descriptions of normal and abnormal tissue to detect and localize pathology anomalies with image-text explanations.
+- **[PS3: A Multimodal Transformer Integrating Pathology Reports with Histology Images and Biological Pathways for Cancer Survival Prediction](https://openaccess.thecvf.com/content/ICCV2025/html/Raza_PS3_A_Multimodal_Transformer_Integrating_Pathology_Reports_with_Histology_Images_ICCV_2025_paper.html)** — Integrates pathology reports, whole-slide histology, and pathway information for multimodal cancer prognosis.
+- **[PathDiff: Histopathology Image Synthesis with Unpaired Text and Mask Conditions](https://openaccess.thecvf.com/content/ICCV2025/html/Bhosale_PathDiff_Histopathology_Image_Synthesis_with_Unpaired_Text_and_Mask_Conditions_ICCV_2025_paper.html)** — Learns from unpaired text and mask datasets to generate histopathology images with controllable semantic and spatial content.
+
+#### 🏥 Surgical AI & Medical Video
+
+- **[OphCLIP: Hierarchical Retrieval-Augmented Learning for Ophthalmic Surgical Video-Language Pretraining](https://openaccess.thecvf.com/content/ICCV2025/html/Hu_OphCLIP_Hierarchical_Retrieval-Augmented_Learning_for_Ophthalmic_Surgical_Video-Language_Pretraining_ICCV_2025_paper.html)** — Learns from hierarchical ophthalmic video-text annotations and retrieved silent videos for surgical phase and instrument recognition.
+- **[MedVSR: Medical Video Super-Resolution with Cross State-Space Propagation](https://openaccess.thecvf.com/content/ICCV2025/html/Liu_MedVSR_Medical_Video_Super-Resolution_with_Cross_State-Space_Propagation_ICCV_2025_paper.html)** — Uses state-space propagation and reconstruction to improve medical video resolution under noise, camera motion, and abrupt transitions.
+
+---
 
 ### ECCV 2024
 
@@ -323,6 +424,23 @@ Covers **2023–2025**. Organized by conference. Contributions welcome — see [
 
 ## ACL / EMNLP
 
+### ACL 2025
+
+#### 📋 Clinical Agents, Reasoning & Evaluation
+
+- **[AfriMed-QA: A Pan-African, Multi-Specialty, Medical Question-Answering Benchmark Dataset](https://aclanthology.org/2025.acl-long.96/)** — Evaluates medical question answering and demographic bias using questions spanning African countries and medical specialties.
+- **[ReflecTool: Towards Reflection-Aware Tool-Augmented Clinical Agents](https://aclanthology.org/2025.acl-long.663/)** — Introduces a clinical agent benchmark and uses stored tool experience, reflection, and verification to improve clinical tool use.
+- **[Towards Omni-RAG: Comprehensive Retrieval-Augmented Generation for Large Language Models in Medical Applications](https://aclanthology.org/2025.acl-long.742/)** — Introduces MedOmniKB and source planning optimization to retrieve suitable evidence from heterogeneous medical knowledge sources.
+
+#### 🤖 Medical Vision-Language & Radiology
+
+- **[Asclepius: A Spectrum Evaluation Benchmark for Medical Multi-Modal Large Language Models](https://aclanthology.org/2025.acl-long.1178/)** — Evaluates medical multimodal models across specialties and diagnostic capacities with specialist comparisons.
+- **[Exploring Compositional Generalization of Multimodal LLMs for Medical Imaging](https://aclanthology.org/2025.acl-long.639/)** — Uses Med-MAT to study generalization to unseen combinations of imaging modality, anatomy, and task.
+- **[Improving Medical Large Vision-Language Models with Abnormal-Aware Feedback](https://aclanthology.org/2025.acl-long.636/)** — UMed-LVLM combines abnormality-focused instruction tuning and reward signals to improve localization and image understanding.
+- **[The Impact of Auxiliary Patient Data on Automated Chest X-Ray Report Generation and How to Incorporate It](https://aclanthology.org/2025.acl-long.9/)** — CXRMate-ED incorporates clinical history, vital signs, and other emergency-department records into chest X-ray report generation.
+
+---
+
 ### ACL 2024
 
 #### 📋 Clinical NLP
@@ -337,6 +455,17 @@ Covers **2023–2025**. Organized by conference. Contributions welcome — see [
 #### 📋 Clinical NLP
 
 - **[ORGAN: Observation-Guided Radiology Report Generation via Tree-Reasoning](https://aclanthology.org/2023.acl-long.451/)** — Tree-structured reasoning over clinical observations guides a decoder to generate complete, clinically consistent radiology reports with explicit rationales.
+
+---
+
+### EMNLP 2025
+
+#### 📋 Clinical Dialogue, Adaptation & Evaluation
+
+- **[Ask Patients with Patience: Enabling LLMs for Human-Centric Medical Dialogue with Grounded Reasoning](https://aclanthology.org/2025.emnlp-main.142/)** — Combines medical guidelines and Bayesian active learning for adaptive symptom gathering and transparent multi-turn diagnostic dialogue.
+- **[MedHallu: A Comprehensive Benchmark for Detecting Medical Hallucinations in Large Language Models](https://aclanthology.org/2025.emnlp-main.143/)** — Benchmarks detection of plausible but incorrect medical answers with controlled hallucination difficulty and uncertainty-aware evaluation.
+- **[3MDBench: Medical Multimodal Multi-agent Dialogue Benchmark](https://aclanthology.org/2025.emnlp-main.1353/)** — Simulates multimodal telemedical consultations with patient and assessor agents to evaluate diagnostic accuracy and dialogue quality.
+- **[3DS: Medical Domain Adaptation of LLMs via Decomposed Difficulty-based Data Selection](https://aclanthology.org/2025.emnlp-main.983/)** — Selects medical instruction-tuning examples using model-specific estimates of understanding, response confidence, and correctness.
 
 ---
 
@@ -360,7 +489,14 @@ Covers **2023–2025**. Organized by conference. Contributions welcome — see [
 
 #### 📋 Clinical NLP
 
-- **[Benchmarking Large Language Models on Answering and Explaining Challenging Medical Questions](https://2025.naacl.org/program/accepted_papers/)** — Systematic benchmark of frontier LLMs on expert-level medical questions requiring multi-step reasoning and explanation, revealing capability gaps across specialties.
+- **[Benchmarking Large Language Models on Answering and Explaining Challenging Medical Questions](https://aclanthology.org/2025.naacl-long.182/)** — Introduces JAMA Clinical Challenge and Medbullets to evaluate medical question answering and explanations against expert-written references.
+- **[MeNTi: Bridging Medical Calculator and LLM Agent with Nested Tool Calling](https://aclanthology.org/2025.naacl-long.263/)** — Introduces a medical calculator agent and CalcQA benchmark covering tool selection, nested calculations, slot filling, and unit conversion.
+- **[Afrispeech-Dialog: A Benchmark Dataset for Spontaneous English Conversations in Healthcare and Beyond](https://aclanthology.org/2025.naacl-long.426/)** — Evaluates African-accented conversational speech recognition and how transcription errors affect medical dialogue summaries.
+
+#### 🤖 Medical Vision-Language & Radiology
+
+- **[VividMed: Vision Language Model with Versatile Visual Grounding for Medicine](https://aclanthology.org/2025.naacl-long.89/)** — Supports segmentation masks and bounding boxes alongside VQA and report generation for both 2D and 3D medical images.
+- **[Fact-Aware Multimodal Retrieval Augmentation for Accurate Medical Radiology Report Generation](https://aclanthology.org/2025.naacl-long.28/)** — FactMM-RAG trains a fact-aware retriever from RadGraph-derived report pairs to provide reference reports for radiology generation.
 
 ---
 
@@ -382,6 +518,8 @@ Covers **2023–2025**. Organized by conference. Contributions welcome — see [
 - **[U-KAN Makes Strong Backbone for Medical Image Segmentation and Generation](https://ojs.aaai.org/index.php/AAAI/article/view/32491)** — Integrates KAN (Kolmogorov-Arnold Network) layers into the U-Net pipeline on tokenized intermediate features, yielding a new backbone that achieves higher accuracy with lower compute on medical segmentation benchmarks.
 - **[Every Component Counts: Rethinking the Measure of Success for Medical Semantic Segmentation in Multi-Instance Segmentation Tasks](https://ojs.aaai.org/index.php/AAAI/article/view/32408)** — Proposes CC-Metrics, revealing that standard mean-IoU severely underestimates segmentation failure on small/rare objects in multi-instance medical tasks.
 - **[FAMNet: Frequency-aware Matching Network for Cross-domain Few-shot Medical Image Segmentation](https://ojs.aaai.org/index.php/AAAI/article/view/32184)** — Frequency-domain feature matching for few-shot segmentation across CT and MRI domains, mitigating texture/contrast shifts between scanners without expensive domain-specific retraining.
+- **[Motion Artifact Removal in Pixel-Frequency Domain via Alternate Masks and Diffusion Model](https://ojs.aaai.org/index.php/AAAI/article/view/32960)** — Uses pixel and frequency information with complementary masks to remove MRI motion artifacts through a pretrained diffusion model.
+- **[Single Exposure Quantitative Phase Imaging with a Conventional Microscope Using Diffusion Models](https://ojs.aaai.org/index.php/AAAI/article/view/32271)** — Combines chromatic aberrations and zero-mean diffusion to recover quantitative phase from a single microscope exposure, including clinical urine microscopy.
 
 #### 🤖 Foundation Models & VLM
 
@@ -394,6 +532,10 @@ Covers **2023–2025**. Organized by conference. Contributions welcome — see [
 #### 🔬 Medical Imaging & Segmentation
 
 - **[MedSegDiff-V2: Diffusion based Medical Image Segmentation with Transformer](https://arxiv.org/abs/2301.11798)** — Upgraded diffusion segmentation framework that replaces the UNet denoiser with a Transformer backbone, outperforming prior diffusion-based segmentation models across multiple modalities.
+
+#### 🏥 Surgical AI
+
+- **[SurgicalSAM: Efficient Class Promptable Surgical Instrument Segmentation](https://ojs.aaai.org/index.php/AAAI/article/view/28514)** — Adapts SAM with prototype-based class prompts and contrastive learning for surgical instrument segmentation without manually specified points or boxes.
 
 #### 📋 Clinical NLP & EHR
 
@@ -415,6 +557,16 @@ Covers **2023–2025**. Organized by conference. Contributions welcome — see [
 ---
 
 ## KDD
+
+### KDD 2025
+
+#### 📋 Clinical & Healthcare AI
+
+- **[TarDiff: Target-Oriented Diffusion Guidance for Synthetic Electronic Health Record Time Series Generation](https://doi.org/10.1145/3711896.3737147)** — Generates synthetic EHR time series with target-oriented diffusion guidance to support downstream prediction under data scarcity and class imbalance.
+- **[A Diffusion-Based Method for Learning the Multi-Outcome Distribution of Medical Treatments](https://doi.org/10.1145/3711896.3736819)** — DIME models the joint interventional distribution of dependent, mixed-type treatment outcomes for uncertainty-aware treatment effect estimation.
+- **[Test-Time Training with Diversified Local Aggregation Consistency for Mortality Prediction using Clinical Time Series](https://doi.org/10.1145/3711896.3737151)** — Adapts mortality prediction models to individual target patients while addressing temporal imbalance and cross-institution domain shifts.
+
+---
 
 ### KDD 2024
 
@@ -440,6 +592,8 @@ Contributions are very welcome!
   `**[Title](URL)** — One-sentence description. *Authors*`
 - **Fix a broken link**: Open an issue or PR.
 - **Suggest a new category**: Open an issue to discuss.
+- **Verify metadata**: Check the title, conference, publication year, and summary against the official proceedings; prefer a paper-specific proceedings page or DOI over a general accepted-papers list.
+- **Avoid duplicates**: Check for both the full title and model acronym before adding a paper, including papers with an earlier arXiv date.
 
 **Scope**: Papers published at CS/AI conference proceedings (CVPR, NeurIPS, ICLR, ICML, ICCV, ECCV, ACL, EMNLP, NAACL, AAAI, KDD, etc.) in the years 2023–2025 on topics of medical imaging, clinical NLP, surgical AI, or health AI. Pure biology papers (drug discovery, protein folding, genomics) are out of scope.
 
