@@ -1,0 +1,24 @@
+{
+  "input_sha256": {
+    "papers": "a56f53a7c0789116775c140df58f9b84d5024223245cb21aadbbb42cc5f252c3",
+    "readme": "b8a749d7acbe11bb0edd82b6c8943e01aec9f380132757e42ab523f200cce520",
+    "ledger": "9b75fd09559d8329423bc2d0fbe5818bb62f695a51ee93a4ad3ba9005890e5fc",
+    "retrieval_config": "df45eadbff120708615d96ef40a6d99d2a235a8223b19b824f589d61cff8491a",
+    "medical_rules": "d44354d3c864e331702262f5844445db8730491ad93ff4c693bfc52df184f862",
+    "retrieval_script": "e6f504623e634cff76dce3185f2a72cd4b102619b38b1c4e74813600b043c2a2"
+  },
+  "indexed_records": 63145,
+  "indexed_with_abstract": 51547,
+  "candidate_records": 236,
+  "candidate_with_abstract": 233,
+  "candidate_by_year": {
+    "2023": 49,
+    "2024": 71,
+    "2025": 116
+  },
+  "candidate_by_review_status": {
+    "reviewed_for_guide": 21,
+    "unreviewed_candidate": 215
+  },
+  "warning": "Retrieval scores are not contribution labels. Selection is purposive, with unknown recall; no population proportions or acceptance rates follow from this queue."
+}

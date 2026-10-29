@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T21:15:40.084054+00:00",
+  "generated_at": "2026-10-29T21:45:19.943798+00:00",
   "options": {
     "years": [
       2023,
@@ -67,7 +67,7 @@
     }
   },
   "rules_sha256": "d44354d3c864e331702262f5844445db8730491ad93ff4c693bfc52df184f862",
-  "readme_sha256": "061f1f686260c8fc66640a02893c5b82effcc29972632a3de23a484402f1f4bb",
+  "readme_sha256": "b8a749d7acbe11bb0edd82b6c8943e01aec9f380132757e42ab523f200cce520",
   "paper_count": 63145,
   "abstract_count": 51547,
   "readme_paper_count": 1430,

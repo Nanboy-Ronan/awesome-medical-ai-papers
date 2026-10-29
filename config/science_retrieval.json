@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "minimum_score": 10,
+  "patterns": [
+    {"name": "evaluation_or_shortcuts", "weight": 6, "pattern": "leakage|shortcut|spurious|confound|construct validity|misleading|metric.{0,35}(?:fail|bias|disagree)|informative sampling"},
+    {"name": "assumption_or_failure", "weight": 4, "pattern": "assumption|intrinsic.{0,20}propert|label sharpness|unreliable|pitfall|overestimat|distribution shift|catastrophic inheritance"},
+    {"name": "empirical_discovery", "weight": 3, "pattern": "we (?:find|reveal|uncover|observe|demonstrate)|surprising|counterintuitive|controlled experiment"},
+    {"name": "title_question_or_study", "weight": 4, "title_only": true, "pattern": "rethinking|revisiting|understanding|how (?:well|much|noise)|do we really|is limited|benefits of diverse|disagree with|clinical information loss|pattern recognition or|boundaries of fair|context clues"}
+  ]
+}

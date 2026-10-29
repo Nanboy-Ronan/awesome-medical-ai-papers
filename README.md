@@ -4,7 +4,7 @@
 
 Covers **2023–2025**. Organized by conference publication year, which may differ from the arXiv submission year. Contributions welcome — see [Contributing](#contributing).
 
-[Browse papers](#cvpr) · [Research and open data](reports/analysis/README.md) · [中文研究摘要](docs/research-summary.zh-CN.md) · [Searchable catalog](https://nanboy-ronan.github.io/awesome-medical-ai-papers/#catalog)
+[Browse papers](#cvpr) · [Problem-discovery reading guide](reports/science/README.md) · [Research and open data](reports/analysis/README.md) · [中文研究摘要](docs/research-summary.zh-CN.md) · [Searchable catalog](https://nanboy-ronan.github.io/awesome-medical-ai-papers/#catalog)
 
 Find papers for your literature review, compare conference coverage, and explore research trends—all with verifiable sources and reusable data.
 
@@ -62,6 +62,8 @@ Counts describe this curated list, not all relevant papers in each proceedings. 
 ---
 
 ## Research and data
+
+Looking for studies that expose problems in existing medical AI algorithms or evaluation practices? The **[problem-discovery reading guide](reports/science/README.md)** covers transfer assumptions, participant diversity, shortcut learning, and clinical metric validity. Its 21 selected papers distinguish scientific findings, method/benchmark hybrids, and position papers, with evidence locations and limits on each claim.
 
 The list comes with three reproducible studies, publication-year figures, and downloadable CSV data:
 
