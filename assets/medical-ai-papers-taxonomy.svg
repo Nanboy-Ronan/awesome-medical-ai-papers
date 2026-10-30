@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 1047" width="760" height="1047" role="img" aria-label="Visual taxonomy of medical AI papers">
+<defs>
+<linearGradient id="bg-g" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#eef4ff"/><stop offset="100%" stop-color="#f8fafc"/></linearGradient>
+<linearGradient id="root-g" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#0f172a"/><stop offset="100%" stop-color="#1e3a8a"/></linearGradient>
+<linearGradient id="cat-0" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#1e3a8a"/><stop offset="100%" stop-color="#3b82f6"/></linearGradient>
+<linearGradient id="cat-1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#5b21b6"/><stop offset="100%" stop-color="#8b5cf6"/></linearGradient>
+<linearGradient id="cat-2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#7f1d1d"/><stop offset="100%" stop-color="#f43f5e"/></linearGradient>
+<linearGradient id="cat-3" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#92400e"/><stop offset="100%" stop-color="#f59e0b"/></linearGradient>
+<linearGradient id="cat-4" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#065f46"/><stop offset="100%" stop-color="#10b981"/></linearGradient>
+<linearGradient id="cat-5" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#111827"/><stop offset="100%" stop-color="#4b5563"/></linearGradient>
+<linearGradient id="cat-6" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#155e75"/><stop offset="100%" stop-color="#06b6d4"/></linearGradient>
+</defs>
+<rect width="760" height="1047" fill="url(#bg-g)" rx="12" stroke="#dde6f0" stroke-width="1.5"/>
+<text x="380" y="30" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#0f172a">Medical AI Papers — Visual Taxonomy</text>
+<line x1="24" y1="47" x2="736" y2="47" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="27" y="529" width="190" height="56" rx="10" fill="#000" opacity="0.10"/>
+<rect x="24" y="526" width="190" height="56" rx="10" fill="url(#root-g)"/>
+<text x="119" y="545" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#ffffff">Medical AI Papers</text>
+<text x="119" y="564" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11" font-weight="500" fill="#ffffff">1,430 papers, 2023–2025</text>
+<line x1="214" y1="554" x2="228" y2="554" stroke="#94a3b8" stroke-width="2"/>
+<line x1="228" y1="138" x2="228" y2="970" stroke="#94a3b8" stroke-width="2"/>
+<circle cx="228" cy="138" r="5" fill="#3b82f6" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="228" cy="288" r="5" fill="#8b5cf6" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="228" cy="424" r="5" fill="#f43f5e" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="228" cy="574" r="5" fill="#f59e0b" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="228" cy="724" r="5" fill="#10b981" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="228" cy="847" r="5" fill="#4b5563" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="228" cy="970" r="5" fill="#06b6d4" stroke="#ffffff" stroke-width="1.5"/>
+<line x1="228" y1="138" x2="240" y2="138" stroke="#3b82f6" stroke-width="2"/>
+<rect x="243" y="112" width="210" height="58" rx="8" fill="#000" opacity="0.08"/>
+<rect x="240" y="109" width="210" height="58" rx="8" fill="url(#cat-0)"/>
+<text x="345" y="124" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#ffffff">Medical Imaging &amp;</text>
+<text x="345" y="140" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#ffffff">Segmentation</text>
+<text x="345" y="156" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11" font-weight="500" fill="#ffffff">315 papers</text>
+<line x1="450" y1="138" x2="460" y2="138" stroke="#3b82f6" stroke-width="1.5"/>
+<line x1="460" y1="84" x2="460" y2="192" stroke="#93c5fd" stroke-width="1.5"/>
+<line x1="460" y1="84" x2="470" y2="84" stroke="#93c5fd" stroke-width="1"/>
+<rect x="470" y="72" width="266" height="24" rx="12" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.5"/>
+<text x="603" y="84" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11" font-weight="600" fill="#1e40af">Segmentation</text>
+<line x1="460" y1="111" x2="470" y2="111" stroke="#93c5fd" stroke-width="1"/>
+<rect x="470" y="99" width="266" height="24" rx="12" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.5"/>
+<text x="603" y="111" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11" font-weight="600" fill="#1e40af">Reconstruction &amp; MRI</text>
+<line x1="460" y1="138" x2="470" y2="138" stroke="#93c5fd" stroke-width="1"/>
+<rect x="470" y="126" width="266" height="24" rx="12" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.5"/>
+<text x="603" y="138" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11" font-weight="600" fill="#1e40af">Synthesis &amp; Diffusion</text>
+<line x1="460" y1="165" x2="470" y2="165" stroke="#93c5fd" stroke-width="1"/>
+<rect x="470" y="153" width="266" height="24" rx="12" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.5"/>
+<text x="603" y="165" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11" font-weight="600" fill="#1e40af">Domain Generalization</text>
+<line x1="460" y1="192" x2="470" y2="192" stroke="#93c5fd" stroke-width="1"/>
+<rect x="470" y="180" width="266" height="24" rx="12" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.5"/>
+<text x="603" y="192" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11" font-weight="600" fill="#1e40af">Registration</text>
+<line x1="228" y1="288" x2="240" y2="288" stroke="#8b5cf6" stroke-width="2"/>
+<rect x="243" y="262" width="210" height="58" rx="8" fill="#000" opacity="0.08"/>
+<rect x="240" y="259" width="210" height="58" rx="8" fill="url(#cat-1)"/>
+<text x="345" y="274" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#ffffff">Computational Pathology</text>
+<text x="345" y="290" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#ffffff">&amp; Microscopy</text>
+<text x="345" y="306" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11" font-weight="500" fill="#ffffff">158 papers</text>
+<line x1="450" y1="288" x2="460" y2="288" stroke="#8b5cf6" stroke-width="1.5"/>
+<line x1="460" y1="234" x2="460" y2="342" stroke="#c4b5fd" stroke-width="1.5"/>
+<line x1="460" y1="234" x2="470" y2="234" stroke="#c4b5fd" stroke-width="1"/>
+<rect x="470" y="222" width="266" height="24" rx="12" fill="#f5f3ff" stroke="#c4b5fd" stroke-width="1.5"/>
+<text x="603" y="234" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11" font-weight="600" fill="#4c1d95">Whole-Slide Analysis &amp; MIL</text>
+<line x1="460" y1="261" x2="470" y2="261" stroke="#c4b5fd" stroke-width="1"/>
+<rect x="470" y="249" width="266" height="24" rx="12" fill="#f5f3ff" stroke="#c4b5fd" stroke-width="1.5"/>
+<text x="603" y="261" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11" font-weight="600" fill="#4c1d95">Microscopy</text>
+<line x1="460" y1="288" x2="470" y2="288" stroke="#c4b5fd" stroke-width="1"/>
+<rect x="470" y="276" width="266" height="24" rx="12" fill="#f5f3ff" stroke="#c4b5fd" stroke-width="1.5"/>
+<text x="603" y="288" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11" font-weight="600" fill="#4c1d95">Cell &amp; Nucleus Analysis</text>
+<line x1="460" y1="315" x2="470" y2="315" stroke="#c4b5fd" stroke-width="1"/>
+<rect x="470" y="303" width="266" height="24" rx="12" fill="#f5f3ff" stroke="#c4b5fd" stroke-width="1.5"/>
+<text x="603" y="315" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11" font-weight="600" fill="#4c1d95">Spatial Transcriptomics</text>
+<line x1="460" y1="342" x2="470" y2="342" stroke="#c4b5fd" stroke-width="1"/>
+<rect x="470" y="330" width="266" height="24" rx="12" fill="#f5f3ff" stroke="#c4b5fd" stroke-width="1.5"/>
+<text x="603" y="342" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11" font-weight="600" fill="#4c1d95">Survival Prediction</text>
+<line x1="228" y1="424" x2="240" y2="424" stroke="#f43f5e" stroke-width="2"/>
+<rect x="243" y="398" width="210" height="58" rx="8" fill="#000" opacity="0.08"/>
+<rect x="240" y="395" width="210" height="58" rx="8" fill="url(#cat-2)"/>
+<text x="345" y="410" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#ffffff">Foundation Models &amp;</text>
+<text x="345" y="426" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#ffffff">Vision-Language</text>
+<text x="345" y="442" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11" font-weight="500" fill="#ffffff">144 papers</text>
+<line x1="450" y1="424" x2="460" y2="424" stroke="#f43f5e" stroke-width="1.5"/>
+<line x1="460" y1="384" x2="460" y2="465" stroke="#fda4af" stroke-width="1.5"/>
+<line x1="460" y1="384" x2="470" y2="384" stroke="#fda4af" stroke-width="1"/>
+<rect x="470" y="372" width="266" height="24" rx="12" fill="#fff1f2" stroke="#fda4af" stroke-width="1.5"/>
+<text x="603" y="384" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11" font-weight="600" fill="#7f1d1d">Multimodal Vision-Language</text>
+<line x1="460" y1="411" x2="470" y2="411" stroke="#fda4af" stroke-width="1"/>
+<rect x="470" y="399" width="266" height="24" rx="12" fill="#fff1f2" stroke="#fda4af" stroke-width="1.5"/>
+<text x="603" y="411" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11" font-weight="600" fill="#7f1d1d">Medical LLMs</text>
+<line x1="460" y1="438" x2="470" y2="438" stroke="#fda4af" stroke-width="1"/>
+<rect x="470" y="426" width="266" height="24" rx="12" fill="#fff1f2" stroke="#fda4af" stroke-width="1.5"/>
+<text x="603" y="438" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11" font-weight="600" fill="#7f1d1d">Report Generation</text>
+<line x1="460" y1="465" x2="470" y2="465" stroke="#fda4af" stroke-width="1"/>
+<rect x="470" y="453" width="266" height="24" rx="12" fill="#fff1f2" stroke="#fda4af" stroke-width="1.5"/>
+<text x="603" y="465" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11" font-weight="600" fill="#7f1d1d">SAM &amp; Foundation Adaptation</text>
+<line x1="228" y1="574" x2="240" y2="574" stroke="#f59e0b" stroke-width="2"/>
+<rect x="243" y="548" width="210" height="58" rx="8" fill="#000" opacity="0.08"/>
+<rect x="240" y="545" width="210" height="58" rx="8" fill="url(#cat-3)"/>
+<text x="345" y="560" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#ffffff">Clinical NLP, EHR &amp;</text>
+<text x="345" y="576" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#ffffff">Healthcare</text>
+<text x="345" y="592" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11" font-weight="500" fill="#ffffff">539 papers</text>
+<line x1="450" y1="574" x2="460" y2="574" stroke="#f59e0b" stroke-width="1.5"/>
+<line x1="460" y1="507" x2="460" y2="642" stroke="#fcd34d" stroke-width="1.5"/>
+<line x1="460" y1="507" x2="470" y2="507" stroke="#fcd34d" stroke-width="1"/>
+<rect x="470" y="495" width="266" height="24" rx="12" fill="#fffbeb" stroke="#fcd34d" stroke-width="1.5"/>
+<text x="603" y="507" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11" font-weight="600" fill="#78350f">Medical LLMs &amp; Question Answering</text>
+<line x1="460" y1="534" x2="470" y2="534" stroke="#fcd34d" stroke-width="1"/>
+<rect x="470" y="522" width="266" height="24" rx="12" fill="#fffbeb" stroke="#fcd34d" stroke-width="1.5"/>
+<text x="603" y="534" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11" font-weight="600" fill="#78350f">Risk &amp; Outcome Prediction</text>
+<line x1="460" y1="561" x2="470" y2="561" stroke="#fcd34d" stroke-width="1"/>
+<rect x="470" y="549" width="266" height="24" rx="12" fill="#fffbeb" stroke="#fcd34d" stroke-width="1.5"/>
+<text x="603" y="561" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11" font-weight="600" fill="#78350f">Retrieval &amp; Knowledge</text>
+<line x1="460" y1="588" x2="470" y2="588" stroke="#fcd34d" stroke-width="1"/>
+<rect x="470" y="576" width="266" height="24" rx="12" fill="#fffbeb" stroke="#fcd34d" stroke-width="1.5"/>
+<text x="603" y="588" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11" font-weight="600" fill="#78350f">Diagnosis &amp; Treatment</text>
+<line x1="460" y1="615" x2="470" y2="615" stroke="#fcd34d" stroke-width="1"/>
+<rect x="470" y="603" width="266" height="24" rx="12" fill="#fffbeb" stroke="#fcd34d" stroke-width="1.5"/>
+<text x="603" y="615" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11" font-weight="600" fill="#78350f">Mental Health</text>
+<line x1="460" y1="642" x2="470" y2="642" stroke="#fcd34d" stroke-width="1"/>
+<rect x="470" y="630" width="266" height="24" rx="12" fill="#fffbeb" stroke="#fcd34d" stroke-width="1.5"/>
+<text x="603" y="642" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11" font-weight="600" fill="#78350f">Information Extraction</text>
+<line x1="228" y1="724" x2="240" y2="724" stroke="#10b981" stroke-width="2"/>
+<rect x="243" y="698" width="210" height="58" rx="8" fill="#000" opacity="0.08"/>
+<rect x="240" y="695" width="210" height="58" rx="8" fill="url(#cat-4)"/>
+<text x="345" y="710" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#ffffff">Neuroimaging, EEG &amp;</text>
+<text x="345" y="726" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#ffffff">Brain AI</text>
+<text x="345" y="742" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11" font-weight="500" fill="#ffffff">194 papers</text>
+<line x1="450" y1="724" x2="460" y2="724" stroke="#10b981" stroke-width="1.5"/>
+<line x1="460" y1="684" x2="460" y2="765" stroke="#6ee7b7" stroke-width="1.5"/>
+<line x1="460" y1="684" x2="470" y2="684" stroke="#6ee7b7" stroke-width="1"/>
+<rect x="470" y="672" width="266" height="24" rx="12" fill="#ecfdf5" stroke="#6ee7b7" stroke-width="1.5"/>
+<text x="603" y="684" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11" font-weight="600" fill="#064e3b">EEG</text>
+<line x1="460" y1="711" x2="470" y2="711" stroke="#6ee7b7" stroke-width="1"/>
+<rect x="470" y="699" width="266" height="24" rx="12" fill="#ecfdf5" stroke="#6ee7b7" stroke-width="1.5"/>
+<text x="603" y="711" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11" font-weight="600" fill="#064e3b">fMRI &amp; Neural Decoding</text>
+<line x1="460" y1="738" x2="470" y2="738" stroke="#6ee7b7" stroke-width="1"/>
+<rect x="470" y="726" width="266" height="24" rx="12" fill="#ecfdf5" stroke="#6ee7b7" stroke-width="1.5"/>
+<text x="603" y="738" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11" font-weight="600" fill="#064e3b">Brain MRI &amp; Tumors</text>
+<line x1="460" y1="765" x2="470" y2="765" stroke="#6ee7b7" stroke-width="1"/>
+<rect x="470" y="753" width="266" height="24" rx="12" fill="#ecfdf5" stroke="#6ee7b7" stroke-width="1.5"/>
+<text x="603" y="765" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11" font-weight="600" fill="#064e3b">Neurodegeneration</text>
+<line x1="228" y1="847" x2="240" y2="847" stroke="#4b5563" stroke-width="2"/>
+<rect x="243" y="821" width="210" height="58" rx="8" fill="#000" opacity="0.08"/>
+<rect x="240" y="818" width="210" height="58" rx="8" fill="url(#cat-5)"/>
+<text x="345" y="833" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#ffffff">Physiological Signals &amp;</text>
+<text x="345" y="849" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#ffffff">Medical Time Series</text>
+<text x="345" y="865" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11" font-weight="500" fill="#ffffff">58 papers</text>
+<line x1="450" y1="847" x2="460" y2="847" stroke="#4b5563" stroke-width="1.5"/>
+<line x1="460" y1="807" x2="460" y2="888" stroke="#9ca3af" stroke-width="1.5"/>
+<line x1="460" y1="807" x2="470" y2="807" stroke="#9ca3af" stroke-width="1"/>
+<rect x="470" y="795" width="266" height="24" rx="12" fill="#f9fafb" stroke="#9ca3af" stroke-width="1.5"/>
+<text x="603" y="807" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11" font-weight="600" fill="#1f2937">ECG</text>
+<line x1="460" y1="834" x2="470" y2="834" stroke="#9ca3af" stroke-width="1"/>
+<rect x="470" y="822" width="266" height="24" rx="12" fill="#f9fafb" stroke="#9ca3af" stroke-width="1.5"/>
+<text x="603" y="834" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11" font-weight="600" fill="#1f2937">Sleep</text>
+<line x1="460" y1="861" x2="470" y2="861" stroke="#9ca3af" stroke-width="1"/>
+<rect x="470" y="849" width="266" height="24" rx="12" fill="#f9fafb" stroke="#9ca3af" stroke-width="1.5"/>
+<text x="603" y="861" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11" font-weight="600" fill="#1f2937">PPG &amp; Wearables</text>
+<line x1="460" y1="888" x2="470" y2="888" stroke="#9ca3af" stroke-width="1"/>
+<rect x="470" y="876" width="266" height="24" rx="12" fill="#f9fafb" stroke="#9ca3af" stroke-width="1.5"/>
+<text x="603" y="888" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11" font-weight="600" fill="#1f2937">Physiological Signal Models</text>
+<line x1="228" y1="970" x2="240" y2="970" stroke="#06b6d4" stroke-width="2"/>
+<rect x="243" y="952" width="210" height="42" rx="8" fill="#000" opacity="0.08"/>
+<rect x="240" y="949" width="210" height="42" rx="8" fill="url(#cat-6)"/>
+<text x="345" y="964" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#ffffff">Surgical AI</text>
+<text x="345" y="980" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11" font-weight="500" fill="#ffffff">22 papers</text>
+<line x1="450" y1="970" x2="460" y2="970" stroke="#06b6d4" stroke-width="1.5"/>
+<line x1="460" y1="930" x2="460" y2="1011" stroke="#67e8f9" stroke-width="1.5"/>
+<line x1="460" y1="930" x2="470" y2="930" stroke="#67e8f9" stroke-width="1"/>
+<rect x="470" y="918" width="266" height="24" rx="12" fill="#ecfeff" stroke="#67e8f9" stroke-width="1.5"/>
+<text x="603" y="930" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11" font-weight="600" fill="#164e63">Endoscopy</text>
+<line x1="460" y1="957" x2="470" y2="957" stroke="#67e8f9" stroke-width="1"/>
+<rect x="470" y="945" width="266" height="24" rx="12" fill="#ecfeff" stroke="#67e8f9" stroke-width="1.5"/>
+<text x="603" y="957" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11" font-weight="600" fill="#164e63">Surgical Video &amp; Workflow</text>
+<line x1="460" y1="984" x2="470" y2="984" stroke="#67e8f9" stroke-width="1"/>
+<rect x="470" y="972" width="266" height="24" rx="12" fill="#ecfeff" stroke="#67e8f9" stroke-width="1.5"/>
+<text x="603" y="984" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11" font-weight="600" fill="#164e63">Instruments &amp; Robotics</text>
+<line x1="460" y1="1011" x2="470" y2="1011" stroke="#67e8f9" stroke-width="1"/>
+<rect x="470" y="999" width="266" height="24" rx="12" fill="#ecfeff" stroke="#67e8f9" stroke-width="1.5"/>
+<text x="603" y="1011" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11" font-weight="600" fill="#164e63">3D &amp; Depth Estimation</text>
+</svg>

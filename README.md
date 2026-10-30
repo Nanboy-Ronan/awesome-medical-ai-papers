@@ -46,6 +46,7 @@ Counts describe this curated list, not all relevant papers in each proceedings. 
 
 ## Contents
 
+- [Taxonomy](#taxonomy)
 - [CVPR](#cvpr)
 - [NeurIPS](#neurips)
 - [ICML](#icml)
@@ -58,6 +59,10 @@ Counts describe this curated list, not all relevant papers in each proceedings. 
 - [Research and data](#research-and-data)
 - [Proceedings indexing](#proceedings-indexing)
 - [Contributing](#contributing)
+
+## Taxonomy
+
+<a href="assets/medical-ai-papers-taxonomy.svg"><img src="assets/medical-ai-papers-taxonomy.svg" alt="Visual taxonomy of medical AI papers: seven topics with their paper counts and main research branches" width="560"></a>
 
 ---
 
