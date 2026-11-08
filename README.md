@@ -8,6 +8,8 @@ Covers **2023–2025**. Organized by conference publication year, which may diff
 
 Find papers for your literature review, compare conference coverage, and explore research trends—all with verifiable sources and reusable data.
 
+For agentic systems in medical imaging, see the companion list [Awesome Medical Imaging Agents](https://github.com/Nanboy-Ronan/awesome-medical-imaging-agents), covering radiology, pathology, ultrasound, segmentation, report generation, tool use, multi-agent workflows, and agent benchmarks.
+
 **⭐ If this saves you time, star this repository to keep it handy for your next literature review.** [Suggest a missing paper](https://github.com/Nanboy-Ronan/awesome-medical-ai-papers/issues/new/choose) or help correct its metadata.
 
 ---
@@ -58,6 +60,7 @@ Counts describe this curated list, not all relevant papers in each proceedings. 
 - [KDD](#kdd)
 - [Research and data](#research-and-data)
 - [Proceedings indexing](#proceedings-indexing)
+- [Related Awesome Lists](#related-awesome-lists)
 - [Contributing](#contributing)
 
 ## Taxonomy
@@ -2119,6 +2122,12 @@ python scripts/index_papers.py --rescreen --offline
 ```
 
 The applicator validates official titles, conference years, track metadata, and paper-specific links. It preserves the conference → year → topic layout and does not add papers based on screening scores alone. See the [metadata audit](docs/metadata-audit.md) for corrected and archived entries.
+
+---
+
+## Related Awesome Lists
+
+- [Awesome Medical Imaging Agents](https://github.com/Nanboy-Ronan/awesome-medical-imaging-agents) - Companion list of medical imaging agents, open-source systems, and benchmarks across radiology, pathology, ultrasound, and other imaging domains; complements this conference-based collection with a focus on tool use, multi-agent reasoning, segmentation, and reporting workflows.
 
 ---
 
