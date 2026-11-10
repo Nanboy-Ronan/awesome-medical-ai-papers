@@ -12,6 +12,7 @@ from urllib.parse import urljoin
 import xml.etree.ElementTree as ET
 
 from paper_index.pipeline import read_readme
+from paper_index.presentations import identity
 from paper_index.sources import key
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -41,6 +42,7 @@ class Site:
         self.summary = json.loads((self.report / "summary.json").read_text())
         self.rows = load_csv(self.report / "medical_papers.csv")
         readme = read_readme(root / "README.md")
+        presentations = json.loads((root / "data/presentations.json").read_text())["papers"]
         if {(r['venue'],int(r['year']),key(r['title'])) for r in self.rows} != {(r['venue'],r['year'],key(r['title'])) for r in readme}:
             raise ValueError("Analysis corpus is stale relative to README; rerun analyze_research.py")
         descriptions = {}
@@ -50,6 +52,9 @@ class Site:
                 descriptions[key(match[1])] = re.sub(r"\s*\*\[[^\]]+\]\*\s*$", "", match[2]).strip()
         for row in self.rows:
             row["year"] = int(row["year"])
+            presentation = presentations.get(identity(row), {})
+            row["presentations"] = presentation.get("labels", [])
+            row["presentation_evidence"] = presentation.get("evidence", [])
             row["summary"] = descriptions.get(key(row["title"]), "")
             row["domains"] = row["domains"].split("; ") if row["domains"] else []
             row["methods"] = row["methods"].split("; ") if row["methods"] else []
@@ -93,6 +98,7 @@ class Site:
         for row in rows:
             tags = f'<a href="{self.url("conferences/"+slug(row["venue"])+"/")}">{h(row["venue"])}</a><a href="{self.url("years/"+str(row["year"])+"/")}">{row["year"]}</a>'
             methods = "".join(f'<span>{h(m)}</span>' for m in row["methods"][:3])
+            methods = "".join(f'<span class="presentation">{h(label)}</span>' for label in row["presentations"]) + methods
             summary = h(row["summary"]).replace("**", "").replace("*", "")
             cards.append(f'<article class="paper"><div class="paper-meta">{tags}</div><h3><a href="{h(row["url"],quote=True)}">{h(row["title"])}</a></h3><p>{summary}</p><div class="tags">{methods}</div></article>')
         return "\n".join(cards)
@@ -122,7 +128,8 @@ class Site:
 <p>Reproducible studies of proceedings shares, ICLR submission decisions, and topic trends. Every chart comes with counts, code, and explicit denominators.</p>
 <div class="research-grid"><a href="{self.url('research/medical-share/')}"><strong>01 / Publication share</strong><span>Conference-by-year counts and coverage limits ↗</span></a><a href="{self.url('research/acceptance-rates/')}"><strong>02 / ICLR decision rates</strong><span>Medical-keyword versus other-title comparisons ↗</span></a><a href="{self.url('research/topics/')}"><strong>03 / Topics & methods</strong><span>Yearly domains, approaches, and keywords ↗</span></a></div></section>
 <section class="section" id="catalog"><div class="section-title"><h2>Find your next paper</h2><p>Search titles, summaries, and research labels. Results link to original papers.</p></div>
-<form class="search-controls" role="search" id="paper-search"><label>Search<input type="search" id="query" placeholder="e.g. radiology, diffusion, medical LLM" autocomplete="off"></label><label>Conference<select id="venue"><option value="">All conferences</option>{options}</select></label><label>Year<select id="year"><option value="">All years</option><option>2025</option><option>2024</option><option>2023</option></select></label></form>
+<form class="search-controls" role="search" id="paper-search"><label>Search<input type="search" id="query" placeholder="e.g. radiology, diffusion, medical LLM" autocomplete="off"></label><label>Conference<select id="venue"><option value="">All conferences</option>{options}</select></label><label>Year<select id="year"><option value="">All years</option><option>2025</option><option>2024</option><option>2023</option></select></label><label>Presentation<select id="presentation"><option value="">All papers</option><option>Oral</option><option>Spotlight</option><option>Highlight</option></select></label></form>
+<p class="muted">Presentation badges are verified against official conference sources. An absent badge means unclassified. <a href="{self.repo}/blob/main/docs/presentations.md">Coverage and sources ↗</a></p>
 <p class="muted" id="result-count" role="status">A selection of recent papers. Enable JavaScript to search the complete catalog.</p><div id="search-results" class="papers">{self.cards(self.rows[:12])}</div><button class="button secondary" id="show-more" hidden>Show more papers</button>
 <noscript><p>All papers remain available without JavaScript through the conference, year, and topic pages.</p></noscript></section>
 <section class="section"><div class="section-title"><h2>Browse research domains</h2><p>Multi-label title rules; a paper may belong to more than one domain.</p></div><div class="browse-grid topics">{topic_links}</div></section>

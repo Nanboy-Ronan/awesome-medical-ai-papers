@@ -1,0 +1,2233 @@
+{
+  "schema_version": 1,
+  "note": "Positive labels only; an absent badge does not establish poster status. ICLR 2023 notable-top-5% and notable-top-25% use the official guide's Oral/Spotlight aliases. Highlight remains distinct. ACL, EMNLP, NAACL, AAAI and KDD are not verified by this collector.",
+  "coverage": [
+    {
+      "venue": "CVPR",
+      "year": 2023,
+      "sources": [
+        {
+          "url": "https://cvpr.thecvf.com/static/virtual/data/cvpr-2023-orals-posters.json",
+          "resolved_url": "https://cvpr.thecvf.com/static/virtual/data/cvpr-2023-orals-posters.json",
+          "fetched_at": "2026-10-29T16:14:32.509730+00:00",
+          "sha256": "3c3acfc8d28bd212d4338bb4b3cdc31d2513cd5bd912bd49db979223e5be4f10",
+          "bytes": 12530578,
+          "cached": true
+        },
+        {
+          "url": "https://cvpr.thecvf.com/Conferences/2023/AcceptedPapers",
+          "resolved_url": "https://cvpr.thecvf.com/Conferences/2023/AcceptedPapers",
+          "fetched_at": "2026-11-10T17:37:45.076943+00:00",
+          "sha256": "843d0e4ba1fadf9db82cd93aa828d753fbb0e306092a7cce4590fdcc47c42b74",
+          "bytes": 3695645,
+          "cached": true
+        }
+      ],
+      "matched_papers": 43,
+      "curated_papers": 43
+    },
+    {
+      "venue": "CVPR",
+      "year": 2024,
+      "sources": [
+        {
+          "url": "https://cvpr.thecvf.com/static/virtual/data/cvpr-2024-orals-posters.json",
+          "resolved_url": "https://cvpr.thecvf.com/static/virtual/data/cvpr-2024-orals-posters.json",
+          "fetched_at": "2026-10-29T16:13:52.744357+00:00",
+          "sha256": "e3c40179e8ccf6076f1da736409ba7060071d9d75b6eb34131c99b934d0c8d4c",
+          "bytes": 14841645,
+          "cached": true
+        }
+      ],
+      "matched_papers": 77,
+      "curated_papers": 77
+    },
+    {
+      "venue": "CVPR",
+      "year": 2025,
+      "sources": [
+        {
+          "url": "https://cvpr.thecvf.com/static/virtual/data/cvpr-2025-orals-posters.json",
+          "resolved_url": "https://cvpr.thecvf.com/static/virtual/data/cvpr-2025-orals-posters.json",
+          "fetched_at": "2026-10-29T16:05:13.233657+00:00",
+          "sha256": "850cf956e56dd2731e5b9959f5194a3cad5d5add5308a9015a2b7acf5072c8cd",
+          "bytes": 13121777,
+          "cached": true
+        },
+        {
+          "url": "https://cvpr.thecvf.com/Conferences/2025/AcceptedPapers",
+          "resolved_url": "https://cvpr.thecvf.com/Conferences/2025/AcceptedPapers",
+          "fetched_at": "2026-11-10T17:37:29.560607+00:00",
+          "sha256": "97334f8855067026ae714b44a85445818f5961aa739b6d58975b8a09f7985194",
+          "bytes": 4241250,
+          "cached": true
+        }
+      ],
+      "matched_papers": 89,
+      "curated_papers": 89
+    },
+    {
+      "venue": "NeurIPS",
+      "year": 2023,
+      "sources": [
+        {
+          "url": "https://neurips.cc/static/virtual/data/neurips-2023-orals-posters.json",
+          "resolved_url": "https://neurips.cc/static/virtual/data/neurips-2023-orals-posters.json",
+          "fetched_at": "2026-10-29T16:14:08.058193+00:00",
+          "sha256": "cd701e2a0869169ea970d929f9558beab77130e97e7ab18ae6ca7ce026c1c174",
+          "bytes": 18854395,
+          "cached": true
+        }
+      ],
+      "matched_papers": 57,
+      "curated_papers": 57
+    },
+    {
+      "venue": "NeurIPS",
+      "year": 2024,
+      "sources": [
+        {
+          "url": "https://neurips.cc/static/virtual/data/neurips-2024-orals-posters.json",
+          "resolved_url": "https://neurips.cc/static/virtual/data/neurips-2024-orals-posters.json",
+          "fetched_at": "2026-10-29T16:15:02.453974+00:00",
+          "sha256": "fe4cee02e95b1883f5ee2ddc121b3eb9e253dc67d9407f1aa9dfdedd298f0652",
+          "bytes": 24537777,
+          "cached": true
+        }
+      ],
+      "matched_papers": 98,
+      "curated_papers": 98
+    },
+    {
+      "venue": "NeurIPS",
+      "year": 2025,
+      "sources": [
+        {
+          "url": "https://neurips.cc/static/virtual/data/neurips-2025-orals-posters.json",
+          "resolved_url": "https://neurips.cc/static/virtual/data/neurips-2025-orals-posters.json",
+          "fetched_at": "2026-10-29T16:05:22.720945+00:00",
+          "sha256": "73bbfc7fb9fbf4f52eae00cebe9cbc085f27493ee2294f2e29f326ef403986f8",
+          "bytes": 26803205,
+          "cached": true
+        }
+      ],
+      "matched_papers": 161,
+      "curated_papers": 161
+    },
+    {
+      "venue": "ICML",
+      "year": 2023,
+      "sources": [
+        {
+          "url": "https://icml.cc/static/virtual/data/icml-2023-orals-posters.json",
+          "resolved_url": "https://icml.cc/static/virtual/data/icml-2023-orals-posters.json",
+          "fetched_at": "2026-10-29T16:15:02.012701+00:00",
+          "sha256": "2b5b5d43c3d3f2bb3bc56cfd7ea15aa69724865ecabc5c905e69a649312fb0da",
+          "bytes": 8097135,
+          "cached": true
+        }
+      ],
+      "matched_papers": 10,
+      "curated_papers": 10
+    },
+    {
+      "venue": "ICML",
+      "year": 2024,
+      "sources": [
+        {
+          "url": "https://icml.cc/static/virtual/data/icml-2024-orals-posters.json",
+          "resolved_url": "https://icml.cc/static/virtual/data/icml-2024-orals-posters.json",
+          "fetched_at": "2026-10-29T16:15:01.606358+00:00",
+          "sha256": "77eb6ee09ee69875743c67c3e06bf47eef06c4838299392481feaeb8241cb8e9",
+          "bytes": 11354731,
+          "cached": true
+        }
+      ],
+      "matched_papers": 24,
+      "curated_papers": 24
+    },
+    {
+      "venue": "ICML",
+      "year": 2025,
+      "sources": [
+        {
+          "url": "https://icml.cc/static/virtual/data/icml-2025-orals-posters.json",
+          "resolved_url": "https://icml.cc/static/virtual/data/icml-2025-orals-posters.json",
+          "fetched_at": "2026-10-29T16:05:09.521325+00:00",
+          "sha256": "1e2ff498f2559b2a0e34504e84b5e6d41906dcd4a7fe868122514adaaba06c7b",
+          "bytes": 14110788,
+          "cached": true
+        }
+      ],
+      "matched_papers": 52,
+      "curated_papers": 52
+    },
+    {
+      "venue": "ICLR",
+      "year": 2023,
+      "sources": [
+        {
+          "url": "https://iclr.cc/static/virtual/data/iclr-2023-orals-posters.json",
+          "resolved_url": "https://iclr.cc/static/virtual/data/iclr-2023-orals-posters.json",
+          "fetched_at": "2026-10-29T16:05:58.759549+00:00",
+          "sha256": "4a907eccf24f321debcf3a70e6bdb9ebd75adee499ba323130a77c25e10f74b7",
+          "bytes": 7602832,
+          "cached": true
+        }
+      ],
+      "matched_papers": 13,
+      "curated_papers": 13
+    },
+    {
+      "venue": "ICLR",
+      "year": 2024,
+      "sources": [
+        {
+          "url": "https://iclr.cc/static/virtual/data/iclr-2024-orals-posters.json",
+          "resolved_url": "https://iclr.cc/static/virtual/data/iclr-2024-orals-posters.json",
+          "fetched_at": "2026-10-29T16:15:43.772284+00:00",
+          "sha256": "23f4d0512a8d9d65b3b4e4908201416f0e343b188f85d33f3cf6a8d1b22f969a",
+          "bytes": 10587487,
+          "cached": true
+        }
+      ],
+      "matched_papers": 24,
+      "curated_papers": 24
+    },
+    {
+      "venue": "ICLR",
+      "year": 2025,
+      "sources": [
+        {
+          "url": "https://iclr.cc/static/virtual/data/iclr-2025-orals-posters.json",
+          "resolved_url": "https://iclr.cc/static/virtual/data/iclr-2025-orals-posters.json",
+          "fetched_at": "2026-10-29T16:05:14.749789+00:00",
+          "sha256": "ebd6fa23d9ca54628eb715885756bf7e5addf72db134648dc683251678f86a70",
+          "bytes": 16535673,
+          "cached": true
+        }
+      ],
+      "matched_papers": 52,
+      "curated_papers": 52
+    },
+    {
+      "venue": "ICCV",
+      "year": 2023,
+      "sources": [
+        {
+          "url": "https://iccv2023.thecvf.com/main.conference.program-107.php",
+          "resolved_url": "https://iccv2023.thecvf.com/main.conference.program-107.php",
+          "fetched_at": "2026-11-10T17:39:53.986850+00:00",
+          "sha256": "ae309094c21848375a0639f048fcf989b86abef6d0991907d9e55fb9bf3eff30",
+          "bytes": 1359906,
+          "cached": true
+        }
+      ],
+      "matched_papers": 40,
+      "curated_papers": 40
+    },
+    {
+      "venue": "ICCV",
+      "year": 2025,
+      "sources": [
+        {
+          "url": "https://iccv.thecvf.com/static/virtual/data/iccv-2025-orals-posters.json",
+          "resolved_url": "https://iccv.thecvf.com/static/virtual/data/iccv-2025-orals-posters.json",
+          "fetched_at": "2026-10-29T16:15:52.835921+00:00",
+          "sha256": "fd053190d29459bd3b47b3278a89c087bf62bbb39f692006001047ac63f6b886",
+          "bytes": 11172704,
+          "cached": true
+        }
+      ],
+      "matched_papers": 85,
+      "curated_papers": 86
+    },
+    {
+      "venue": "ECCV",
+      "year": 2024,
+      "sources": [
+        {
+          "url": "https://eccv.ecva.net/static/virtual/data/eccv-2024-orals-posters.json",
+          "resolved_url": "https://eccv.ecva.net/static/virtual/data/eccv-2024-orals-posters.json",
+          "fetched_at": "2026-10-29T16:06:37.891346+00:00",
+          "sha256": "be9944d9dd7342f8b9cd928655c91531b3045d8e19bc5a6f47ba0934c385ea17",
+          "bytes": 11078037,
+          "cached": true
+        }
+      ],
+      "matched_papers": 69,
+      "curated_papers": 69
+    }
+  ],
+  "papers": {
+    "CVPR:2023:devilisinthequeriesadvancingmasktransformersforrealworldmedicalimagesegmentationandoutofdistributionlocalization": {
+      "venue": "CVPR",
+      "year": 2023,
+      "title": "Devil Is in the Queries: Advancing Mask Transformers for Real-World Medical Image Segmentation and Out-of-Distribution Localization",
+      "labels": [
+        "Highlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://cvpr.thecvf.com/Conferences/2023/AcceptedPapers",
+          "url": "https://cvpr.thecvf.com/Conferences/2023/AcceptedPapers",
+          "marker": "Highlight"
+        }
+      ]
+    },
+    "CVPR:2023:hierarchicaldiscriminativelearningimprovesvisualrepresentationsofbiomedicalmicroscopy": {
+      "venue": "CVPR",
+      "year": 2023,
+      "title": "Hierarchical Discriminative Learning Improves Visual Representations of Biomedical Microscopy",
+      "labels": [
+        "Highlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://cvpr.thecvf.com/Conferences/2023/AcceptedPapers",
+          "url": "https://cvpr.thecvf.com/Conferences/2023/AcceptedPapers",
+          "marker": "Highlight"
+        }
+      ]
+    },
+    "CVPR:2023:interventionalbagmultiinstancelearningonwholeslidepathologicalimages": {
+      "venue": "CVPR",
+      "year": 2023,
+      "title": "Interventional Bag Multi-Instance Learning on Whole-Slide Pathological Images",
+      "labels": [
+        "Highlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://cvpr.thecvf.com/Conferences/2023/AcceptedPapers",
+          "url": "https://cvpr.thecvf.com/Conferences/2023/AcceptedPapers",
+          "marker": "Highlight"
+        }
+      ]
+    },
+    "CVPR:2023:noncontrastiveunsupervisedlearningofphysiologicalsignalsfromvideo": {
+      "venue": "CVPR",
+      "year": 2023,
+      "title": "Non-Contrastive Unsupervised Learning of Physiological Signals From Video",
+      "labels": [
+        "Highlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://cvpr.thecvf.com/Conferences/2023/AcceptedPapers",
+          "url": "https://cvpr.thecvf.com/Conferences/2023/AcceptedPapers",
+          "marker": "Highlight"
+        }
+      ]
+    },
+    "CVPR:2023:pefatboostingsemisupervisedmedicalimageclassificationviapseudolossestimationandfeatureadversarialtraining": {
+      "venue": "CVPR",
+      "year": 2023,
+      "title": "PEFAT: Boosting Semi-Supervised Medical Image Classification via Pseudo-Loss Estimation and Feature Adversarial Training",
+      "labels": [
+        "Highlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://cvpr.thecvf.com/Conferences/2023/AcceptedPapers",
+          "url": "https://cvpr.thecvf.com/Conferences/2023/AcceptedPapers",
+          "marker": "Highlight"
+        }
+      ]
+    },
+    "CVPR:2024:adaptingvisuallanguagemodelsforgeneralizableanomalydetectioninmedicalimages": {
+      "venue": "CVPR",
+      "year": 2024,
+      "title": "Adapting Visual-Language Models for Generalizable Anomaly Detection in Medical Images",
+      "labels": [
+        "Highlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://cvpr.thecvf.com/static/virtual/data/cvpr-2024-orals-posters.json",
+          "url": "https://cvpr.thecvf.com/virtual/2024/poster/29250",
+          "decision": "Accept: Poster (Highlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "CVPR:2024:continualselfsupervisedlearningtowardsuniversalmultimodalmedicaldatarepresentationlearning": {
+      "venue": "CVPR",
+      "year": 2024,
+      "title": "Continual Self-supervised Learning: Towards Universal Multi-modal Medical Data Representation Learning",
+      "labels": [
+        "Highlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://cvpr.thecvf.com/static/virtual/data/cvpr-2024-orals-posters.json",
+          "url": "https://cvpr.thecvf.com/virtual/2024/poster/30647",
+          "decision": "Accept: Poster (Highlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "CVPR:2024:correlationawarecoarsetofinemlpsfordeformablemedicalimageregistration": {
+      "venue": "CVPR",
+      "year": 2024,
+      "title": "Correlation-aware Coarse-to-fine MLPs for Deformable Medical Image Registration",
+      "labels": [
+        "Oral"
+      ],
+      "evidence": [
+        {
+          "source": "https://cvpr.thecvf.com/static/virtual/data/cvpr-2024-orals-posters.json",
+          "url": "https://cvpr.thecvf.com/virtual/2024/oral/32069",
+          "decision": "Accept: Oral",
+          "eventtype": "Oral"
+        },
+        {
+          "source": "https://cvpr.thecvf.com/static/virtual/data/cvpr-2024-orals-posters.json",
+          "url": "https://cvpr.thecvf.com/virtual/2024/poster/31722",
+          "decision": "Accept: Oral",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "CVPR:2024:diversifiedandpersonalizedmultiratermedicalimagesegmentation": {
+      "venue": "CVPR",
+      "year": 2024,
+      "title": "Diversified and Personalized Multi-rater Medical Image Segmentation",
+      "labels": [
+        "Highlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://cvpr.thecvf.com/static/virtual/data/cvpr-2024-orals-posters.json",
+          "url": "https://cvpr.thecvf.com/virtual/2024/poster/29656",
+          "decision": "Accept: Poster (Highlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "CVPR:2024:dynamicpolicydrivenadaptivemultiinstancelearningforwholeslideimageclassification": {
+      "venue": "CVPR",
+      "year": 2024,
+      "title": "Dynamic Policy-Driven Adaptive Multi-Instance Learning for Whole Slide Image Classification",
+      "labels": [
+        "Highlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://cvpr.thecvf.com/static/virtual/data/cvpr-2024-orals-posters.json",
+          "url": "https://cvpr.thecvf.com/virtual/2024/poster/31057",
+          "decision": "Accept: Poster (Highlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "CVPR:2024:maskedautoencodersformicroscopyarescalablelearnersofcellularbiology": {
+      "venue": "CVPR",
+      "year": 2024,
+      "title": "Masked Autoencoders for Microscopy are Scalable Learners of Cellular Biology",
+      "labels": [
+        "Highlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://cvpr.thecvf.com/static/virtual/data/cvpr-2024-orals-posters.json",
+          "url": "https://cvpr.thecvf.com/virtual/2024/poster/31565",
+          "decision": "Accept: Poster (Highlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "CVPR:2024:memsamtamingsegmentanythingmodelforechocardiographyvideosegmentation": {
+      "venue": "CVPR",
+      "year": 2024,
+      "title": "MemSAM: Taming Segment Anything Model for Echocardiography Video Segmentation",
+      "labels": [
+        "Oral"
+      ],
+      "evidence": [
+        {
+          "source": "https://cvpr.thecvf.com/static/virtual/data/cvpr-2024-orals-posters.json",
+          "url": "https://cvpr.thecvf.com/virtual/2024/oral/32004",
+          "decision": "Accept: Oral",
+          "eventtype": "Oral"
+        },
+        {
+          "source": "https://cvpr.thecvf.com/static/virtual/data/cvpr-2024-orals-posters.json",
+          "url": "https://cvpr.thecvf.com/virtual/2024/poster/29582",
+          "decision": "Accept: Oral",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "CVPR:2024:mindbridgeacrosssubjectbraindecodingframework": {
+      "venue": "CVPR",
+      "year": 2024,
+      "title": "MindBridge: A Cross-Subject Brain Decoding Framework",
+      "labels": [
+        "Highlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://cvpr.thecvf.com/static/virtual/data/cvpr-2024-orals-posters.json",
+          "url": "https://cvpr.thecvf.com/virtual/2024/poster/29607",
+          "decision": "Accept: Poster (Highlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "CVPR:2024:modalityagnosticstructuralimagerepresentationlearningfordeformablemultimodalitymedicalimageregistration": {
+      "venue": "CVPR",
+      "year": 2024,
+      "title": "Modality-Agnostic Structural Image Representation Learning for Deformable Multi-Modality Medical Image Registration",
+      "labels": [
+        "Highlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://cvpr.thecvf.com/static/virtual/data/cvpr-2024-orals-posters.json",
+          "url": "https://cvpr.thecvf.com/virtual/2024/poster/29910",
+          "decision": "Accept: Poster (Highlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "CVPR:2024:progressivedivideandconquerviasubsamplingdecompositionforacceleratedmri": {
+      "venue": "CVPR",
+      "year": 2024,
+      "title": "Progressive Divide-and-Conquer via Subsampling Decomposition for Accelerated MRI",
+      "labels": [
+        "Highlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://cvpr.thecvf.com/static/virtual/data/cvpr-2024-orals-posters.json",
+          "url": "https://cvpr.thecvf.com/virtual/2024/poster/30791",
+          "decision": "Accept: Poster (Highlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "CVPR:2024:sleepvstsleepstagingfromnearinfraredvideosignalsusingpretrainedtransformers": {
+      "venue": "CVPR",
+      "year": 2024,
+      "title": "SleepVST: Sleep Staging from Near-Infrared Video Signals using Pre-Trained Transformers",
+      "labels": [
+        "Highlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://cvpr.thecvf.com/static/virtual/data/cvpr-2024-orals-posters.json",
+          "url": "https://cvpr.thecvf.com/virtual/2024/poster/29626",
+          "decision": "Accept: Poster (Highlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "CVPR:2024:transcriptomicsguidedsliderepresentationlearningincomputationalpathology": {
+      "venue": "CVPR",
+      "year": 2024,
+      "title": "Transcriptomics-guided Slide Representation Learning in Computational Pathology",
+      "labels": [
+        "Oral"
+      ],
+      "evidence": [
+        {
+          "source": "https://cvpr.thecvf.com/static/virtual/data/cvpr-2024-orals-posters.json",
+          "url": "https://cvpr.thecvf.com/virtual/2024/oral/31997",
+          "decision": "Accept: Oral",
+          "eventtype": "Oral"
+        },
+        {
+          "source": "https://cvpr.thecvf.com/static/virtual/data/cvpr-2024-orals-posters.json",
+          "url": "https://cvpr.thecvf.com/virtual/2024/poster/29405",
+          "decision": "Accept: Oral",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "CVPR:2024:tychestochasticincontextlearningformedicalimagesegmentation": {
+      "venue": "CVPR",
+      "year": 2024,
+      "title": "Tyche: Stochastic In-Context Learning for Medical Image Segmentation",
+      "labels": [
+        "Highlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://cvpr.thecvf.com/static/virtual/data/cvpr-2024-orals-posters.json",
+          "url": "https://cvpr.thecvf.com/virtual/2024/poster/30011",
+          "decision": "Accept: Poster (Highlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "CVPR:2025:advancingmultipleinstancelearningwithcontinuallearningforwholeslideimaging": {
+      "venue": "CVPR",
+      "year": 2025,
+      "title": "Advancing Multiple Instance Learning with Continual Learning for Whole Slide Imaging",
+      "labels": [
+        "Highlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://cvpr.thecvf.com/Conferences/2025/AcceptedPapers",
+          "url": "https://cvpr.thecvf.com/Conferences/2025/AcceptedPapers",
+          "marker": "Highlight"
+        }
+      ]
+    },
+    "CVPR:2025:annotationambiguityawaresemisupervisedmedicalimagesegmentation": {
+      "venue": "CVPR",
+      "year": 2025,
+      "title": "Annotation Ambiguity Aware Semi-Supervised Medical Image Segmentation",
+      "labels": [
+        "Highlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://cvpr.thecvf.com/Conferences/2025/AcceptedPapers",
+          "url": "https://cvpr.thecvf.com/Conferences/2025/AcceptedPapers",
+          "marker": "Highlight"
+        }
+      ]
+    },
+    "CVPR:2025:effidec3danoptimizeddecoderforhighperformanceandefficient3dmedicalimagesegmentation": {
+      "venue": "CVPR",
+      "year": 2025,
+      "title": "EffiDec3D: An Optimized Decoder for High-Performance and Efficient 3D Medical Image Segmentation",
+      "labels": [
+        "Highlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://cvpr.thecvf.com/Conferences/2025/AcceptedPapers",
+          "url": "https://cvpr.thecvf.com/Conferences/2025/AcceptedPapers",
+          "marker": "Highlight"
+        }
+      ]
+    },
+    "CVPR:2025:electromyographyinformedfacialexpressionreconstructionforphysiologicalbasedsynthesisandanalysis": {
+      "venue": "CVPR",
+      "year": 2025,
+      "title": "Electromyography-Informed Facial Expression Reconstruction for Physiological-Based Synthesis and Analysis",
+      "labels": [
+        "Highlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://cvpr.thecvf.com/Conferences/2025/AcceptedPapers",
+          "url": "https://cvpr.thecvf.com/Conferences/2025/AcceptedPapers",
+          "marker": "Highlight"
+        }
+      ]
+    },
+    "CVPR:2025:enhancingsamwithefficientpromptingandpreferenceoptimizationforsemisupervisedmedicalimagesegmentation": {
+      "venue": "CVPR",
+      "year": 2025,
+      "title": "Enhancing SAM with Efficient Prompting and Preference Optimization for Semi-supervised Medical Image Segmentation",
+      "labels": [
+        "Oral"
+      ],
+      "evidence": [
+        {
+          "source": "https://cvpr.thecvf.com/static/virtual/data/cvpr-2025-orals-posters.json",
+          "url": "https://cvpr.thecvf.com/virtual/2025/oral/35357",
+          "decision": null,
+          "eventtype": "Oral"
+        }
+      ]
+    },
+    "CVPR:2025:latentdriftingindiffusionmodelsforcounterfactualmedicalimagesynthesis": {
+      "venue": "CVPR",
+      "year": 2025,
+      "title": "Latent Drifting in Diffusion Models for Counterfactual Medical Image Synthesis",
+      "labels": [
+        "Highlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://cvpr.thecvf.com/Conferences/2025/AcceptedPapers",
+          "url": "https://cvpr.thecvf.com/Conferences/2025/AcceptedPapers",
+          "marker": "Highlight"
+        }
+      ]
+    },
+    "CVPR:2025:multimodalvisionpretrainingformedicalimageanalysis": {
+      "venue": "CVPR",
+      "year": 2025,
+      "title": "Multi-modal Vision Pre-training for Medical Image Analysis",
+      "labels": [
+        "Highlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://cvpr.thecvf.com/Conferences/2025/AcceptedPapers",
+          "url": "https://cvpr.thecvf.com/Conferences/2025/AcceptedPapers",
+          "marker": "Highlight"
+        }
+      ]
+    },
+    "CVPR:2025:nsdimageryabenchmarkdatasetforextendingfmrivisiondecodingmethodstomentalimagery": {
+      "venue": "CVPR",
+      "year": 2025,
+      "title": "NSD-Imagery: A Benchmark Dataset for Extending fMRI Vision Decoding Methods to Mental Imagery",
+      "labels": [
+        "Highlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://cvpr.thecvf.com/Conferences/2025/AcceptedPapers",
+          "url": "https://cvpr.thecvf.com/Conferences/2025/AcceptedPapers",
+          "marker": "Highlight"
+        }
+      ]
+    },
+    "CVPR:2025:revisitingmaepretrainingfor3dmedicalimagesegmentation": {
+      "venue": "CVPR",
+      "year": 2025,
+      "title": "Revisiting MAE Pre-training for 3D Medical Image Segmentation",
+      "labels": [
+        "Highlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://cvpr.thecvf.com/Conferences/2025/AcceptedPapers",
+          "url": "https://cvpr.thecvf.com/Conferences/2025/AcceptedPapers",
+          "marker": "Highlight"
+        }
+      ]
+    },
+    "CVPR:2025:sacbnetspatialawarenessconvolutionsformedicalimageregistration": {
+      "venue": "CVPR",
+      "year": 2025,
+      "title": "SACB-Net: Spatial-awareness Convolutions for Medical Image Registration",
+      "labels": [
+        "Highlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://cvpr.thecvf.com/Conferences/2025/AcceptedPapers",
+          "url": "https://cvpr.thecvf.com/Conferences/2025/AcceptedPapers",
+          "marker": "Highlight"
+        }
+      ]
+    },
+    "CVPR:2025:topocellgengeneratinghistopathologycelltopologywithadiffusionmodel": {
+      "venue": "CVPR",
+      "year": 2025,
+      "title": "TopoCellGen: Generating Histopathology Cell Topology with a Diffusion Model",
+      "labels": [
+        "Oral"
+      ],
+      "evidence": [
+        {
+          "source": "https://cvpr.thecvf.com/static/virtual/data/cvpr-2025-orals-posters.json",
+          "url": "https://cvpr.thecvf.com/virtual/2025/oral/35356",
+          "decision": null,
+          "eventtype": "Oral"
+        }
+      ]
+    },
+    "CVPR:2025:vilam3enhancingvisionlanguagemodelswithmedicalexpertknowledge": {
+      "venue": "CVPR",
+      "year": 2025,
+      "title": "VILA-M3: Enhancing Vision-Language Models with Medical Expert Knowledge",
+      "labels": [
+        "Highlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://cvpr.thecvf.com/Conferences/2025/AcceptedPapers",
+          "url": "https://cvpr.thecvf.com/Conferences/2025/AcceptedPapers",
+          "marker": "Highlight"
+        }
+      ]
+    },
+    "CVPR:2025:volumetellsdualcycleconsistentdiffusionfor3dfluorescencemicroscopydenoisingandsuperresolution": {
+      "venue": "CVPR",
+      "year": 2025,
+      "title": "Volume Tells: Dual Cycle-Consistent Diffusion for 3D Fluorescence Microscopy De-noising and Super-Resolution",
+      "labels": [
+        "Highlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://cvpr.thecvf.com/Conferences/2025/AcceptedPapers",
+          "url": "https://cvpr.thecvf.com/Conferences/2025/AcceptedPapers",
+          "marker": "Highlight"
+        }
+      ]
+    },
+    "ECCV:2024:adaptivecorrespondencescoringforunsupervisedmedicalimageregistration": {
+      "venue": "ECCV",
+      "year": 2024,
+      "title": "Adaptive Correspondence Scoring for Unsupervised Medical Image Registration",
+      "labels": [
+        "Oral"
+      ],
+      "evidence": [
+        {
+          "source": "https://eccv.ecva.net/static/virtual/data/eccv-2024-orals-posters.json",
+          "url": "https://eccv.ecva.net/virtual/2024/oral/868",
+          "decision": null,
+          "eventtype": "Oral"
+        }
+      ]
+    },
+    "ECCV:2024:cardiacnetlearningtoreconstructabnormalitiesforcardiacdiseaseassessmentfromechocardiogramvideos": {
+      "venue": "ECCV",
+      "year": 2024,
+      "title": "CardiacNet: Learning to Reconstruct Abnormalities for Cardiac Disease Assessment from Echocardiogram Videos",
+      "labels": [
+        "Oral"
+      ],
+      "evidence": [
+        {
+          "source": "https://eccv.ecva.net/static/virtual/data/eccv-2024-orals-posters.json",
+          "url": "https://eccv.ecva.net/virtual/2024/oral/876",
+          "decision": null,
+          "eventtype": "Oral"
+        }
+      ]
+    },
+    "ECCV:2024:knowledgeenhancedvisuallanguagepretrainingforcomputationalpathology": {
+      "venue": "ECCV",
+      "year": 2024,
+      "title": "Knowledge-enhanced Visual-Language Pretraining for Computational Pathology",
+      "labels": [
+        "Oral"
+      ],
+      "evidence": [
+        {
+          "source": "https://eccv.ecva.net/static/virtual/data/eccv-2024-orals-posters.json",
+          "url": "https://eccv.ecva.net/virtual/2024/oral/872",
+          "decision": null,
+          "eventtype": "Oral"
+        }
+      ]
+    },
+    "ECCV:2024:pathmmuamassivemultimodalexpertlevelbenchmarkforunderstandingandreasoninginpathology": {
+      "venue": "ECCV",
+      "year": 2024,
+      "title": "PathMMU: A Massive Multimodal Expert-Level Benchmark for Understanding and Reasoning in Pathology",
+      "labels": [
+        "Oral"
+      ],
+      "evidence": [
+        {
+          "source": "https://eccv.ecva.net/static/virtual/data/eccv-2024-orals-posters.json",
+          "url": "https://eccv.ecva.net/virtual/2024/oral/878",
+          "decision": null,
+          "eventtype": "Oral"
+        }
+      ]
+    },
+    "ECCV:2024:rethinkingdeepunrolledmodelforacceleratedmrireconstruction": {
+      "venue": "ECCV",
+      "year": 2024,
+      "title": "Rethinking Deep Unrolled Model for Accelerated MRI Reconstruction",
+      "labels": [
+        "Oral"
+      ],
+      "evidence": [
+        {
+          "source": "https://eccv.ecva.net/static/virtual/data/eccv-2024-orals-posters.json",
+          "url": "https://eccv.ecva.net/virtual/2024/oral/1058",
+          "decision": null,
+          "eventtype": "Oral"
+        }
+      ]
+    },
+    "ECCV:2024:selfsupervisedvideodesmokingforlaparoscopicsurgery": {
+      "venue": "ECCV",
+      "year": 2024,
+      "title": "Self-Supervised Video Desmoking for Laparoscopic Surgery",
+      "labels": [
+        "Oral"
+      ],
+      "evidence": [
+        {
+          "source": "https://eccv.ecva.net/static/virtual/data/eccv-2024-orals-posters.json",
+          "url": "https://eccv.ecva.net/virtual/2024/oral/997",
+          "decision": null,
+          "eventtype": "Oral"
+        }
+      ]
+    },
+    "ICCV:2023:anatomicalinvariancemodelingandsemanticalignmentforselfsupervisedlearningin3dmedicalimageanalysis": {
+      "venue": "ICCV",
+      "year": 2023,
+      "title": "Anatomical Invariance Modeling and Semantic Alignment for Self-supervised Learning in 3D Medical Image Analysis",
+      "labels": [
+        "Oral"
+      ],
+      "evidence": [
+        {
+          "source": "https://iccv2023.thecvf.com/main.conference.program-107.php",
+          "url": "https://iccv2023.thecvf.com/main.conference.program-107.php",
+          "session_type": "Orals"
+        }
+      ]
+    },
+    "ICCV:2023:multipleinstancelearningframeworkwithmaskedhardinstanceminingforwholeslideimageclassification": {
+      "venue": "ICCV",
+      "year": 2023,
+      "title": "Multiple Instance Learning Framework with Masked Hard Instance Mining for Whole Slide Image Classification",
+      "labels": [
+        "Oral"
+      ],
+      "evidence": [
+        {
+          "source": "https://iccv2023.thecvf.com/main.conference.program-107.php",
+          "url": "https://iccv2023.thecvf.com/main.conference.program-107.php",
+          "session_type": "Orals"
+        }
+      ]
+    },
+    "ICCV:2025:derm1mamillionscalevisionlanguagedatasetalignedwithclinicalontologyknowledgefordermatology": {
+      "venue": "ICCV",
+      "year": 2025,
+      "title": "Derm1M: A Million-scale Vision-Language Dataset Aligned with Clinical Ontology Knowledge for Dermatology",
+      "labels": [
+        "Highlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://iccv.thecvf.com/static/virtual/data/iccv-2025-orals-posters.json",
+          "url": "https://iccv.thecvf.com/virtual/2025/poster/1086",
+          "decision": "highlight",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "ICCV:2025:geckogigapixelvisionconceptcontrastivepretraininginhistopathology": {
+      "venue": "ICCV",
+      "year": 2025,
+      "title": "GECKO: Gigapixel Vision-Concept Contrastive Pretraining in Histopathology",
+      "labels": [
+        "Highlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://iccv.thecvf.com/static/virtual/data/iccv-2025-orals-posters.json",
+          "url": "https://iccv.thecvf.com/virtual/2025/poster/2118",
+          "decision": "highlight",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "ICCV:2025:gmmambagroupmaskingmambaforwholeslideimageclassification": {
+      "venue": "ICCV",
+      "year": 2025,
+      "title": "GMMamba: Group Masking Mamba for Whole Slide Image Classification",
+      "labels": [
+        "Oral"
+      ],
+      "evidence": [
+        {
+          "source": "https://iccv.thecvf.com/static/virtual/data/iccv-2025-orals-posters.json",
+          "url": "https://iccv.thecvf.com/virtual/2025/oral/2904",
+          "decision": "oral",
+          "eventtype": "Oral"
+        },
+        {
+          "source": "https://iccv.thecvf.com/static/virtual/data/iccv-2025-orals-posters.json",
+          "url": "https://iccv.thecvf.com/virtual/2025/poster/1554",
+          "decision": "oral",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "ICCV:2025:integratingbiologicalknowledgeforrobustmicroscopyimageprofilingondenovocelllines": {
+      "venue": "ICCV",
+      "year": 2025,
+      "title": "Integrating Biological Knowledge for Robust Microscopy Image Profiling on De Novo Cell Lines",
+      "labels": [
+        "Highlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://iccv.thecvf.com/static/virtual/data/iccv-2025-orals-posters.json",
+          "url": "https://iccv.thecvf.com/virtual/2025/poster/452",
+          "decision": "highlight",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "ICCV:2025:inverse3dmicroscopyrenderingforcellshapeinferencewithactivemesh": {
+      "venue": "ICCV",
+      "year": 2025,
+      "title": "Inverse 3D Microscopy Rendering for Cell Shape Inference with Active Mesh",
+      "labels": [
+        "Highlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://iccv.thecvf.com/static/virtual/data/iccv-2025-orals-posters.json",
+          "url": "https://iccv.thecvf.com/virtual/2025/poster/528",
+          "decision": "highlight",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "ICCV:2025:metascopeopticsdrivenneuralnetworkforultramicrometalensendoscopy": {
+      "venue": "ICCV",
+      "year": 2025,
+      "title": "MetaScope: Optics-Driven Neural Network for Ultra-Micro Metalens Endoscopy",
+      "labels": [
+        "Highlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://iccv.thecvf.com/static/virtual/data/iccv-2025-orals-posters.json",
+          "url": "https://iccv.thecvf.com/virtual/2025/poster/1891",
+          "decision": "highlight",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "ICCV:2025:progressivetesttimeenergyadaptationformedicalimagesegmentation": {
+      "venue": "ICCV",
+      "year": 2025,
+      "title": "Progressive Test Time Energy Adaptation for Medical Image Segmentation",
+      "labels": [
+        "Highlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://iccv.thecvf.com/static/virtual/data/iccv-2025-orals-posters.json",
+          "url": "https://iccv.thecvf.com/virtual/2025/poster/1908",
+          "decision": "highlight",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "ICCV:2025:rhythmguassianrepurposinggeneralizablegaussianmodelforremotephysiologicalmeasurement": {
+      "venue": "ICCV",
+      "year": 2025,
+      "title": "RhythmGuassian: Repurposing Generalizable Gaussian Model For Remote Physiological Measurement",
+      "labels": [
+        "Highlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://iccv.thecvf.com/static/virtual/data/iccv-2025-orals-posters.json",
+          "url": "https://iccv.thecvf.com/virtual/2025/poster/2469",
+          "decision": "highlight",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "ICCV:2025:seeingthetreesfortheforestrethinkingweaklysupervisedmedicalvisualgrounding": {
+      "venue": "ICCV",
+      "year": 2025,
+      "title": "Seeing the Trees for the Forest: Rethinking Weakly-Supervised Medical Visual Grounding",
+      "labels": [
+        "Highlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://iccv.thecvf.com/static/virtual/data/iccv-2025-orals-posters.json",
+          "url": "https://iccv.thecvf.com/virtual/2025/poster/1190",
+          "decision": "highlight",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "ICCV:2025:similaritymemorypriorisallyouneedformedicalimagesegmentation": {
+      "venue": "ICCV",
+      "year": 2025,
+      "title": "Similarity Memory Prior is All You Need for Medical Image Segmentation",
+      "labels": [
+        "Highlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://iccv.thecvf.com/static/virtual/data/iccv-2025-orals-posters.json",
+          "url": "https://iccv.thecvf.com/virtual/2025/poster/2394",
+          "decision": "highlight",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "ICCV:2025:testtimeadaptationforfoundationmedicalsegmentationmodelwithoutparametricupdates": {
+      "venue": "ICCV",
+      "year": 2025,
+      "title": "Test-time Adaptation for Foundation Medical Segmentation Model Without Parametric Updates",
+      "labels": [
+        "Highlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://iccv.thecvf.com/static/virtual/data/iccv-2025-orals-posters.json",
+          "url": "https://iccv.thecvf.com/virtual/2025/poster/1287",
+          "decision": "highlight",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "ICLR:2023:medfairbenchmarkingfairnessformedicalimaging": {
+      "venue": "ICLR",
+      "year": 2023,
+      "title": "MEDFAIR: Benchmarking Fairness for Medical Imaging",
+      "labels": [
+        "Oral",
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://iclr.cc/static/virtual/data/iclr-2023-orals-posters.json",
+          "url": "https://iclr.cc/virtual/2023/poster/11452",
+          "decision": "Accept: notable-top-25%",
+          "eventtype": "Poster",
+          "terminology_source": "https://iclr.cc/Conferences/2023/AuthorGuide"
+        },
+        {
+          "source": "https://iclr.cc/static/virtual/data/iclr-2023-orals-posters.json",
+          "url": "https://iclr.cc/virtual/2023/oral/12546",
+          "decision": "Accept: notable-top-25%",
+          "eventtype": "Oral",
+          "terminology_source": "https://iclr.cc/Conferences/2023/AuthorGuide"
+        }
+      ]
+    },
+    "ICLR:2024:camilcontextawaremultipleinstancelearningforcancerdetectionandsubtypinginwholeslideimages": {
+      "venue": "ICLR",
+      "year": 2024,
+      "title": "CAMIL: Context-Aware Multiple Instance Learning for Cancer Detection and Subtyping in Whole Slide Images",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://iclr.cc/static/virtual/data/iclr-2024-orals-posters.json",
+          "url": "https://iclr.cc/virtual/2024/poster/17669",
+          "decision": "Accept (spotlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "ICLR:2024:deepgeodesiccanonicalcorrelationanalysisforcovariancebasedneuroimagingdata": {
+      "venue": "ICLR",
+      "year": 2024,
+      "title": "Deep Geodesic Canonical Correlation Analysis for Covariance-Based Neuroimaging Data",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://iclr.cc/static/virtual/data/iclr-2024-orals-posters.json",
+          "url": "https://iclr.cc/virtual/2024/poster/18694",
+          "decision": "Accept (spotlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "ICLR:2024:howwelldosupervised3dmodelstransfertomedicalimagingtasks": {
+      "venue": "ICLR",
+      "year": 2024,
+      "title": "How Well Do Supervised 3D Models Transfer to Medical Imaging Tasks?",
+      "labels": [
+        "Oral"
+      ],
+      "evidence": [
+        {
+          "source": "https://iclr.cc/static/virtual/data/iclr-2024-orals-posters.json",
+          "url": "https://iclr.cc/virtual/2024/poster/19240",
+          "decision": "Accept (oral)",
+          "eventtype": "Poster"
+        },
+        {
+          "source": "https://iclr.cc/static/virtual/data/iclr-2024-orals-posters.json",
+          "url": "https://iclr.cc/virtual/2024/oral/19781",
+          "decision": "Accept (oral)",
+          "eventtype": "Oral"
+        }
+      ]
+    },
+    "ICLR:2024:largebrainmodelforlearninggenericrepresentationswithtremendouseegdatainbci": {
+      "venue": "ICLR",
+      "year": 2024,
+      "title": "Large Brain Model for Learning Generic Representations with Tremendous EEG Data in BCI",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://iclr.cc/static/virtual/data/iclr-2024-orals-posters.json",
+          "url": "https://iclr.cc/virtual/2024/poster/18658",
+          "decision": "Accept (spotlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "ICLR:2024:motoratimetoeventfoundationmodelforstructuredmedicalrecords": {
+      "venue": "ICLR",
+      "year": 2024,
+      "title": "MOTOR: A Time-to-Event Foundation Model For Structured Medical Records",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://iclr.cc/static/virtual/data/iclr-2024-orals-posters.json",
+          "url": "https://iclr.cc/virtual/2024/poster/18777",
+          "decision": "Accept (spotlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "ICLR:2024:prototypicalinformationbottleneckinganddisentanglingformultimodalcancersurvivalprediction": {
+      "venue": "ICLR",
+      "year": 2024,
+      "title": "Prototypical Information Bottlenecking and Disentangling for Multimodal Cancer Survival Prediction",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://iclr.cc/static/virtual/data/iclr-2024-orals-posters.json",
+          "url": "https://iclr.cc/virtual/2024/poster/17804",
+          "decision": "Accept (spotlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "ICLR:2025:conditionaldiffusionwithordinalregressionlongitudinaldatagenerationforneurodegenerativediseasestudies": {
+      "venue": "ICLR",
+      "year": 2025,
+      "title": "Conditional Diffusion with Ordinal Regression: Longitudinal Data Generation for Neurodegenerative Disease Studies",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://iclr.cc/static/virtual/data/iclr-2025-orals-posters.json",
+          "url": "https://iclr.cc/virtual/2025/poster/30688",
+          "decision": "Accept (Spotlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "ICLR:2025:largescaleandfinegrainedvisionlanguagepretrainingforenhancedctimageunderstanding": {
+      "venue": "ICLR",
+      "year": 2025,
+      "title": "Large-scale and Fine-grained Vision-language Pre-training for Enhanced CT Image Understanding",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://iclr.cc/static/virtual/data/iclr-2025-orals-posters.json",
+          "url": "https://iclr.cc/virtual/2025/poster/28403",
+          "decision": "Accept (Spotlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "ICLR:2025:lefusioncontrollablepathologysynthesisvialesionfocuseddiffusionmodels": {
+      "venue": "ICLR",
+      "year": 2025,
+      "title": "LeFusion: Controllable Pathology Synthesis via Lesion-Focused Diffusion Models",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://iclr.cc/static/virtual/data/iclr-2025-orals-posters.json",
+          "url": "https://iclr.cc/virtual/2025/poster/31069",
+          "decision": "Accept (Spotlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "ICLR:2025:monermotioncorrectioninundersampledradialmriwithunsupervisedneuralrepresentation": {
+      "venue": "ICLR",
+      "year": 2025,
+      "title": "Moner: Motion Correction in Undersampled Radial MRI with Unsupervised Neural Representation",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://iclr.cc/static/virtual/data/iclr-2025-orals-posters.json",
+          "url": "https://iclr.cc/virtual/2025/poster/29816",
+          "decision": "Accept (Spotlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "ICLR:2025:pathgen16m16millionpathologyimagetextpairsgenerationthroughmultiagentcollaboration": {
+      "venue": "ICLR",
+      "year": 2025,
+      "title": "PathGen-1.6M: 1.6 Million Pathology Image-text Pairs Generation through Multi-agent Collaboration",
+      "labels": [
+        "Oral"
+      ],
+      "evidence": [
+        {
+          "source": "https://iclr.cc/static/virtual/data/iclr-2025-orals-posters.json",
+          "url": "https://iclr.cc/virtual/2025/oral/31765",
+          "decision": "Accept (Oral)",
+          "eventtype": "Oral"
+        },
+        {
+          "source": "https://iclr.cc/static/virtual/data/iclr-2025-orals-posters.json",
+          "url": "https://iclr.cc/virtual/2025/poster/28208",
+          "decision": "Accept (Oral)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "ICML:2024:positionreinforcementlearningindynamictreatmentregimesneedscriticalreexamination": {
+      "venue": "ICML",
+      "year": 2024,
+      "title": "Position: Reinforcement Learning in Dynamic Treatment Regimes Needs Critical Reexamination",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://icml.cc/static/virtual/data/icml-2024-orals-posters.json",
+          "url": "https://icml.cc/virtual/2024/poster/32690",
+          "decision": "Accept (Spotlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "ICML:2025:distributionawarefairnesslearninginmedicalimagesegmentationfromacontroltheoreticperspective": {
+      "venue": "ICML",
+      "year": 2025,
+      "title": "Distribution-aware Fairness Learning in Medical Image Segmentation From A Control-Theoretic Perspective",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://icml.cc/static/virtual/data/icml-2025-orals-posters.json",
+          "url": "https://icml.cc/virtual/2025/poster/46110",
+          "decision": "Accept (spotlight poster)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "ICML:2025:dowereallyneedmessagepassinginbrainnetworkmodeling": {
+      "venue": "ICML",
+      "year": 2025,
+      "title": "Do We Really Need Message Passing in Brain Network Modeling?",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://icml.cc/static/virtual/data/icml-2025-orals-posters.json",
+          "url": "https://icml.cc/virtual/2025/poster/45642",
+          "decision": "Accept (spotlight poster)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "ICML:2025:healthgptamedicallargevisionlanguagemodelforunifyingcomprehensionandgenerationviaheterogeneousknowledgeadaptation": {
+      "venue": "ICML",
+      "year": 2025,
+      "title": "HealthGPT: A Medical Large Vision-Language Model for Unifying Comprehension and Generation via Heterogeneous Knowledge Adaptation",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://icml.cc/static/virtual/data/icml-2025-orals-posters.json",
+          "url": "https://icml.cc/virtual/2025/poster/45007",
+          "decision": "Accept (spotlight poster)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "ICML:2025:positionmedicallargelanguagemodelbenchmarksshouldprioritizeconstructvalidity": {
+      "venue": "ICML",
+      "year": 2025,
+      "title": "Position: Medical Large Language Model Benchmarks Should Prioritize Construct Validity",
+      "labels": [
+        "Oral"
+      ],
+      "evidence": [
+        {
+          "source": "https://icml.cc/static/virtual/data/icml-2025-orals-posters.json",
+          "url": "https://icml.cc/virtual/2025/poster/40129",
+          "decision": "Accept (oral)",
+          "eventtype": "Poster"
+        },
+        {
+          "source": "https://icml.cc/static/virtual/data/icml-2025-orals-posters.json",
+          "url": "https://icml.cc/virtual/2025/oral/40130",
+          "decision": "Accept (oral)",
+          "eventtype": "Oral"
+        }
+      ]
+    },
+    "ICML:2025:raptorscalabletrainfreeembeddingsfor3dmedicalvolumesleveragingpretrained2dfoundationmodels": {
+      "venue": "ICML",
+      "year": 2025,
+      "title": "Raptor: Scalable Train-Free Embeddings for 3D Medical Volumes Leveraging Pretrained 2D Foundation Models",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://icml.cc/static/virtual/data/icml-2025-orals-posters.json",
+          "url": "https://icml.cc/virtual/2025/poster/46452",
+          "decision": "Accept (spotlight poster)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "ICML:2025:scalablegenerationofspatialtranscriptomicsfromhistologyimagesviawholeslideflowmatching": {
+      "venue": "ICML",
+      "year": 2025,
+      "title": "Scalable Generation of Spatial Transcriptomics from Histology Images via Whole-Slide Flow Matching",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://icml.cc/static/virtual/data/icml-2025-orals-posters.json",
+          "url": "https://icml.cc/virtual/2025/poster/45412",
+          "decision": "Accept (spotlight poster)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "ICML:2025:visualanddomainknowledgeforprofessionallevelgraphofthoughtmedicalreasoning": {
+      "venue": "ICML",
+      "year": 2025,
+      "title": "Visual and Domain Knowledge for Professional-level Graph-of-Thought Medical Reasoning",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://icml.cc/static/virtual/data/icml-2025-orals-posters.json",
+          "url": "https://icml.cc/virtual/2025/poster/43761",
+          "decision": "Accept (spotlight poster)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "NeurIPS:2023:aligningsyntheticmedicalimageswithclinicalknowledgeusinghumanfeedback": {
+      "venue": "NeurIPS",
+      "year": 2023,
+      "title": "Aligning Synthetic Medical Images with Clinical Knowledge using Human Feedback",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2023-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2023/poster/70338",
+          "decision": "Accept (spotlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "NeurIPS:2023:alleviatingthesemanticgapforgeneralizedfmritoimagereconstruction": {
+      "venue": "NeurIPS",
+      "year": 2023,
+      "title": "Alleviating the Semantic Gap for Generalized fMRI-to-Image Reconstruction",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2023-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2023/poster/70357",
+          "decision": "Accept (spotlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "NeurIPS:2023:cinematicmindscapeshighqualityvideoreconstructionfrombrainactivity": {
+      "venue": "NeurIPS",
+      "year": 2023,
+      "title": "Cinematic Mindscapes: High-quality Video Reconstruction from Brain Activity",
+      "labels": [
+        "Oral"
+      ],
+      "evidence": [
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2023-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2023/poster/70750",
+          "decision": "Accept (oral)",
+          "eventtype": "Poster"
+        },
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2023-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2023/oral/73833",
+          "decision": "Accept (oral)",
+          "eventtype": "Oral"
+        }
+      ]
+    },
+    "NeurIPS:2023:dewavediscreteencodingofeegwavesforeegtotexttranslation": {
+      "venue": "NeurIPS",
+      "year": 2023,
+      "title": "DeWave: Discrete Encoding of EEG Waves for EEG to Text Translation",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2023-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2023/poster/71403",
+          "decision": "Accept (spotlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "NeurIPS:2023:diffinfinitelargemaskimagesynthesisviaparallelrandompatchdiffusioninhistopathology": {
+      "venue": "NeurIPS",
+      "year": 2023,
+      "title": "DiffInfinite: Large Mask-Image Synthesis via Parallel Random Patch Diffusion in Histopathology",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2023-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2023/poster/73598",
+          "decision": "Accept (Spotlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "NeurIPS:2023:ehrshotanehrbenchmarkforfewshotevaluationoffoundationmodels": {
+      "venue": "NeurIPS",
+      "year": 2023,
+      "title": "EHRSHOT: An EHR Benchmark for Few-Shot Evaluation of Foundation Models",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2023-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2023/poster/73656",
+          "decision": "Accept (Spotlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "NeurIPS:2023:intothesinglecellmultiverseanendtoenddatasetforproceduralknowledgeextractioninbiomedicaltexts": {
+      "venue": "NeurIPS",
+      "year": 2023,
+      "title": "Into the Single Cell Multiverse: an End-to-End Dataset for Procedural Knowledge Extraction in Biomedical Texts",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2023-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2023/poster/73692",
+          "decision": "Accept (Spotlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "NeurIPS:2023:llavamedtrainingalargelanguageandvisionassistantforbiomedicineinoneday": {
+      "venue": "NeurIPS",
+      "year": 2023,
+      "title": "LLaVA-Med: Training a Large Language-and-Vision Assistant for Biomedicine in One Day",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2023-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2023/poster/73643",
+          "decision": "Accept (Spotlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "NeurIPS:2023:plugandplaystabilityforintracorticalbraincomputerinterfacesaoneyeardemonstrationofseamlessbraintotextcommunication": {
+      "venue": "NeurIPS",
+      "year": 2023,
+      "title": "Plug-and-Play Stability for Intracortical Brain-Computer Interfaces: A One-Year Demonstration of Seamless Brain-to-Text Communication",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2023-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2023/poster/71605",
+          "decision": "Accept (spotlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "NeurIPS:2023:quilt1monemillionimagetextpairsforhistopathology": {
+      "venue": "NeurIPS",
+      "year": 2023,
+      "title": "Quilt-1M: One Million Image-Text Pairs for Histopathology",
+      "labels": [
+        "Oral"
+      ],
+      "evidence": [
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2023-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2023/poster/73608",
+          "decision": "Accept (Oral)",
+          "eventtype": "Poster"
+        },
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2023-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2023/oral/73744",
+          "decision": "Accept (Oral)",
+          "eventtype": "Oral"
+        }
+      ]
+    },
+    "NeurIPS:2023:reconstructingthemindseyefmritoimagewithcontrastivelearninganddiffusionpriors": {
+      "venue": "NeurIPS",
+      "year": 2023,
+      "title": "Reconstructing the Mind's Eye: fMRI-to-Image with Contrastive Learning and Diffusion Priors",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2023-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2023/poster/70292",
+          "decision": "Accept (spotlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "NeurIPS:2024:atextbookremedyfordomainshiftsknowledgepriorsformedicalimageanalysis": {
+      "venue": "NeurIPS",
+      "year": 2024,
+      "title": "A Textbook Remedy for Domain Shifts: Knowledge Priors for Medical Image Analysis",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2024-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2024/poster/95098",
+          "decision": "Accept (spotlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "NeurIPS:2024:brainjepabraindynamicsfoundationmodelwithgradientpositioningandspatiotemporalmasking": {
+      "venue": "NeurIPS",
+      "year": 2024,
+      "title": "Brain-JEPA: Brain Dynamics Foundation Model with Gradient Positioning and Spatiotemporal Masking",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2024-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2024/poster/94113",
+          "decision": "Accept (spotlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "NeurIPS:2024:braintreebanklargescaleintracranialrecordingsfromnaturalisticlanguagestimuli": {
+      "venue": "NeurIPS",
+      "year": 2024,
+      "title": "Brain Treebank: Large-scale intracranial recordings from naturalistic language stimuli",
+      "labels": [
+        "Oral"
+      ],
+      "evidence": [
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2024-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2024/oral/98023",
+          "decision": "Accept (Oral)",
+          "eventtype": "Oral"
+        },
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2024-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2024/poster/97751",
+          "decision": "Accept (Oral)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "NeurIPS:2024:dreamcatcherawearerawaremultimodalsleepeventdatasetbasedonearablesinnonrestrictiveenvironments": {
+      "venue": "NeurIPS",
+      "year": 2024,
+      "title": "DreamCatcher: A Wearer-aware Multi-modal Sleep Event Dataset Based on Earables in Non-restrictive Environments",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2024-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2024/poster/97709",
+          "decision": "Accept (Spotlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "NeurIPS:2024:ehrcondatasetforcheckingconsistencybetweenunstructurednotesandstructuredtablesinelectronichealthrecords": {
+      "venue": "NeurIPS",
+      "year": 2024,
+      "title": "EHRCon: Dataset for Checking Consistency between Unstructured Notes and Structured Tables in Electronic Health Records",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2024-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2024/poster/97848",
+          "decision": "Accept (Spotlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "NeurIPS:2024:fedmekiabenchmarkforscalingmedicalfoundationmodelsviafederatedknowledgeinjection": {
+      "venue": "NeurIPS",
+      "year": 2024,
+      "title": "FEDMEKI: A Benchmark for Scaling Medical Foundation Models via Federated Knowledge Injection",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2024-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2024/poster/97482",
+          "decision": "Accept (Spotlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "NeurIPS:2024:geodesicoptimizationforpredictiveshiftadaptationoneegdata": {
+      "venue": "NeurIPS",
+      "year": 2024,
+      "title": "Geodesic Optimization for Predictive Shift Adaptation on EEG data",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2024-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2024/poster/93495",
+          "decision": "Accept (spotlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "NeurIPS:2024:hest1kadatasetforspatialtranscriptomicsandhistologyimageanalysis": {
+      "venue": "NeurIPS",
+      "year": 2024,
+      "title": "HEST-1k: A Dataset For Spatial Transcriptomics and Histology Image Analysis",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2024-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2024/poster/97514",
+          "decision": "Accept (Spotlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "NeurIPS:2024:instructiontuninglargelanguagemodelstounderstandelectronichealthrecords": {
+      "venue": "NeurIPS",
+      "year": 2024,
+      "title": "Instruction Tuning Large Language Models to Understand Electronic Health Records",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2024-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2024/poster/97801",
+          "decision": "Accept (Spotlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "NeurIPS:2024:mdagentsanadaptivecollaborationofllmsformedicaldecisionmaking": {
+      "venue": "NeurIPS",
+      "year": 2024,
+      "title": "MDAgents: An Adaptive Collaboration of LLMs for Medical Decision-Making",
+      "labels": [
+        "Oral"
+      ],
+      "evidence": [
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2024-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2024/poster/96041",
+          "decision": "Accept (oral)",
+          "eventtype": "Poster"
+        },
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2024-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2024/oral/97988",
+          "decision": "Accept (oral)",
+          "eventtype": "Oral"
+        }
+      ]
+    },
+    "NeurIPS:2024:medcalcbenchevaluatinglargelanguagemodelsformedicalcalculations": {
+      "venue": "NeurIPS",
+      "year": 2024,
+      "title": "MedCalc-Bench: Evaluating Large Language Models for Medical Calculations",
+      "labels": [
+        "Oral"
+      ],
+      "evidence": [
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2024-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2024/oral/98021",
+          "decision": "Accept (Oral)",
+          "eventtype": "Oral"
+        },
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2024-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2024/poster/97666",
+          "decision": "Accept (Oral)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "NeurIPS:2024:neuroclipstowardshighfidelityandsmoothfmritovideoreconstruction": {
+      "venue": "NeurIPS",
+      "year": 2024,
+      "title": "NeuroClips: Towards High-fidelity and Smooth fMRI-to-Video Reconstruction",
+      "labels": [
+        "Oral"
+      ],
+      "evidence": [
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2024-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2024/poster/96344",
+          "decision": "Accept (oral)",
+          "eventtype": "Poster"
+        },
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2024-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2024/oral/97992",
+          "decision": "Accept (oral)",
+          "eventtype": "Oral"
+        }
+      ]
+    },
+    "NeurIPS:2024:segvoluniversalandinteractivevolumetricmedicalimagesegmentation": {
+      "venue": "NeurIPS",
+      "year": 2024,
+      "title": "SegVol: Universal and Interactive Volumetric Medical Image Segmentation",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2024-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2024/poster/96893",
+          "decision": "Accept (spotlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "NeurIPS:2024:trajectoryflowmatchingwithapplicationstoclinicaltimeseriesmodelling": {
+      "venue": "NeurIPS",
+      "year": 2024,
+      "title": "Trajectory Flow Matching with Applications to Clinical Time Series Modelling",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2024-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2024/poster/94212",
+          "decision": "Accept (spotlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "NeurIPS:2024:ultramedicalbuildingspecializedgeneralistsinbiomedicine": {
+      "venue": "NeurIPS",
+      "year": 2024,
+      "title": "UltraMedical: Building Specialized Generalists in Biomedicine",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2024-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2024/poster/97506",
+          "decision": "Accept (Spotlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "NeurIPS:2025:braininspiredfmritotextdecodingviaincrementalandwrapuplanguagemodeling": {
+      "venue": "NeurIPS",
+      "year": 2025,
+      "title": "Brain-Inspired fMRI-to-Text Decoding via Incremental and Wrap-Up Language Modeling",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2025-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2025/poster/118038",
+          "decision": "Accept (spotlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "NeurIPS:2025:csbrainacrossscalespatiotemporalbrainfoundationmodelforeegdecoding": {
+      "venue": "NeurIPS",
+      "year": 2025,
+      "title": "CSBrain: A Cross-scale Spatiotemporal Brain Foundation Model for EEG Decoding",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2025-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2025/poster/117249",
+          "decision": "Accept (spotlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "NeurIPS:2025:cxreasonbenchabenchmarkforevaluatingstructureddiagnosticreasoninginchestxrays": {
+      "venue": "NeurIPS",
+      "year": 2025,
+      "title": "CXReasonBench: A Benchmark for Evaluating Structured Diagnostic Reasoning in Chest X-rays",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2025-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2025/poster/121386",
+          "decision": "Accept (spotlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "NeurIPS:2025:evobraindynamicmultichanneleeggraphmodelingfortimeevolvingbrainnetworks": {
+      "venue": "NeurIPS",
+      "year": 2025,
+      "title": "EvoBrain: Dynamic Multi-Channel EEG Graph Modeling for Time-Evolving Brain Networks",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2025-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2025/poster/117479",
+          "decision": "Accept (spotlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "NeurIPS:2025:fapexfractionalamplitudephaseexpressorforrobustcrosssubjectseizureprediction": {
+      "venue": "NeurIPS",
+      "year": 2025,
+      "title": "FAPEX: Fractional Amplitude-Phase Expressor for Robust Cross-Subject Seizure Prediction",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2025-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2025/poster/119477",
+          "decision": "Accept (spotlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "NeurIPS:2025:fastmriforallbridgingaccessgapsbytrainingwithoutrawdata": {
+      "venue": "NeurIPS",
+      "year": 2025,
+      "title": "Fast MRI for All: Bridging Access Gaps by Training without Raw Data",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2025-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2025/poster/115476",
+          "decision": "Accept (spotlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "NeurIPS:2025:finegrainedlistwisealignmentforgenerativemedicationrecommendation": {
+      "venue": "NeurIPS",
+      "year": 2025,
+      "title": "Fine-grained List-wise Alignment for Generative Medication Recommendation",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2025-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2025/poster/118087",
+          "decision": "Accept (spotlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "NeurIPS:2025:medchainbridgingthegapbetweenllmagentsandclinicalpracticewithinteractivesequence": {
+      "venue": "NeurIPS",
+      "year": 2025,
+      "title": "MedChain: Bridging the Gap Between LLM Agents and Clinical Practice with Interactive Sequence",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2025-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2025/poster/121580",
+          "decision": "Accept (spotlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "NeurIPS:2025:medsgbenchabenchmarkformedicalimagesequencesgrounding": {
+      "venue": "NeurIPS",
+      "year": 2025,
+      "title": "MedSG-Bench: A Benchmark for Medical Image Sequences Grounding",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2025-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2025/poster/121815",
+          "decision": "Accept (spotlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "NeurIPS:2025:multimodaldiseaseprogressionmodelingviaspatiotemporaldisentanglementandmultiscalealignment": {
+      "venue": "NeurIPS",
+      "year": 2025,
+      "title": "Multimodal Disease Progression Modeling via Spatiotemporal Disentanglement and Multiscale Alignment",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2025-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2025/poster/120126",
+          "decision": "Accept (spotlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "NeurIPS:2025:neighborhoodselfdissimilarityattentionformedicalimagesegmentation": {
+      "venue": "NeurIPS",
+      "year": 2025,
+      "title": "Neighborhood Self-Dissimilarity Attention for Medical Image Segmentation",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2025-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2025/poster/136211",
+          "decision": "Accept (spotlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "NeurIPS:2025:novaabenchmarkforrareanomalylocalizationandclinicalreasoninginbrainmri": {
+      "venue": "NeurIPS",
+      "year": 2025,
+      "title": "NOVA: A Benchmark for Rare Anomaly Localization and Clinical Reasoning in Brain MRI",
+      "labels": [
+        "Oral"
+      ],
+      "evidence": [
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2025-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2025/poster/121770",
+          "decision": "Accept (oral)",
+          "eventtype": "Poster"
+        },
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2025-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2025/oral/121771",
+          "decision": "Accept (oral)",
+          "eventtype": "Oral"
+        }
+      ]
+    },
+    "NeurIPS:2025:offlineguardedsafereinforcementlearningformedicaltreatmentoptimizationstrategies": {
+      "venue": "NeurIPS",
+      "year": 2025,
+      "title": "Offline Guarded Safe Reinforcement Learning for Medical Treatment Optimization Strategies",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2025-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2025/poster/119943",
+          "decision": "Accept (spotlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "NeurIPS:2025:orochiversatilebiomedicalimageprocessor": {
+      "venue": "NeurIPS",
+      "year": 2025,
+      "title": "Orochi: Versatile Biomedical Image Processor",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2025-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2025/poster/117985",
+          "decision": "Accept (spotlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "NeurIPS:2025:patientsimapersonadrivensimulatorforrealisticdoctorpatientinteractions": {
+      "venue": "NeurIPS",
+      "year": 2025,
+      "title": "PatientSim: A Persona-Driven Simulator for Realistic Doctor-Patient Interactions",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2025-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2025/poster/121868",
+          "decision": "Accept (spotlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "NeurIPS:2025:qoqmedbuildingmultimodalclinicalfoundationmodelswithdomainawaregrpotraining": {
+      "venue": "NeurIPS",
+      "year": 2025,
+      "title": "QoQ-Med: Building Multimodal Clinical Foundation Models with Domain-Aware GRPO Training",
+      "labels": [
+        "Oral"
+      ],
+      "evidence": [
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2025-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2025/poster/117309",
+          "decision": "Accept (oral)",
+          "eventtype": "Poster"
+        },
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2025-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2025/oral/117310",
+          "decision": "Accept (oral)",
+          "eventtype": "Oral"
+        }
+      ]
+    },
+    "NeurIPS:2025:reinforcementlearningforoutofdistributionreasoninginllmsanempiricalstudyondiagnosisrelatedgroupcoding": {
+      "venue": "NeurIPS",
+      "year": 2025,
+      "title": "Reinforcement Learning for Out-of-Distribution Reasoning in LLMs: An Empirical Study on Diagnosis-Related Group Coding",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2025-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2025/poster/120291",
+          "decision": "Accept (spotlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "NeurIPS:2025:sgcdstainguidedcyclediffusionforunsuperviseddomainadaptationofhistopathologyimageclassification": {
+      "venue": "NeurIPS",
+      "year": 2025,
+      "title": "SGCD: Stain-Guided CycleDiffusion for Unsupervised Domain Adaptation of Histopathology Image Classification",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2025-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2025/poster/115086",
+          "decision": "Accept (spotlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "NeurIPS:2025:shfsymmetricalhierarchicalforestwithpretrainedvisiontransformerencoderforhighresolutionmedicalsegmentation": {
+      "venue": "NeurIPS",
+      "year": 2025,
+      "title": "SHF: Symmetrical Hierarchical Forest with Pretrained Vision Transformer Encoder for High-Resolution Medical Segmentation",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2025-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2025/poster/120046",
+          "decision": "Accept (spotlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "NeurIPS:2025:thundertilelevelhistopathologyimageunderstandingbenchmark": {
+      "venue": "NeurIPS",
+      "year": 2025,
+      "title": "THUNDER: Tile-level Histopathology image UNDERstanding benchmark",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2025-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2025/poster/121557",
+          "decision": "Accept (spotlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "NeurIPS:2025:towardsdynamic3dreconstructionofhandinstrumentinteractioninophthalmicsurgery": {
+      "venue": "NeurIPS",
+      "year": 2025,
+      "title": "Towards Dynamic 3D Reconstruction of Hand-Instrument Interaction in Ophthalmic Surgery",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2025-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2025/poster/115963",
+          "decision": "Accept (spotlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    },
+    "NeurIPS:2025:xfieldaphysicallyinformedrepresentationfor3dxrayreconstruction": {
+      "venue": "NeurIPS",
+      "year": 2025,
+      "title": "X-Field: A Physically Informed Representation for 3D X-ray Reconstruction",
+      "labels": [
+        "Spotlight"
+      ],
+      "evidence": [
+        {
+          "source": "https://neurips.cc/static/virtual/data/neurips-2025-orals-posters.json",
+          "url": "https://neurips.cc/virtual/2025/poster/117962",
+          "decision": "Accept (spotlight)",
+          "eventtype": "Poster"
+        }
+      ]
+    }
+  }
+}

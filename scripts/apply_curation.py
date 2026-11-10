@@ -6,6 +6,7 @@ import json
 from pathlib import Path
 
 from paper_index.curation import apply_curation, render_audit
+from paper_index.presentations import apply_badges
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -26,6 +27,9 @@ def main():
             row = json.loads(line)
             index[row["id"]] = row
     result, stats = apply_curation(args.readme.read_text(encoding="utf-8"), ledger, index)
+    presentations = ROOT / "data/presentations.json"
+    if presentations.exists():
+        result = apply_badges(result, json.loads(presentations.read_text(encoding="utf-8")))
     print(json.dumps(stats, indent=2))
     if not args.check:
         args.readme.write_text(result, encoding="utf-8")

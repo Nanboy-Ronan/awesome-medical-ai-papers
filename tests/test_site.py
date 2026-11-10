@@ -43,6 +43,9 @@ class CatalogSite(unittest.TestCase):
             conference=BeautifulSoup((out/"conferences/cvpr/index.html").read_text(),"html.parser")
             self.assertEqual(len(conference.select("article.paper")),sum(r["venue"]=="CVPR" for r in site.rows))
             self.assertEqual(len(json.loads((out/"data/papers.json").read_text())),len(site.rows))
+            homepage=BeautifulSoup((out/"index.html").read_text(),"html.parser")
+            self.assertEqual([n.get_text() for n in homepage.select('#presentation option')],
+                             ["All papers", "Oral", "Spotlight", "Highlight"])
 
 
 if __name__=="__main__":
